@@ -1,0 +1,13 @@
+general:
+  branches:
+    only:
+      - master
+
+dependencies:
+  post:
+    - bundle exec jekyll build:
+        timeout: 300 # 5 min
+
+test:
+  override:
+    - echo "No tests are needed"
