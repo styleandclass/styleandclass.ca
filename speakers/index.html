@@ -1,0 +1,18 @@
+---
+layout: default
+title: Speakers
+permalink: /speakers/
+---
+
+<h1 class="page-heading">Speakers</h1>
+
+
+<ul class="people-container">
+{% for person in site.data.people.people %}
+	{% if person.speaker == "true" %}
+		<li id="{{ person.twitter }}">
+			{% include partial-person.html person=person %}
+		</li>
+	{% endif %}
+{% endfor %}
+</ul>

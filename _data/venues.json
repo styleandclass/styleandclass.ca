@@ -1,0 +1,53 @@
+{
+    "venues": [
+        {
+            "name" : "Mobify (Pender)",
+            "url" : "http://www.mobify.com/",
+            "map" : "https://www.google.ca/maps/place/311+W+Pender+St,+Vancouver,+BC+V6B+1T3/@49.2824194,-123.1111482,17z/data=!3m1!4b1!4m2!3m1!1s0x548671790dfc1593:0x83239d4a06883c19",
+            "address" : "311 W Pender St.",
+            "address2" : "3rd Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada",
+            "postalcode" : "V6B 1T1"
+        },
+        {
+            "name" : "Hootsuite",
+            "url" : "http://www.hootsuite.com/",
+            "map" : "https://www.google.ca/maps/place/HootSuite+Media,+Inc./@49.263869,-123.104318,15z/data=!4m2!3m1!1s0x0:0x3d6d0a44ca262f2?sa=X&ei=83CXVNHvE870oATukoHgBA&ved=0CIQBEPwSMAs",
+            "address" : "5 East 8th Ave.",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+        {
+            "name" : "SFU Woodwards, Vancouver",
+            "room" : "Goldcorp Centre for the Arts",
+            "map" : "https://www.google.ca/maps/place/Woodward's/@49.282112,-123.10833,17z/data=!3m1!4b1!4m2!3m1!1s0x5486717985791fdb:0xc2cddf15265d4eae",
+            "address" : "149 West Hastings Street",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada",
+            "postalcode" : "V6B 1H4"
+        },
+        {
+            "name" : "The Portside Pub",
+            "url" : "http://theportsidepub.com/",
+            "map" : "https://www.google.ca/maps/place/The+Portside+Pub/@49.283688,-123.103888,15z/data=!4m2!3m1!1s0x0:0x2b4bba070a6530da?sa=X&ei=enGXVNCwCMHboAS5kYDAAg&ved=0CJQBEPwSMA4",
+            "address" : "7 Alexander St.",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+        {
+            "name" : "Mobify",
+            "url" : "http://www.mobify.com/",
+            "map" : "https://www.google.ca/maps/place/Mobify/@49.277656,-123.11914,17z/data=!3m1!4b1!4m2!3m1!1s0x5486717dffd229ef:0x62fb167588948505",
+            "address" : "948 Homer Street",
+            "address2" : "3rd Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        }
+   ]
+}

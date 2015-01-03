@@ -1,0 +1,5 @@
+{% if include.person.photo %}
+    <img src="{{ include.person.photo }}" alt="{{ include.person.name }}" class="img person-avatar" />
+{% else %}
+    <img src="/images/people/default.min.png" alt="" class="img person-avatar" />
+{% endif %}

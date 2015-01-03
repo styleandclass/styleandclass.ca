@@ -1,0 +1,256 @@
+{
+    "people": [
+        {
+            "name" : "John Allsopp",
+            "twitter" : "johnallsopp",
+            "github" : "JohnAllsopp",
+            "site" : "http://johnfallsopp.com/",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/479185864476463104/TuZKdXwx.png",
+            "bio" : [
+                {
+                    "p" : "For nearly 20 years John has developed software and written books (Developing With Web Standards, A Dao of Web Design, courses, tutorials, and articles for web designers and developers. He’s also the co-founder of Web Directions Conference. John outlined the idea that the Web is its own medium, and we must embrace its characteristics, not decry them as bugs."
+                }
+            ]
+        },
+        {
+            "name" : "James Bryant",
+            "twitter" : "jam_sbryant",
+            "dribbble" : "jamesbryant",
+            "github" : "jamesbryant",
+            "site" : "http://jamesbryant.com.au/",
+            "organizer": "former",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/2306683987/1grsgm0yer8232bj1skf.jpeg",
+            "bio" : [
+                {
+                    "p" : "James works across the many layers of product design and enjoys experimenting with the flexbox spec just as much as mapping out information architecture and user flows. Over the last 10 years he has designed web and native apps for medical students in the UK, NBA players in the US and social workers in Australia. He is a proud member of the team at Mobify where he is commonly known as a UI Designer."
+                }
+            ]
+        },
+        {
+            "name" : "James Bull",
+            "twitter" : "jimbones",
+            "dribbble" : "jimbones",
+            "github" : "jamesbull",
+            "site" : "http://about.me/jamesbull",
+            "organizer": "true",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/2213084402/headshot.jpg",
+            "bio" : [
+                {
+                    "p" : "James Bull is a very excited designer at Mobify. He spends his time desk-dancing, snow-shredding, head-standing and foot-grabbing. If you don't know what any of those are, he'll gladly provide a demo."
+                }
+            ]
+        },
+        {
+            "name" : "Steve Fisher",
+            "site" : "http://www.republicofquality.com/",
+            "twitter" : "hellofisher",
+            "organizer" : "true",
+            "speaker" : "true",
+            "photo": "https://pbs.twimg.com/profile_images/528618869624029184/x_S2fEwH.jpeg",
+            "bio" : [
+                {
+                    "p" : "Steve Fisher is the content nerd-herder and design fanatic at The Republic of Quality. With over 18 years of experience he leads the charge on the creative end of projects, coordinating research, strategy, visual and interaction design, and content strategy. Steve is a professional member of the Graphic Designer’s Society of Canada and served as their national VP of web for three years. He spends much of his time representing RoQ on the global stage as a sought-after speaker on topics like responsive web design, UX, open source, design thinking, and web process. He has presented at such conferences as TEDx, SXSW, Future of Web, HOW Interactive Design conference, Web Visions and DrupalCon, and is a contributor to .NET Magazine. He also loves Twitter (maybe a little too much)."
+                }
+            ]
+        },
+        {
+            "name" : "Ryan Frederick",
+            "github" : "ry5n",
+            "twitter" : "ry5n",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/477295404707364864/9rrohVD9.png",
+            "bio" : [
+                {
+                    "p" : "Ryan Frederick is a web designer and front-end developer living in Vancouver. He’s particularly interested in the nature, usability and reusability of web content, in typography, in accessibility and in front-end code architecture. He has contributed to open-source projects including the Compass framework for Sass and to Drupal 8 core. He works at Fuse Interactive, a Drupal design and development consultancy near Gastown."
+                }
+            ]
+        },
+        {
+            "name" : "Vitaly Friedman",
+            "twitter" : "smashingmag",
+            "dribbble" : "smashingmag",
+            "site" : "http://www.smashingmagazine.com/",
+            "speaker" : "true",
+            "bio" : [
+                {
+                    "p" : "Vitaly Friedman is the Editor-In-Chief and Co-Founder of Smashing Magazine."
+                }
+            ]
+        },
+        {
+            "name" : "Jacky Gilbertson",
+            "dribbble" : "jackygilbertson",
+            "github" : "jackygilbertson",
+            "site" : "http://jackymakesthings.tumblr.com/",
+            "twitter" : "jackygilbertson",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/502498263522484225/seJA1A_c.jpeg",
+            "bio" : [
+                {
+                    "p" : "Jacky Gilbertson is a freelance illustrator and senior mobile designer at Mobify. She started building things for the web when she was just a young whippersnapper, and never stopped. Jacky mentors with Ladies Learning Code, and loves the challenge of a new medium, web or otherwise. When not conquering a new platform, Jacky tinkers on her own projects, writes novels, and draws comics."
+                }
+            ]
+        },
+        {
+            "name" : "Val Head",
+            "twitter" : "vlh",
+            "codepen" : "valhead",
+            "dribbble" : "valhead",
+            "site" : "http://www.valhead.com/",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/486303565560811520/XwkNJSzu.jpeg",
+            "bio" : [
+                {
+                    "p" : "Val Head is a designer and consultant based in Philadelphia. Her work ranges from projects on the web to interactive installations to print. She is the author of The Pocket Guide to CSS Animations, teaches CSS Animations on Lynda.com, and hosts the All The Right Moves tutorial screencast."
+                },
+                {
+                    "p" : "You can find her on stage speaking at events like An Event Apart and encouraging others to do the same as the co-host of the Ladies in Tech podcast. She also founded the popular Web Design Day conference, and leads workshops around the world on animation for the web and creative coding."
+                }
+            ]
+        },
+        {
+            "name" : "Stephanie Hobson",
+            "twitter" : "stephaniehobson",
+            "github" : "stephaniehobson",
+            "site" : "http://stephaniehobson.ca/",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/477880535943880704/I0Kbu0sX.jpeg",
+            "bio" : [
+                {
+                    "p" : "Stephanie starting making websites by hand when none of the available tools lived up to her arbitrarily high standards. Don't blame Netscape Composer it really was trying its best. Introduced to actual web standards a few years later she only became harder to please. Stephanie has since been doing a mix of freelance and full-time front-end web development on websites as large as bcit.ca and as popular as careers.mozilla.org. Stephanie also organizes the Vancouver Pub Standards meetups for people who make websites and like standards and/or pubs."
+                }
+            ]
+        },
+        {
+            "name" : "Jeff Kamo",
+            "twitter" : "jeffkamo",
+            "github" : "jeffkamo",
+            "site" : "http://www.jeffkamo.com/",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/1208879773/jeffkamo.jpg",
+            "bio" : [
+                {
+                    "p" : "Jeff is one of Mobify's secret weapons when it comes to front end development. As part of the Customer Success team, he helps to build mobile optimized experiences with a particular focus on CSS practices and processes."
+                }
+            ]
+        },
+        {
+            "name" : "Chelsea Klukas",
+            "twitter" : "chelscore",
+            "site" : "http://www.makefashion.org/",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/463757336658468865/Rh0RkQgM.png",
+            "bio" : [
+                {
+                    "p" : "Full-time pizza expert, also @makefashionca wearable tech co-founder & workaholic UXer. Digs outdoors, bunnies, drawing, good beer, making stuff."
+                }
+            ]
+        },
+        {
+            "name" : "Alaine Mackenzie",
+            "twitter" : "alainemack",
+            "site" : "http://www.alainemackenzie.com/",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/378800000695654764/7ae3d7b55990357f12cd1a70b42337f8.png",
+            "bio" : [
+                {
+                    "p" : "Alaine Mackenzie is a content strategist at Yellow Pencil, a content-first web design and development shop in Edmonton and Vancouver. She started out as a designer, but soon realized she liked writing words more than typesetting them. Now she spends her days fighting for better content author environments and the oxford comma. Don’t worry, she’ll still gleefully debate your choice of typeface."
+                }
+            ]
+        },
+        {
+            "name" : "Steve Mynett",
+            "twitter" : "stevemynett",
+            "github" : "stevemynett",
+            "site" : "http://www.mynettworks.com/",
+            "organizer": "true",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/72045865/me_3733.png",
+            "bio" : [
+                {
+                    "p" : "Steve has been a UI Software Engineer at HootSuite for two years. With a background in design he spends his time bridging the gap between PSD’s and code, bringing designers' creations to life."
+                }
+            ]
+        },
+        {
+            "name" : "Kyle Peatt",
+            "dribbble" : "kpeatt",
+            "github" : "kpeatt",
+            "site" : "http://www.kylepeatt.com/",
+            "twitter" : "kpeatt",
+            "organizer" : "true",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/476856934616686592/b-r8_Cie.jpeg",
+            "bio" : [
+                {
+                    "p" : "Kyle Peatt is a designer first and a front-end developer also first. He strongly believes that any designer should also be a maker. Kyle leads a team of like-minded designers and developers on the professional services team at Mobify. He has been working on the web for 10 years and on mobile since the launch of the iPhone. Kyle writes, speaks, and argues about designing and developing for an increasingly multi-device medium. He holds a degree in Sociology from the University of British Columbia but can more often be found holding a pair of strings that lead to a kite."
+                }
+            ]
+        },
+        {
+            "name" : "Morten Rand-Hendriksen",
+            "twitter" : "mor10",
+            "speaker" : "true",
+            "site" : "http://mor10.com/",
+            "photo" : "https://pbs.twimg.com/profile_images/539575940519436288/n1JnpYAk.jpeg",
+            "bio" : [
+                {
+                    "p" : "Morten Rand-Hendriksen is a web designer, developer, and educator. He's a staff author at lynda.com and instructor at Emily Carr University of Art and Design where he teaches standards based web design and development and WordPress. He's also the director of Pink & Yellow Media Inc. where he produces impossible things with WordPress and web technologies. When he's not wearing out the keys on his laptop you are likely to find Morten wearing out the soles on his shoes on a ballroom dance floor."
+                }
+            ]
+        },
+        {
+            "name" : "Dave Shea",
+            "dribbble" : "mezzoblue",
+            "github" : "mezzoblue",
+            "site" : "http://www.mezzoblue.com/",
+            "twitter" : "mezzoblue",
+            "organizer" : "true",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/1689518203/avatar-large2.jpg",
+            "bio" : [
+                {
+                    "p" : "Dave Shea is the creator and cultivator of the highly influential website csszengarden.com, and co-author of The Zen of CSS Design (New Riders, 2005) with Molly Holzschlag. His current role is VP of User Experience at Mobify Inc. Previously he ran Bright Creative, working on projects for New York University, Google, CNet, Joyent and others. He speaks internationally at conferences and workshops and was an organizer of the North American arm of Web Directions, a popular international conference series. His recent extracurricular interests have included icon design, the Processing visual language, GPS tracking his road cycling trips, and improving his home craft brewing techniques."
+                }
+            ]
+        },
+        {
+            "name" : "Todd Sieling",
+            "twitter" : "denimandsteel",
+            "speaker" : "true",
+            "site" : "http://denimandsteel.com/",
+            "bio" : [
+                {
+                    "p" : "Todd Sieling is a UX Designer and co-founder of Denim & Steel Interactive. With nearly two decades in tech, he's had the chance to work with a diversity founders and customer communities across many industries from construction to the social web. Beyond thinking of screens, he loves his beach time and volunteers with organizations dedicated to the arts and sustainable transportation."
+                }
+            ]
+        },
+        {
+            "name" : "Aveline Thelen",
+            "twitter" : "asploded",
+            "speaker" : "true",
+            "photo" : "https://pbs.twimg.com/profile_images/525474458820042752/tMgXc0J-.png",
+            "bio" : [
+                {
+                    "p" : "Aveline is a mobile web developer at Mobify where she helps build mobile e-commerce sites for amazing customers like Crocs. She can’t write a bio to save her life, but if you want to know about beekeeping or how to make a tutu you’re in luck."
+                }
+            ]
+        },
+        {
+            "name" : "Tyler Wilman",
+            "twitter" : "tylerwilman",
+            "dribbble" : "tylerwilman",
+            "speaker" : "true",
+            "site" : "http://www.tylerwilman.com/",
+            "photo" : "https://pbs.twimg.com/profile_images/475017531720093696/8lWWb8CN.jpeg",
+            "bio" : [
+                {
+                    "p" : "Tyler Wilman is an Interaction Designer whose beliefs exist at the intersection of design and technology. Bridging the gap between these elements he is driven by the desire to create unique experiences in the ways that people engage with online brands or technology. He is currently doing this as the Senior UI lead at Atimi Software (www.atimi.com), and with 10 years of working within the professional design environment , he has been able to push the boundaries of technology and interaction through design solutions."
+                }
+            ]
+        }
+    ]
+}
