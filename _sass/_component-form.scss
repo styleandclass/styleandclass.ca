@@ -1,0 +1,47 @@
+//
+//  Form-based components
+//
+
+%formstyle {
+    width: 100%;
+    border: solid 1px $grey-colour-light;
+    font-size: 1.2rem;
+}
+
+input {
+    min-height: 2rem;
+
+    @extend %formstyle;
+}
+textarea {
+    @extend %formstyle;
+}
+
+button, .button {
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 2px;
+    color: $text-colour-reversed;
+    background: $brand-highlight;
+
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+.form-container {
+    margin: 0;
+}
+.form-row {
+    display: flex;
+    margin: 0 0 1rem 0;
+    list-style: none;
+
+    label {
+        flex: 1 1 25%;
+    }
+}
+.form-input {
+    flex: 1 1 75%;
+}
+
+
+
