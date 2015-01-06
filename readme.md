@@ -11,6 +11,14 @@ To start contributing changes, clone this repo into a new folder and then:
 * Make your changes and test them locally
 * Push your changes to Github and issue a pull request
 
+## MAKING CHANGES
+
+Once you've committed your changes and pushed them to Github, please issue a
+Pull Request. We'll merge and deploy once we've had a chance to review.
+
+(S&C Organizers can deploy themselves. Contact @mezzoblue for the deploy
+script.)
+
 
 ## ADDING A PAGE
 
@@ -105,13 +113,13 @@ just doing it manually in the JSON file. If you add a new speaker, make sure to
 add them in the right alphabetical order.
 
 
-# TROUBLESHOOTING
+## TROUBLESHOOTING
 
 Sometimes you'll find that events, people, talks, or venues don't show up as
 intended. To debug, you'll need to be familiar with how content objects work;
 make sure to read that section above.
 
-## MISSING CONTENT
+### MISSING CONTENT
 
 The most common cause of missing content is non-identical linking keys. This can
 spill out to unexpected places; for example, misspelling a person's name in
@@ -122,7 +130,7 @@ When you encounter missing content, check all linking keys between any of the
 possible content types. Copy and paste values to ensure they're identical.
 
 
-## DUPLICATE CONTENT
+### DUPLICATE CONTENT
 
 If you're adding a second occurance of a content object (e.g. a talk) you may
 find the site duplicates the talk listing if the title is identical. This is a
@@ -135,7 +143,7 @@ in that case, just make sure the titles are somehow different from each other --
 changing the case of a single character is a quick hack to accomplish that.
 
 
-## SPEAKERS AREN'T ALPHABETIZED
+### SPEAKERS AREN'T ALPHABETIZED
 
 We're doing this manually; see the special note under the Adding Speakers
 section above.
