@@ -1,10 +1,15 @@
 //
 //    Home page artwork
 //
+
+
+// opacity of the gradient that overlays the home page images
+$overlay-opacity: 0.2;
+
 .home-decoration {
 
     background-color: $brand-colour;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%), url(/images/site/site-bg.gif);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/site-bg.gif);
     background-position: 0 0, 50% top;
     background-repeat: repeat-x, no-repeat;
     background-position: 0 0, 50% 50%;
@@ -26,28 +31,28 @@
 
     // fancy imagery
     &.crowd {
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%), url(/images/site/crowd.gif);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/crowd.gif);
         background-position: 0 0, 50% bottom;
     }
     &.james {
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%), url(/images/site/james.gif);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/james.gif);
     }
     &.s-c {
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%), url(/images/site/s&c.gif);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/s&c.gif);
         background-position: 0 0, 50% bottom;
     }
     &.stephanie {
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%), url(/images/site/stephanie.gif);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/stephanie.gif);
         background-position: 0 0, 100% top;
     }
     &.steves {
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%), url(/images/site/steves.gif);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/steves.gif);
     }
     &.tyler {
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%), url(/images/site/tyler.gif);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/tyler.gif);
     }
     &.vitaly {
-        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 100%), url(/images/site/vitaly.gif);
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/vitaly.gif);
     }
 
     .wrapper {
