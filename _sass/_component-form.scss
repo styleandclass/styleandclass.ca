@@ -10,6 +10,7 @@
 
 input {
     min-height: 2rem;
+    padding: 0 0.25rem;
 
     @extend %formstyle;
 }
@@ -27,21 +28,31 @@ button, .button {
     font-size: 1.2rem;
     text-transform: uppercase;
 }
-.form-container {
-    margin: 0;
+.form {
+    @include screen-medium {
+        display: flex;
+    }
 }
-.form-row {
-    display: flex;
-    margin: 0 0 1rem 0;
-    list-style: none;
-
-    label {
+.form-description {
+    @include screen-medium {
         flex: 1 1 25%;
     }
 }
-.form-input {
-    flex: 1 1 75%;
+.form-container {
+    @include screen-medium {
+        flex: 1 1 75%;
+    }
+    margin: 0;
 }
+.form-row {
+    margin: 0 0 1rem 0;
+    list-style: none;
 
+    @include screen-medium {
+        padding-left: 5rem;
+    }
 
-
+    label {
+        display: block;
+    }
+}

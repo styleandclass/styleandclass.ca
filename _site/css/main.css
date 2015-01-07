@@ -408,7 +408,7 @@ hr {
 
 .home-decoration {
   background-color: #753c51;
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%), url(/images/site/site-bg.gif);
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/site-bg.gif);
   background-position: 0 0, 50% top;
   background-repeat: repeat-x, no-repeat;
   background-position: 0 0, 50% 50%; }
@@ -427,22 +427,22 @@ hr {
       background-position: 0 0, 50% top;
       background-size: 100%, 120%; } }
   .home-decoration.crowd {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%), url(/images/site/crowd.gif);
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/crowd.gif);
     background-position: 0 0, 50% bottom; }
   .home-decoration.james {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%), url(/images/site/james.gif); }
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/james.gif); }
   .home-decoration.s-c {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%), url(/images/site/s&c.gif);
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/s&c.gif);
     background-position: 0 0, 50% bottom; }
   .home-decoration.stephanie {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%), url(/images/site/stephanie.gif);
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/stephanie.gif);
     background-position: 0 0, 100% top; }
   .home-decoration.steves {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%), url(/images/site/steves.gif); }
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/steves.gif); }
   .home-decoration.tyler {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%), url(/images/site/tyler.gif); }
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/tyler.gif); }
   .home-decoration.vitaly {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.3) 100%), url(/images/site/vitaly.gif); }
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/vitaly.gif); }
   .home-decoration .wrapper {
     text-align: center; }
   .home-decoration .site-header {
@@ -645,7 +645,8 @@ input, textarea {
   font-size: 1.2rem; }
 
 input {
-  min-height: 2rem; }
+  min-height: 2rem;
+  padding: 0 0.25rem; }
 
 button, .button {
   padding: 0.5rem 2rem;
@@ -656,18 +657,28 @@ button, .button {
   font-size: 1.2rem;
   text-transform: uppercase; }
 
+@media (min-width: 801px) {
+  .form {
+    display: flex; } }
+
+@media (min-width: 801px) {
+  .form-description {
+    flex: 1 1 25%; } }
+
 .form-container {
   margin: 0; }
+  @media (min-width: 801px) {
+    .form-container {
+      flex: 1 1 75%; } }
 
 .form-row {
-  display: flex;
   margin: 0 0 1rem 0;
   list-style: none; }
+  @media (min-width: 801px) {
+    .form-row {
+      padding-left: 5rem; } }
   .form-row label {
-    flex: 1 1 25%; }
-
-.form-input {
-  flex: 1 1 75%; }
+    display: block; }
 
 .people-container {
   margin: 0; }
