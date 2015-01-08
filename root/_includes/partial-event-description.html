@@ -1,0 +1,11 @@
+{% if include.event.description %}
+	<div class="event-description">
+        {% if include.shortDesc %}
+            <p>{{ include.event.short-desc }}</p>
+        {% else %}
+            {% for p in include.event.description %}
+                <p>{{ p.p }}</p>
+            {% endfor %}
+        {% endif %}
+	</div>
+{% endif %}

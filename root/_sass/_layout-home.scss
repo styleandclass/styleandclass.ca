@@ -1,0 +1,171 @@
+//
+//    Home page artwork
+//
+
+
+// opacity of the gradient that overlays the home page images
+$overlay-opacity: 0.2;
+
+.home-decoration {
+
+    background-color: $brand-colour;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/site-bg.gif);
+    background-position: 0 0, 50% top;
+    background-repeat: repeat-x, no-repeat;
+    background-position: 0 0, 50% 50%;
+
+    @include screen-xxsmall {
+        background-size: auto 100%;
+    }
+    @include screen-xsmall {
+        background-size: auto 120%;
+    }
+    @include screen-small {
+        position: relative;
+    }
+    @include screen-medium {
+        min-height: 70vh;
+        background-position: 0 0, 50% top;
+        background-size: 100%, 120%;
+    }
+
+    // fancy imagery
+    &.crowd {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/crowd.gif);
+        background-position: 0 0, 50% bottom;
+    }
+    &.james {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/james.gif);
+    }
+    &.s-c {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/s&c.gif);
+        background-position: 0 0, 50% bottom;
+    }
+    &.stephanie {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/stephanie.gif);
+        background-position: 0 0, 100% top;
+    }
+    &.steves {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/steves.gif);
+    }
+    &.tyler {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/tyler.gif);
+    }
+    &.vitaly {
+        background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,$overlay-opacity) 100%), url(/images/site/vitaly.gif);
+    }
+
+    .wrapper {
+        text-align: center;
+    }
+    .site-header {
+        padding-bottom: 0;
+    }
+    .site-title {
+        display: none;
+    }
+    .site-nav-item a {
+        color: rgba($text-colour-reversed, 0.7);
+        &:hover, &:focus {
+            color: $text-colour-reversed;
+        }
+    }
+}
+
+.home-content {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include screen-medium {
+        flex-direction: row;
+    }
+    @include screen-large {
+        position: absolute;
+        bottom: 20vh;
+        width: 960px;
+    }
+}
+
+.home-logo {
+    margin: 1rem 0;
+    @include screen-medium {
+        flex: 0 1 15rem;
+    }
+}
+.home-logo-img {
+    width: 10rem;
+    color: $text-colour-reversed;
+
+    @include screen-medium {
+        width: 15rem;
+    }
+}
+
+
+.home-mission {
+    box-sizing: border-box;
+    padding: 0 1rem 2rem 1rem;
+    color: $text-colour-reversed;
+
+    font-style: italic;
+    font-size: $base-font-size * 1.3;
+    line-height: 1.5;
+
+    @include screen-medium {
+        flex: 0 1 40rem;
+        padding: 0 0 0 3rem;
+
+        font-size: $base-font-size * 2;
+        text-align: right;
+    }
+}
+
+// container to center the next event
+.home-event-next {
+    @include screen-medium {
+        position: absolute;
+        bottom: -6rem;
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+.event-next.home {
+
+    background: rgba($brand-highlight, 0.95);
+
+    @include screen-medium {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+
+        width: 10rem;
+        height: 10rem;
+        margin: 0 auto;
+        border-radius: 50%;
+
+        border: solid 6px #fff;
+
+        text-align: center;
+    }
+
+    .title {
+        text-transform: uppercase;
+        @include screen-medium {
+            flex: 0 1 auto;
+            margin: 0 0 0.5rem 0;
+        }
+    }
+    .talk-condensed {
+        @include screen-medium {
+            flex: 0 1 auto;
+        }
+    }
+
+    .separator, .Y {
+        display: none;
+    }
+}

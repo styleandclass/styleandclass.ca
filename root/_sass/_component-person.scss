@@ -1,0 +1,87 @@
+//
+//  People container component
+//
+.people-container {
+    margin: 0;
+
+    li {
+        list-style: none;
+    }
+
+}
+
+.person {
+    margin-bottom: 3rem;
+    text-align: center;
+
+    @include screen-small {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+.person-name {
+    margin-bottom: 0;
+}
+.person-avatar {
+    border-radius: 50%;
+    max-width: 120px;
+    max-height: 120px;
+
+    @include screen-small {
+        flex: 0 0 140px;
+    }
+}
+.person-description {
+
+    @include screen-small {
+        flex: 4 1 auto;
+        box-sizing: border-box;
+        padding-left: 2rem;
+
+        text-align: left;
+    }
+}
+.person-bio {
+    text-align: left;
+}
+.person-social {
+
+    box-sizing: border-box;
+    margin: 0;
+    text-align: center;
+
+    @include screen-small {
+        flex: 1 0 10rem;
+        padding: 2rem 0 0 3rem;
+        text-align: left;
+    }
+
+    li {
+        display: inline-block;
+        padding: 0 14px 0 28px;
+        margin-bottom: 0.25rem;
+        background-position: 6px 50%;
+        background-repeat: no-repeat;
+        background-size: 16px 16px;
+
+        @include screen-small {
+            display: block;
+        }
+    }
+}
+.person-codepen {
+    background-image: url(/images/site/icon-codepen.min.svg);
+}
+.person-dribbble {
+    background-image: url(/images/site/icon-dribbble.min.svg);
+}
+.person-github {
+    background-image: url(/images/site/icon-github.min.svg);
+}
+.person-twitter {
+    background-image: url(/images/site/icon-twitter.min.svg);
+}
+.person-www {
+    background-image: url(/images/site/icon-www.min.svg);
+}

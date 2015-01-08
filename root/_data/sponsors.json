@@ -1,0 +1,53 @@
+{
+    "sponsors": [
+        {
+            "name" : "Mobify",
+            "url" : "http://www.mobify.com/",
+            "twitter" : "mobify",
+            "logo" : "https://pbs.twimg.com/profile_images/488803380626599936/wq_SqY4A.png"
+        },
+        {
+            "name" : "Hootsuite",
+            "url" : "http://www.hootsuite.com/",
+            "twitter" : "hootsuite",
+            "logo" : "https://pbs.twimg.com/profile_images/473952620160090113/nlkoo80h.jpeg"
+        },
+        {
+            "name" : "Adobe",
+            "url" : "http://www.adobe.com/",
+            "twitter" : "adobe",
+            "logo" : "http://www.insidefacebook.com/wp-content/uploads/2013/05/Adobe-Logo-1.jpg"
+        },
+        {
+            "name" : "Republic of Quality",
+            "url" : "http://republicofquality.com/",
+            "twitter" : "rofquality",
+            "logo" : "https://pbs.twimg.com/profile_images/3307800598/ed3ad0b13c88fe1f57692aa4132dfcd8.png",
+            "description" : "A user experience & content strategy duo that make the web a little more human. We discover & design wholehearted experiences."
+        },
+        {
+            "name" : "Unbounce",
+            "url" : "http://www.unbounce.com/",
+            "twitter" : "unbounce",
+            "logo" : "https://pbs.twimg.com/profile_images/522464407838679040/GEI0oMKZ.png"
+        },
+        {
+            "name" : "Mozilla",
+            "url" : "http://www.mozilla.org/",
+            "twitter" : "mozilla",
+            "logo" : "https://mozorg.cdn.mozilla.net/media/img/firefox/firefox-256.jpg"
+        },
+        {
+            "name" : "Type Brigade",
+            "url" : "http://typebrigade.com/",
+            "twitter" : "typebrigade",
+            "logo" : "http://typebrigade.com/images/typebrigade-temp-logo.svg"
+        },
+        {
+            "name" : "O'Reilly Media",
+            "url" : "http://www.oreilly.com/",
+            "twitter" : "oreillymedia",
+            "logo" : "https://pbs.twimg.com/profile_images/465950147369639936/EMnyIlO2.png"
+        }
+    ]
+}

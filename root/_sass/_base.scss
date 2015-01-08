@@ -1,0 +1,217 @@
+/*
+
+    Basic reset
+
+*/
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+/* Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+
+/*
+
+ Basic HTML element styling
+
+*/
+body {
+    color: $text-colour;
+
+    background-color: $brand-colour;
+    background-image: url(/images/site/site-bg.gif);
+    background-position: 50% bottom;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%;
+
+    @include screen-medium {
+        background-size: 100% auto;
+    }
+
+    // home page variation
+    &.home {
+        background-color: #fff;
+        background-image: none;
+    }
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+ul, ol {
+    margin-left: $spacing-unit;
+}
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+h1 {
+    font-size: $base-font-size * 2;
+}
+h2 {
+    font-size: $base-font-size * 1.5;
+}
+h3 {
+    font-size: $base-font-size * 1.25;
+}
+h4 {
+    font-size: $base-font-size * 1.09375;
+}
+h5 {
+    font-size: $base-font-size;
+}
+h6 {
+    font-size: $base-font-size * 0.875;
+}
+
+
+
+a {
+    color: $brand-highlight;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-highlight, 15%);
+    }
+
+    &:hover, &:focus {
+        color: $text-colour;
+        text-decoration: underline;
+    }
+}
+
+
+blockquote {
+    color: $grey-colour-light;
+    border-left: 0.5rem solid $grey-colour-lighter;
+    padding-left: $spacing-unit / 2;
+    font-size: 1.25rem;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-colour-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+code {
+    padding: 1px 5px;
+}
+pre {
+    padding: 8px 12px;
+    overflow-x: scroll;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+hr {
+    margin: 2rem 0;
+    border: 0;
+    border-bottom: solid 1px $grey-colour-lighter;
+}
+
+
+
+
+/*
+
+    re-usable styling modifiers
+
+*/
+.delineated {
+    padding-bottom: 1rem;
+    border-bottom: solid 1px $grey-colour-lighter;
+}
+
+
+
+/*
+    Media object
+*/
+.media, .bd {
+    overflow: hidden;
+    _overflow: visible;
+    zoom: 1;
+}
+.media .img {
+    @include screen-xsmall {
+        float: left;
+        margin-right: 2rem;
+    }
+}
+.media .img img {
+    display: block;
+}
+
+
+
+/*
+
+    Base visibility toggles
+
+*/
+
+.is-hidden {
+    display: none;
+}
+.is-visible {
+    display: block;
+}
+
+
+
+/*
+
+    Clearfix
+
+*/
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}

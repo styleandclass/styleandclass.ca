@@ -1,0 +1,25 @@
+{% if include.calendar == "true" %}
+    {% assign calendarClass = " calendar" %}
+{% endif %}
+
+
+{% if include.headings != null %}
+    <{{ include.headings }}>
+{% endif %}
+    <a class="event-name" href="{{ event.url-site }}">{{ event.name }}</a>
+{% if include.headings != null %}
+    </{{ include.headings }}>
+{% endif %}
+
+{% include partial-date.html event=event calendarClass=calendarClass %}
+
+{% if include.shortDesc %}
+
+    {% include partial-event-description.html event=event shortDesc=include.shortDesc %}
+
+{% endif %}
+
+
+{% if include.talks == "true" %}
+    {% include partial-talk-listing.html event=event parent="talk-list" descriptions="false" %}
+{% endif %}

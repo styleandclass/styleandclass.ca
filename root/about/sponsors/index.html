@@ -1,0 +1,18 @@
+---
+layout: page
+title: Sponsors
+---
+
+<h1>Sponsors</h1>
+
+<p>Over the years, various companies have stepped up to sponsor Style &amp; Class by donating their time and money. We'd like to permanently recognize them here, because without their support we wouldn't be able to keep bringing you great local events.</p>
+
+<p>If you're interested in sponsoring a future, please <a href="/contact/">get in touch</a>. We'd love to have you join us!
+
+<ul class="sponsor-list">
+{% for sponsor in site.data.sponsors.sponsors %}
+  <li class="sponsor">
+    {% include partial-sponsor.html sponsor=sponsor %}
+  </li>
+{% endfor %}
+</ul>
