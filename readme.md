@@ -4,11 +4,16 @@ This is the website for the Style & Class event series, powered by Jekyll.
 
 ## SETUP
 
-To start contributing changes, clone this repo into a new folder and then:
+To start contributing changes, clone this repo into a new folder and then on
+the command line:
 
-* Install Jekyll (instructions at http://jekyllrb.com/)
-* Navigate to the folder and run Jekyll server with ``jekyll serve``
+* Install Jekyll if necessary (instructions at http://jekyllrb.com/)
+* Install Grunt if necessary (instructions at http://gruntjs.com/)
+* Navigate to the repo and install dependicies with ``npm install``
+* Run Jekyll server with ``jekyll serve``
 * Make your changes and test them locally
+* Before sending up your changes, run all grunt tasks (CSS prefixing, 
+  minification) with ``grunt``
 * Push your changes to Github and issue a pull request
 
 ## MAKING CHANGES
