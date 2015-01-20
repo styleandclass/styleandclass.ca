@@ -266,13 +266,13 @@
             ],
             "accessibility" : "The Style & Class Conference will be accessible for the hearing impaired.",
             "price" : "$20",
-            "registration" : "closed",
+            "registration" : "open",
             "date" : "2014-12-13",
             "time-doors" : "2014-12-13T12:00+08:00",
             "time-start" : "2014-12-13T18:00+08:00",
             "url-site" : "/events/2014/conference/",
             "url-eventbrite" : "https://www.eventbrite.com/e/the-style-class-conference-tickets-13842235499",
-            "venue" : "SFU Woodwards, Vancouver",
+            "venue" : "SFU Woodwards",
             "talks" : [
                 {
                     "title" : "All The Right Moves: Putting your UIs in Motion"

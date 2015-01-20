@@ -15,18 +15,15 @@
         margin: 0 0 2rem 0;
         list-style: none;
     }
-    .event-name {
-        display: block;
+
+    .event-description {
+        margin-bottom: 2rem;
     }
 
-    .event-overview {
-        padding-bottom: 2rem;
-        margin-bottom: 2rem;
-        border-bottom: solid 1px $grey-colour-lighter;
-        font-size: $base-font-size * 1.25;
-
-        h2 {
-            margin: 0;
+    @include screen-large {
+        .event-description {
+            margin-left: 196px;
+            margin-bottom: 3rem;
         }
     }
 }
@@ -35,40 +32,43 @@
 //  Event date component
 //  (used for calendar date formatting)
 //
-.event-date.calendar {
-    @include screen-xsmall {
-        color: rgba($text-colour-reversed, 0.7);
-        text-align: center;
+.event-date {
+    text-transform: uppercase;
 
-        .b {
-            display: block;
-            font-size: $base-font-size;
-            line-height: 1;
-            text-transform: uppercase;
-        }
-        .d {
-            display: block;
-            color: $text-colour-reversed;
-            font-size: $base-font-size * 2;
-            line-height: 1;
-        }
-        .outline {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            width: 6rem;
-            height: 6rem;
-            border-radius: 50%;
-            background: $brand-highlight;
-        }
-        .separator {
-            display: none;
-        }
-        .Y {
-            display: block;
-            padding: 0.5rem 1rem;
-            color: $brand-highlight;
-            font-size: $base-font-size;
+    &.calendar {
+        @include screen-xsmall {
+            color: rgba($text-colour-reversed, 0.7);
+            text-align: center;
+
+            .b {
+                display: block;
+                font-size: $base-font-size;
+                line-height: 1;
+            }
+            .d {
+                display: block;
+                color: $text-colour-reversed;
+                font-size: $base-font-size * 2;
+                line-height: 1;
+            }
+            .outline {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                width: 6rem;
+                height: 6rem;
+                border-radius: 50%;
+                background: $brand-highlight;
+            }
+            .separator {
+                display: none;
+            }
+            .Y {
+                display: block;
+                padding: 0.5rem 1rem;
+                color: $brand-highlight;
+                font-size: $base-font-size;
+            }
         }
     }
 }
@@ -93,6 +93,7 @@
         }
     }
 }
+
 
 
 
@@ -176,3 +177,104 @@
     }
 }
 
+
+
+
+//
+//  Main Event Overview
+//
+.event-overview {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: solid 1px $grey-colour-lighter;
+    font-size: $base-font-size * 1.25;
+
+    .button {
+        display: inline-block;
+    }
+
+    @include screen-large {
+        margin-left: 196px;
+    }
+
+    // turn on flexbox if registration is open
+    @include screen-small {
+        &.register {
+            display: flex;
+            .summary {
+                flex: 0 1 75%;
+            }
+            .registration {
+                flex: 0 1 25%;
+                padding-top: 0.5rem;
+                text-align: right;
+            }
+        }
+    }
+
+}
+.event-respond {
+    display: block;
+    margin-bottom: 0.75rem;
+    white-space: nowrap;
+}
+
+
+//
+//  Main Event detail breakdown
+//
+.event-details {
+
+    @include screen-small {
+
+        // turn on flexbox if this event has sponsors
+        &.sponsors {
+            display: flex;
+            .details {
+                flex: 0 1 75%;
+            }
+            .sponsors {
+                flex: 0 1 25%;
+                text-align: right;
+            }
+        }
+
+        // override sponsor default styling a bit
+        .sponsor-list {
+
+            display: block;
+            padding-left: 20px;
+
+            .sponsor {
+                flex: none;
+                text-align: right;
+            }
+        }
+    }
+
+}
+
+// Main Event content items
+.event-venue, .event-talks, .event-after {
+
+    margin-bottom: 2rem;
+
+    @include screen-large {
+
+        display: flex;
+        margin-bottom: 3rem;
+
+        .summary {
+            flex: 0 0 196px;
+            padding-right: 20px;
+        }
+        .detail {
+            flex: 1 1 auto;
+        }
+    }
+}
+
+.event-map {
+    width: 100%;
+    height: 300px;
+}

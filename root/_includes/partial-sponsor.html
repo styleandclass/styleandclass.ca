@@ -1,6 +1,8 @@
 <a href="{{ include.sponsor.url }}">
 	{% if include.sponsor.logo %}
 	    <img src="{{ include.sponsor.logo }}" alt="{{ include.sponsor.name }}" class="sponsor-logo" />
+	{% else %}
+	    <img src="/images/people/default.min.png" alt="" class="img person-avatar" />
 	{% endif %}
 	<div class="sponsor-description">
 		<h3>{{ include.sponsor.name }}</h3>

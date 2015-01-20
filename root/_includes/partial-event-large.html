@@ -1,106 +1,126 @@
 {% for event in site.data.events.events %}
 	{% if event.name == currentEvent %}
 
-		<div class="event-overview">
-			<h1 id="event-name" class="event-name">{{ event.name }}</h1>
-		    {% include partial-date.html event=event %}
-
+		<div class="event-overview{% if event.registration == "open" %} register{% endif %}">
+			
+			<div class="summary">
+				<h1 id="event-name" class="event-name">{{ event.name }}</h1>
+			    {% include partial-date.html event=event %}
+			</div>
 
 			{% if event.registration == "open" %}
+				<div class="registration">
+					{% if event.url-meetup %}
+						<a class="event-respond" href="{{ event.url-meetup }}">
+							RSVP
+						</a>
+					{% endif %}
 
-				{% if event.price %}
-					<span class="event-price">
-						{{ event.price }}
-					</a>
-				{% endif %}
+					{% if event.url-eventbrite %}
+						<a class="event-respond button" href="{{ event.url-eventbrite }}">
+							Get Tickets
+						</a>
+					{% endif %}
 
-				{% if event.url-meetup %}
-					<a class="event-respond" href="{{ event.url-meetup }}">
-						RSVP
-					</a>
-				{% endif %}
-
-				{% if event.url-eventbrite %}
-					<a class="event-respond" href="{{ event.url-eventbrite }}">
-						Get Tickets
-					</a>
-				{% endif %}
-
+					{% if event.price %}
+						<span class="event-price">
+							{{ event.price }}
+						</a>
+					{% endif %}
+				</div>
 			{% endif %}
 
 		</div>
 
-        {% include partial-event-description.html event=event %}
+
+        <div class="event-details{% if event.sponsors %} sponsors{% endif %}">
+
+	    	<div class="details">
+
+	        {% include partial-event-description.html event=event %}
+
+	        {% if event.venue %}
+	            {% for venue in site.data.venues.venues %}
+	                {% if venue.name == event.venue %}
+		        <div class="event-venue">
+		        	<div class="summary">
+			            <h2 id="event-venue">Venue</h2>
+	                    {% include partial-venue.html venue=venue %}
+			        </div>
+			        <div class="detail">
+	                    {% include partial-venue-map.html venue=venue %}
+			        </div>
+		        </div>
+	                {% endif %}
+	            {% endfor %}
+	        {% endif %}
 
 
-		{% if event.talks %}
+			{% if event.talks %}
+		        <div class="event-talks">
+		        	<div class="summary">
+						<h2 id="event-talks">Talks</h2>
+			        </div>
+			        <div class="detail">
+			            {% include partial-talk-listing.html event=event parent="talk-container" descriptions="true" avatars="true" %}
+			        </div>
+			    </div>
+			{% endif %}
 
-			<hr>
-
-			<h2 id="event-talks">Talks</h2>
-            {% include partial-talk-listing.html event=event parent="talk-container" descriptions="true" avatars="true" %}
-
-		{% endif %}
 
 
-        {% if event.venue %}
+			{% if event.afterparty %}
+				{% for partyID in site.data.events.events %}
+					{% if partyID.name == event.afterparty %}
 
-            <hr>
+						{% for venue in site.data.venues.venues %}
+							{% if venue.name == partyID.venue %}
+		        <div class="event-after">
+		        	<div class="summary">
+						<h2 id="event-afterparty">Afterparty</h2>
+						{% include partial-venue.html venue=venue %}
 
-            <h2 id="event-venue">Venue</h2>
-            {% for venue in site.data.venues.venues %}
-                {% if venue.name == event.venue %}
+						{% for p in partyID.description %}
+							<p>{{ p.p }}</p>
+						{% endfor %}
+			        </div>
+			        <div class="detail">
+						{% include partial-venue-map.html venue=venue %}
+			        </div>
+			    </div>
+							{% endif %}
+						{% endfor %}
 
-                    {% include partial-venue.html venue=venue %}
+					{% endif %}
+				{% endfor %}
+			{% endif %}
 
-                {% endif %}
-            {% endfor %}
 
-        {% endif %}
+			{% if event.afterwards %}
+		        <div class="event-after">
+		        	<div class="summary">
+						<h2 id="event-afterwards">Afterwards</h2>
+			        </div>
+			        <div class="detail">
+						<p>{{ event.afterwards }}</p>
+			        </div>
+			    </div>
+			{% endif %}
+
+		</div>
+
 
 		{% if event.sponsors %}
-
-			<hr>
-
-			<h2 id="event-sponsors">Sponsors</h2>
-			{% if event.sponsor-description %}
-				{{ event.sponsor-description }}
-			{% endif %}
-            {% include partial-sponsor-listing.html event=event %}
-		{% endif %}
-
-
-		{% if event.afterparty %}
-
-			<hr>
-
-			<h2 id="event-afterparty">Afterparty</h2>
-			{% for partyID in site.data.events.events %}
-				{% if partyID.name == event.afterparty %}
-
-					{% for venue in site.data.venues.venues %}
-						{% if venue.name == partyID.venue %}
-							{% include partial-venue.html venue=venue %}
-						{% endif %}
-					{% endfor %}
-
-					{% for p in partyID.description %}
-						<p>{{ p.p }}</p>
-					{% endfor %}
-
+			<div class="sponsors">
+				<h2 id="event-sponsors">Sponsors</h2>
+	            {% include partial-sponsor-listing.html event=event %}
+				{% if event.sponsor-description %}
+					{{ event.sponsor-description }}
 				{% endif %}
-			{% endfor %}
+	        </div>
 		{% endif %}
 
-
-		{% if event.afterwards %}
-
-			<hr>
-
-			<h2 id="event-afterwards">Afterwards</h2>
-			<p>{{ event.afterwards }}</p>
-		{% endif %}
-
+	</div>
 
 	{% endif %}
 {% endfor %}

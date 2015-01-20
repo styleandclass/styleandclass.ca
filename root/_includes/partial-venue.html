@@ -4,15 +4,12 @@
 	</a>
 	<div class="venue-address">
 		<p class="adr">
-			<span class="street-address">{{ include.venue.address }}</span>
-			{% if include.venue.map %}
-				<a href="{{ include.venue.map }}">
-				  (map)
-				</a>
-			{% endif %}<br>
-			<span class="city">{{ include.venue.city }}</span>,
-			<span class="region">{{ include.venue.province }}</span>
-			<br><span class="country-name">{{ include.venue.country }}</span>
+			<div class="street-address">{{ include.venue.address }}</div>
+			<div>
+				<span class="city">{{ include.venue.city }}</span>,
+				<span class="region">{{ include.venue.province }}</span>
+			</div>
+			<div class="country-name">{{ include.venue.country }}</div>
 		</p>
 	</div>
 </div>

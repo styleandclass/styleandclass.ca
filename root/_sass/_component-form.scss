@@ -18,7 +18,7 @@ textarea {
     @extend %formstyle;
 }
 
-button, .button {
+button, .button, .button:link, .button:visited {
     padding: 0.5rem 2rem;
     border: none;
     border-radius: 2px;
@@ -26,7 +26,14 @@ button, .button {
     background: $brand-highlight;
 
     font-size: 1.2rem;
+    text-align: center;
     text-transform: uppercase;
+}
+button, .button {
+    &:hover, &:focus {
+        background: rgba($brand-highlight, 0.95);
+        text-decoration: none;
+    }
 }
 .form {
     @include screen-medium {
