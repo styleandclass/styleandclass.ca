@@ -366,6 +366,7 @@ hr {
     border: none;
     list-style: none; }
   .site-footer-events .event-list .event-name {
+    font-size: 1rem;
     margin-bottom: 0; }
   .site-footer-events .event-list .event-date {
     padding-bottom: 0;
@@ -480,13 +481,14 @@ hr {
   box-sizing: border-box;
   padding: 0 1rem 2rem 1rem;
   color: white;
-  font-style: italic;
+  font-family: "freight-display-pro", serif;
+  font-weight: 300;
   font-size: 1.3rem;
   line-height: 1.5; }
   @media (min-width: 801px) {
     .home-mission {
       flex: 0 1 40rem;
-      padding: 0 0 0 3rem;
+      padding: 0 0 0 6rem;
       font-size: 2rem;
       text-align: right; } }
 
@@ -570,25 +572,19 @@ hr {
         color: #ca4c33;
         font-size: 1rem; } }
 
-.with-calendar .event {
-  position: relative; }
 @media (min-width: 481px) {
-  .with-calendar .event-description, .with-calendar .talk-list {
-    padding-left: 6.5rem; } }
-@media (min-width: 801px) {
-  .with-calendar .event-description, .with-calendar .talk-list {
-    padding-left: 12.5rem; } }
-@media (min-width: 481px) {
-  .with-calendar .event-date.calendar {
-    position: absolute;
-    top: 4.5rem;
-    left: 0; } }
+  .with-calendar .event {
+    display: flex; }
+  .with-calendar .date {
+    flex: 0 0 196px; }
+  .with-calendar .summary {
+    flex: 1 1 auto; } }
 
 .event-list {
   margin: 0; }
   .event-list .event {
-    padding: 0 0 2rem 0;
-    margin: 0 0 3rem 0;
+    padding: 1rem 0 1rem 0;
+    margin: 1rem 0 1rem 0;
     border-bottom: dotted 1px #e0dbd8;
     list-style: none; }
     .event-list .event:last-child {
@@ -601,7 +597,7 @@ hr {
     margin-bottom: 0; }
     @media (min-width: 481px) {
       .event-list .event-name {
-        margin-bottom: 2rem; } }
+        margin-bottom: 1rem; } }
   .event-list .event-date {
     display: inline-block;
     padding-bottom: 1rem;
@@ -611,6 +607,8 @@ hr {
       .event-list .event-date {
         padding-bottom: none;
         border-bottom: none; } }
+  .event-list .event-description {
+    padding-bottom: 0.5rem; }
   .event-list .talk {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem; }
@@ -647,9 +645,6 @@ hr {
   font-size: 1.25rem; }
   .event-overview .button {
     display: inline-block; }
-  @media (min-width: 961px) {
-    .event-overview {
-      margin-left: 196px; } }
   @media (min-width: 641px) {
     .event-overview.register {
       display: flex; }
@@ -692,13 +687,17 @@ hr {
       clear: right;
       text-align: center; }
   .event-details .sponsor-logo {
-    padding-bottom: 0.5rem; }
+    padding-bottom: 0.5rem;
+    width: 58px; }
   .event-details .sponsor-description h3 {
     font-size: 0.875rem;
     font-weight: normal; }
   .event-details .sponsor-info {
     clear: right;
-    padding-left: 2rem; } }
+    padding-left: 2rem;
+    text-align: right;
+    font-size: 0.875rem;
+    font-weight: normal; } }
 
 .event-venue, .event-talks, .event-after {
   margin-bottom: 2rem; }

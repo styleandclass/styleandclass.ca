@@ -1,28 +1,30 @@
-{% if include.calendar == "true" %}
-    {% assign calendarClass = " calendar" %}
-{% endif %}
+<div class="date">
+    {% if include.calendar == "true" %}
+        {% assign calendarClass = " calendar" %}
+    {% endif %}
+
+    <a href="{{ event.url-site }}">
+        {% include partial-date.html event=event calendarClass=calendarClass %}
+    </a>
+</div>
+
+<div class="summary">
+    {% if include.headings != null %}
+        <{{ include.headings }}>
+    {% endif %}
+        <a class="event-name" href="{{ event.url-site }}">{{ event.name }}</a>
+    {% if include.headings != null %}
+        </{{ include.headings }}>
+    {% endif %}
+
+    {% if include.shortDesc %}
+
+        {% include partial-event-description.html event=event shortDesc=include.shortDesc %}
+
+    {% endif %}
 
 
-{% if include.headings != null %}
-    <{{ include.headings }}>
-{% endif %}
-    <a class="event-name" href="{{ event.url-site }}">{{ event.name }}</a>
-{% if include.headings != null %}
-    </{{ include.headings }}>
-{% endif %}
-
-
-<a href="{{ event.url-site }}">
-	{% include partial-date.html event=event calendarClass=calendarClass %}
-</a>
-
-{% if include.shortDesc %}
-
-    {% include partial-event-description.html event=event shortDesc=include.shortDesc %}
-
-{% endif %}
-
-
-{% if include.talks == "true" %}
-    {% include partial-talk-listing.html event=event parent="talk-list" descriptions="false" %}
-{% endif %}
+    {% if include.talks == "true" %}
+        {% include partial-talk-listing.html event=event parent="talk-list" descriptions="false" %}
+    {% endif %}
+</div>

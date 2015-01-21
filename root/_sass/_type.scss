@@ -20,6 +20,11 @@
     -webkit-text-size-adjust: 100%;
 }
 
+@mixin type-alternate {
+    font-family: "freight-display-pro", serif;
+    font-weight: 300;
+}
+
 @mixin type-header-primary {
     font-size: $base-font-size * 1.25;
 }
@@ -41,8 +46,7 @@ h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: "freight-display-pro", serif;
-    font-weight: 300;
+    @include type-alternate;
     font-size: $base-font-size * 2;
 }
 h2 {

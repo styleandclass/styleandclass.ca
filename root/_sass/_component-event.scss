@@ -74,22 +74,17 @@
 }
 // variations with calendar date formats
 .with-calendar {
-    .event {
-        position: relative;
-    }
-    .event-description, .talk-list {
-        @include screen-xsmall {
-            padding-left: 6.5rem;
+
+    // only break up the display on larger screens
+    @include screen-xsmall {
+        .event {
+            display: flex;
         }
-        @include screen-medium {
-            padding-left: 12.5rem;
+        .date {
+            flex: 0 0 196px;
         }
-    }
-    .event-date.calendar {
-        @include screen-xsmall {
-            position: absolute;
-            top: 4.5rem;
-            left: 0;
+        .summary {
+            flex: 1 1 auto;
         }
     }
 }
@@ -106,8 +101,8 @@
     margin: 0;
 
     .event {
-        padding: 0 0 2rem 0;
-        margin: 0 0 3rem 0;
+        padding: 1rem 0 1rem 0;
+        margin: 1rem 0 1rem 0;
         border-bottom: dotted 1px $grey-colour-lighter;
         list-style: none;
 
@@ -126,7 +121,7 @@
         margin-bottom: 0;
 
         @include screen-xsmall {
-            margin-bottom: 2rem;
+            margin-bottom: 1rem;
         }
     }
     .event-date {
@@ -138,6 +133,9 @@
             padding-bottom: none;
             border-bottom: none;
         }
+    }
+    .event-description {
+        padding-bottom: 0.5rem;
     }
 
     .talk {
@@ -203,10 +201,6 @@
 
     .button {
         display: inline-block;
-    }
-
-    @include screen-large {
-        margin-left: 196px;
     }
 
     // turn on flexbox if registration is open
@@ -275,6 +269,7 @@
         }
         .sponsor-logo {
             padding-bottom: 0.5rem;
+            width: 58px;
         }
         .sponsor-description h3 {
             @include type-header-small;
@@ -282,6 +277,8 @@
         .sponsor-info {
             clear: right;
             padding-left: 2rem;
+            text-align: right;
+            @include type-header-small;
         }
     }
 
