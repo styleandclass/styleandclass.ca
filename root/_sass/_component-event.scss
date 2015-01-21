@@ -33,7 +33,7 @@
 //  (used for calendar date formatting)
 //
 .event-date {
-    text-transform: uppercase;
+    @include type-header-secondary;
 
     &.calendar {
         @include screen-xsmall {
@@ -137,6 +137,16 @@
             border-bottom: none;
         }
     }
+
+    .talk {
+
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
+        .title {
+            font-weight: normal;
+        }
+    }
 }
 //
 //  Event next component
@@ -228,27 +238,48 @@
     @include screen-small {
 
         // turn on flexbox if this event has sponsors
-        &.sponsors {
+        &.with-sponsors {
             display: flex;
             .details {
                 flex: 0 1 75%;
             }
             .sponsors {
                 flex: 0 1 25%;
-                text-align: right;
             }
         }
 
         // override sponsor default styling a bit
+        .sponsors h2 {
+            @include type-header-secondary;
+            float: right;
+            width: 83px;
+            text-align: center;
+        }
         .sponsor-list {
 
             display: block;
             padding-left: 20px;
+            text-align: right;
 
             .sponsor {
+                display: inline-block;
                 flex: none;
-                text-align: right;
+                padding: 0 0 1rem 0;
+                width: 83px;
+                float: right;
+                clear: right;
+                text-align: center;
             }
+        }
+        .sponsor-logo {
+            padding-bottom: 0.5rem;
+        }
+        .sponsor-description h3 {
+            @include type-header-small;
+        }
+        .sponsor-info {
+            clear: right;
+            padding-left: 2rem;
         }
     }
 
@@ -271,6 +302,10 @@
         .detail {
             flex: 1 1 auto;
         }
+    }
+
+    h2 {
+        @include type-header-secondary;
     }
 }
 

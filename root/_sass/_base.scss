@@ -37,11 +37,7 @@ body {
     background-repeat: no-repeat;
     background-size: auto 100%;
 
-    font-family: $base-font-family;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-    font-weight: normal;
-    -webkit-text-size-adjust: 100%;
+    @include type-base;
 
     @include screen-medium {
         background-size: 100% auto;
@@ -73,28 +69,6 @@ section {
     margin-bottom: 2rem;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 100;
-}
-
-h1 {
-    font-size: $base-font-size * 2;
-}
-h2 {
-    font-size: $base-font-size * 1.5;
-}
-h3 {
-    font-size: $base-font-size * 1.25;
-}
-h4 {
-    font-size: $base-font-size * 1.09375;
-}
-h5 {
-    font-size: $base-font-size;
-}
-h6 {
-    font-size: $base-font-size * 0.875;
-}
 
 
 

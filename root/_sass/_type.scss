@@ -1,0 +1,59 @@
+/*
+
+    Typography mixins
+
+*/
+
+
+
+
+/*
+
+ Base type declaration
+
+*/
+@mixin type-base {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: normal;
+    -webkit-text-size-adjust: 100%;
+}
+
+@mixin type-header-secondary {
+    font-size: $base-font-size;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+@mixin type-header-small {
+    font-size: $base-font-size * 0.875;
+    font-weight: normal;
+}
+
+
+
+
+h2, h3, h4, h5, h6 {
+    font-weight: 100;
+}
+
+h1 {
+    font-family: "freight-display-pro", serif;
+    font-weight: 300;
+    font-size: $base-font-size * 2;
+}
+h2 {
+    font-size: $base-font-size * 1.5;
+}
+h3 {
+    font-size: $base-font-size * 1.25;
+}
+h4 {
+    font-size: $base-font-size * 1.09375;
+}
+h5 {
+    @include type-header-secondary;
+}
+h6 {
+    @include type-header-small;
+}

@@ -5,6 +5,42 @@
 */
 /*
 
+    Typography mixins
+
+*/
+/*
+
+ Base type declaration
+
+*/
+h2, h3, h4, h5, h6 {
+  font-weight: 100; }
+
+h1 {
+  font-family: "freight-display-pro", serif;
+  font-weight: 300;
+  font-size: 2rem; }
+
+h2 {
+  font-size: 1.5rem; }
+
+h3 {
+  font-size: 1.25rem; }
+
+h4 {
+  font-size: 1.09375rem; }
+
+h5 {
+  font-size: 1rem;
+  font-weight: normal;
+  text-transform: uppercase; }
+
+h6 {
+  font-size: 0.875rem;
+  font-weight: normal; }
+
+/*
+
     Basic reset
 
 */
@@ -61,27 +97,6 @@ li > ol {
 
 section {
   margin-bottom: 2rem; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 100; }
-
-h1 {
-  font-size: 2rem; }
-
-h2 {
-  font-size: 1.5rem; }
-
-h3 {
-  font-size: 1.25rem; }
-
-h4 {
-  font-size: 1.09375rem; }
-
-h5 {
-  font-size: 1rem; }
-
-h6 {
-  font-size: 0.875rem; }
 
 a {
   color: #ca4c33;
@@ -173,28 +188,6 @@ hr {
 
 /*
 
-
-    TO DO
-
-    - subnav
-    - event pages
-    - speaker extra links
-
-    - polish
-    - responsive fixes
-
-    - contact form
-    - blog post
-
-    - flexbox/transition/box-sizing prefixes
-    - why are the wrong events showing up in footer?
-
-    - multiple speakers on one talk
-
-
-*/
-/*
-
     Base responsive layout
 
 */
@@ -250,7 +243,7 @@ hr {
       width: 200px; } }
 
 .site-logo-img {
-  max-width: 200px; }
+  max-width: 176px; }
 
 .site-nav {
   flex: 1 1 auto;
@@ -314,7 +307,7 @@ hr {
   font-size: 0.875rem;
   color: rgba(255, 255, 255, 0.6); }
   .site-footer a {
-    color: #fff; }
+    color: white; }
 
 .site-footer .wrapper {
   display: flex;
@@ -454,7 +447,7 @@ hr {
   .home-decoration .site-nav-item a {
     color: rgba(255, 255, 255, 0.7); }
     .home-decoration .site-nav-item a:hover, .home-decoration .site-nav-item a:focus {
-      color: #fff; }
+      color: white; }
 
 .home-content {
   align-items: center;
@@ -478,7 +471,7 @@ hr {
 
 .home-logo-img {
   width: 10rem;
-  color: #fff; }
+  color: white; }
   @media (min-width: 801px) {
     .home-logo-img {
       width: 15rem; } }
@@ -486,7 +479,7 @@ hr {
 .home-mission {
   box-sizing: border-box;
   padding: 0 1rem 2rem 1rem;
-  color: #fff;
+  color: white;
   font-style: italic;
   font-size: 1.3rem;
   line-height: 1.5; }
@@ -545,6 +538,8 @@ hr {
       margin-bottom: 3rem; } }
 
 .event-date {
+  font-size: 1rem;
+  font-weight: normal;
   text-transform: uppercase; }
   @media (min-width: 481px) {
     .event-date.calendar {
@@ -556,7 +551,7 @@ hr {
         line-height: 1; }
       .event-date.calendar .d {
         display: block;
-        color: #fff;
+        color: white;
         font-size: 2rem;
         line-height: 1; }
       .event-date.calendar .outline {
@@ -615,13 +610,18 @@ hr {
       .event-list .event-date {
         padding-bottom: none;
         border-bottom: none; } }
+  .event-list .talk {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem; }
+    .event-list .talk .title {
+      font-weight: normal; }
 
 .event-next {
   display: flex;
   flex-direction: row;
   align-items: top;
   padding: 1rem;
-  color: #fff;
+  color: white;
   background: #ca4c33;
   text-align: left; }
   .event-next .title {
@@ -632,7 +632,7 @@ hr {
   .event-next .talk-condensed {
     flex: 2 0 auto; }
   .event-next .event-name:link, .event-next .event-name:visited {
-    color: #fff; }
+    color: white; }
   .event-next .event-date {
     display: block;
     color: rgba(255, 255, 255, 0.7); }
@@ -665,19 +665,39 @@ hr {
   white-space: nowrap; }
 
 @media (min-width: 641px) {
-  .event-details.sponsors {
+  .event-details.with-sponsors {
     display: flex; }
-    .event-details.sponsors .details {
+    .event-details.with-sponsors .details {
       flex: 0 1 75%; }
-    .event-details.sponsors .sponsors {
-      flex: 0 1 25%;
-      text-align: right; }
+    .event-details.with-sponsors .sponsors {
+      flex: 0 1 25%; }
+  .event-details .sponsors h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    float: right;
+    width: 83px;
+    text-align: center; }
   .event-details .sponsor-list {
     display: block;
-    padding-left: 20px; }
+    padding-left: 20px;
+    text-align: right; }
     .event-details .sponsor-list .sponsor {
+      display: inline-block;
       flex: none;
-      text-align: right; } }
+      padding: 0 0 1rem 0;
+      width: 83px;
+      float: right;
+      clear: right;
+      text-align: center; }
+  .event-details .sponsor-logo {
+    padding-bottom: 0.5rem; }
+  .event-details .sponsor-description h3 {
+    font-size: 0.875rem;
+    font-weight: normal; }
+  .event-details .sponsor-info {
+    clear: right;
+    padding-left: 2rem; } }
 
 .event-venue, .event-talks, .event-after {
   margin-bottom: 2rem; }
@@ -690,6 +710,10 @@ hr {
         padding-right: 20px; }
       .event-venue .detail, .event-talks .detail, .event-after .detail {
         flex: 1 1 auto; } }
+  .event-venue h2, .event-talks h2, .event-after h2 {
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: uppercase; }
 
 .event-map {
   width: 100%;
@@ -708,7 +732,7 @@ button, .button, .button:link, .button:visited {
   padding: 0.5rem 2rem;
   border: none;
   border-radius: 2px;
-  color: #fff;
+  color: white;
   background: #ca4c33;
   font-size: 1.2rem;
   text-align: center;
@@ -829,8 +853,8 @@ button:hover, button:focus, .button:hover, .button:focus {
   list-style: none; }
 
 .sponsor-logo {
-  max-width: 100px;
-  max-height: 100px; }
+  max-width: 83px;
+  max-height: 83px; }
 
 .talk-container {
   margin: 0; }
@@ -907,32 +931,32 @@ button:hover, button:focus, .button:hover, .button:focus {
     font-style: italic; }
   .highlight .gd {
     color: #000;
-    background-color: #fdd; }
+    background-color: #ffdddd; }
   .highlight .gd .x {
     color: #000;
-    background-color: #faa; }
+    background-color: #ffaaaa; }
   .highlight .ge {
     font-style: italic; }
   .highlight .gr {
-    color: #a00; }
+    color: #aa0000; }
   .highlight .gh {
-    color: #999; }
+    color: #999999; }
   .highlight .gi {
     color: #000;
-    background-color: #dfd; }
+    background-color: #ddffdd; }
   .highlight .gi .x {
     color: #000;
-    background-color: #afa; }
+    background-color: #aaffaa; }
   .highlight .go {
-    color: #888; }
+    color: #888888; }
   .highlight .gp {
-    color: #555; }
+    color: #555555; }
   .highlight .gs {
     font-weight: bold; }
   .highlight .gu {
-    color: #aaa; }
+    color: #aaaaaa; }
   .highlight .gt {
-    color: #a00; }
+    color: #aa0000; }
   .highlight .kc {
     font-weight: bold; }
   .highlight .kd {
@@ -945,20 +969,20 @@ button:hover, button:focus, .button:hover, .button:focus {
     color: #458;
     font-weight: bold; }
   .highlight .m {
-    color: #099; }
+    color: #009999; }
   .highlight .s {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .na {
-    color: #008080; }
+    color: teal; }
   .highlight .nb {
-    color: #0086B3; }
+    color: #0086b3; }
   .highlight .nc {
     color: #458;
     font-weight: bold; }
   .highlight .no {
-    color: #008080; }
+    color: teal; }
   .highlight .ni {
-    color: #800080; }
+    color: purple; }
   .highlight .ne {
     color: #900;
     font-weight: bold; }
@@ -966,52 +990,52 @@ button:hover, button:focus, .button:hover, .button:focus {
     color: #900;
     font-weight: bold; }
   .highlight .nn {
-    color: #555; }
+    color: #555555; }
   .highlight .nt {
-    color: #000080; }
+    color: navy; }
   .highlight .nv {
-    color: #008080; }
+    color: teal; }
   .highlight .ow {
     font-weight: bold; }
   .highlight .w {
-    color: #bbb; }
+    color: #bbbbbb; }
   .highlight .mf {
-    color: #099; }
+    color: #009999; }
   .highlight .mh {
-    color: #099; }
+    color: #009999; }
   .highlight .mi {
-    color: #099; }
+    color: #009999; }
   .highlight .mo {
-    color: #099; }
+    color: #009999; }
   .highlight .sb {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .sc {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .sd {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .s2 {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .se {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .sh {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .si {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .sx {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .sr {
     color: #009926; }
   .highlight .s1 {
-    color: #d14; }
+    color: #dd1144; }
   .highlight .ss {
     color: #990073; }
   .highlight .bp {
-    color: #999; }
+    color: #999999; }
   .highlight .vc {
-    color: #008080; }
+    color: teal; }
   .highlight .vg {
-    color: #008080; }
+    color: teal; }
   .highlight .vi {
-    color: #008080; }
+    color: teal; }
   .highlight .il {
-    color: #099; }
+    color: #009999; }

@@ -2,7 +2,7 @@
 	{% if event.name == currentEvent %}
 
 		<div class="event-overview{% if event.registration == "open" %} register{% endif %}">
-			
+
 			<div class="summary">
 				<h1 id="event-name" class="event-name">{{ event.name }}</h1>
 			    {% include partial-date.html event=event %}
@@ -33,7 +33,7 @@
 		</div>
 
 
-        <div class="event-details{% if event.sponsors %} sponsors{% endif %}">
+        <div class="event-details{% if event.sponsors %} with-sponsors{% endif %}">
 
 	    	<div class="details">
 
@@ -115,7 +115,7 @@
 				<h2 id="event-sponsors">Sponsors</h2>
 	            {% include partial-sponsor-listing.html event=event %}
 				{% if event.sponsor-description %}
-					{{ event.sponsor-description }}
+					<p class="sponsor-info">{{ event.sponsor-description }}</p>
 				{% endif %}
 	        </div>
 		{% endif %}
