@@ -20,6 +20,9 @@
     -webkit-text-size-adjust: 100%;
 }
 
+@mixin type-header-primary {
+    font-size: $base-font-size * 1.25;
+}
 @mixin type-header-secondary {
     font-size: $base-font-size;
     font-weight: normal;
@@ -46,7 +49,7 @@ h2 {
     font-size: $base-font-size * 1.5;
 }
 h3 {
-    font-size: $base-font-size * 1.25;
+    @include type-header-primary;
 }
 h4 {
     font-size: $base-font-size * 1.09375;

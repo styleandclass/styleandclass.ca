@@ -120,6 +120,8 @@
         }
     }
     .event-name {
+        @include type-header-primary;
+
         display: block;
         margin-bottom: 0;
 

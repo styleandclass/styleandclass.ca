@@ -596,6 +596,7 @@ hr {
     .event-list .event h2 {
       margin-bottom: 0; }
   .event-list .event-name {
+    font-size: 1.25rem;
     display: block;
     margin-bottom: 0; }
     @media (min-width: 481px) {
