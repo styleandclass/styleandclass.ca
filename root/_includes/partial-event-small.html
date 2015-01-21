@@ -11,7 +11,10 @@
     </{{ include.headings }}>
 {% endif %}
 
-{% include partial-date.html event=event calendarClass=calendarClass %}
+
+<a href="{{ event.url-site }}">
+	{% include partial-date.html event=event calendarClass=calendarClass %}
+</a>
 
 {% if include.shortDesc %}
 
