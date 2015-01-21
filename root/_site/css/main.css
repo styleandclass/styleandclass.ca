@@ -410,7 +410,7 @@ hr {
 
 .home-decoration {
   background-color: #753c51;
-  background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/site-bg.gif);
+  background-image: linear-gradient(to bottom, rgba(91, 44, 63, 0.4) 0%, rgba(91, 44, 63, 0.6) 100%), url(/images/site/site-bg.gif);
   background-position: 0 0, 50% top;
   background-repeat: repeat-x, no-repeat;
   background-position: 0 0, 50% 50%; }
@@ -429,22 +429,22 @@ hr {
       background-position: 0 0, 50% top;
       background-size: 100%, 120%; } }
   .home-decoration.crowd {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/crowd.gif);
+    background-image: linear-gradient(to bottom, rgba(91, 44, 63, 0.4) 0%, rgba(91, 44, 63, 0.6) 100%), url(/images/site/crowd.gif);
     background-position: 0 0, 50% bottom; }
   .home-decoration.james {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/james.gif); }
+    background-image: linear-gradient(to bottom, rgba(91, 44, 63, 0.4) 0%, rgba(91, 44, 63, 0.6) 100%), url(/images/site/james.gif); }
   .home-decoration.s-c {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/s&c.gif);
+    background-image: linear-gradient(to bottom, rgba(91, 44, 63, 0.4) 0%, rgba(91, 44, 63, 0.6) 100%), url(/images/site/s&c.gif);
     background-position: 0 0, 50% bottom; }
   .home-decoration.stephanie {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/stephanie.gif);
+    background-image: linear-gradient(to bottom, rgba(91, 44, 63, 0.4) 0%, rgba(91, 44, 63, 0.6) 100%), url(/images/site/stephanie.gif);
     background-position: 0 0, 100% top; }
   .home-decoration.steves {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/steves.gif); }
+    background-image: linear-gradient(to bottom, rgba(91, 44, 63, 0.4) 0%, rgba(91, 44, 63, 0.6) 100%), url(/images/site/steves.gif); }
   .home-decoration.tyler {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/tyler.gif); }
+    background-image: linear-gradient(to bottom, rgba(91, 44, 63, 0.4) 0%, rgba(91, 44, 63, 0.6) 100%), url(/images/site/tyler.gif); }
   .home-decoration.vitaly {
-    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.2) 100%), url(/images/site/vitaly.gif); }
+    background-image: linear-gradient(to bottom, rgba(91, 44, 63, 0.4) 0%, rgba(91, 44, 63, 0.6) 100%), url(/images/site/vitaly.gif); }
   .home-decoration .wrapper {
     text-align: center; }
   .home-decoration .site-header {
