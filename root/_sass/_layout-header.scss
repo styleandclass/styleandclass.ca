@@ -3,9 +3,11 @@
 //
 .site-header {
     @extend %clearfix;
+    background-color: $brand-colour;
 
     @include screen-medium {
-        margin-bottom: 4rem;
+        padding-bottom: 1rem;
+        margin-bottom: 3rem;
     }
 
     .wrapper {
@@ -22,17 +24,16 @@
 .site-title {
 
     flex: 1 0 100%;
+    height: 60px;
+    padding-top: 1rem;
+    color: $text-colour-reversed;
+    text-align: center;
 
     @include screen-medium {
+        text-align: left;
         flex: 0 0 200px;
         width: 200px;
     }
-
-    height: 60px;
-    padding-top: 1rem;
-
-    color: $brand-colour;
-    text-align: center;
 
 }
 .site-logo-img {
@@ -70,12 +71,15 @@
 
     @include screen-medium {
         margin: 0 0.75rem;
-    }
 
-    &.is-selected {
-        a {
-            color: $brand-highlight;
+        &.is-selected {
+            a {
+                color: $brand-highlight;
+            }
         }
+    }
+    a {
+        color: $text-colour-reversed;
     }
     a:hover, a:focus {
         text-decoration: none;
@@ -91,8 +95,8 @@
     text-align: center;
 
     @include screen-medium {
-        top: 6rem;
-        right: 2rem;
+        top: 10.5rem;
+        right: 1rem;
         width: auto;
         margin: 0;
     }
@@ -105,6 +109,12 @@
         @include screen-xsmall {
             margin: 0 0.75rem;
         }
+        @include screen-medium {
+            a {
+                color: $brand-contrast;
+            }
+        }
+
 
         &.is-selected {
             background: transparent;
