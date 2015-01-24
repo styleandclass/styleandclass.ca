@@ -1,5 +1,14 @@
 {% assign navurl = page.url | remove: 'index.html' %}
-<ul class="{{ include.wrapper }}">
+{% assign checkSubnav = '' %}
+
+
+{% for item in include.nav %}
+    {% if item.subitems and navurl contains item.url %}
+        {% assign checkSubnav = ' with-sub-nav' %}
+    {% endif %}
+{% endfor %}
+
+<ul class="{{ include.wrapper }}{{ checkSubnav }}">
 {% for item in include.nav %}
     {% if item.url == navurl %}
         {% assign navClass = ' is-selected' %}
@@ -19,7 +28,7 @@
     </li>
 
     {% if item.subitems and navurl contains item.url %}
-        {% include nav.html nav=item.subitems wrapper="subNav" %}
+        {% include nav.html nav=item.subitems wrapper="sub-nav" %}
     {% endif %}
 {% endfor %}
 </ul>

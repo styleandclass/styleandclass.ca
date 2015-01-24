@@ -19,6 +19,11 @@ $grey-colour-lighter:   lighten($grey-colour, 15%);
 $grey-colour-dark:      darken($grey-colour, 25%);
 
 
+// opacity of the gradient that overlays the header, home page
+$overlay-opacity-start: 0.4;
+$overlay-opacity-end: 0.6;
+
+
 /*
 
     Base media query mixins

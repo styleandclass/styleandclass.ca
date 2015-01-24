@@ -3,7 +3,12 @@
 //
 .site-header {
     @extend %clearfix;
+    margin-bottom: 2rem;
+
     background-color: $brand-colour;
+    background-image: linear-gradient(to bottom, rgba(#5b2c3f, $overlay-opacity-start) 0%, rgba(#5b2c3f, $overlay-opacity-end) 100%), url(/images/site/site-bg.gif);
+    background-position: 0 0, 50% bottom;
+    background-repeat: repeat-x, no-repeat;
 
     @include screen-medium {
         padding-bottom: 1rem;
@@ -25,14 +30,18 @@
 
     flex: 1 0 100%;
     height: 60px;
-    padding-top: 1rem;
-    color: $text-colour-reversed;
+    color: rgba($text-colour-reversed, 0.9);
     text-align: center;
+
+    &:hover, &:focus {
+        color: $text-colour-reversed;
+    }
 
     @include screen-medium {
         text-align: left;
         flex: 0 0 200px;
         width: 200px;
+        padding-top: 1rem;
     }
 
 }
@@ -47,7 +56,7 @@
     padding: 1rem 0;
 
     @include screen-xsmall {
-        padding: 2rem 0 3rem 0;
+        padding: 2rem 0 1rem 0;
     }
     @include screen-medium {
         padding: 3rem 0 0 0;
@@ -56,71 +65,93 @@
 }
 .site-nav-wrapper {
     margin: 0;
+    &.with-sub-nav {
+        padding-bottom: 1.5rem;
+    }
 }
 .site-nav-item {
     display: inline-block;
     padding: 0.5rem 0.25rem;
     margin: 0;
 
-    @include screen-xsmall {
-        padding: 0.5rem 0.75rem;
-    }
-
     text-transform: uppercase;
     list-style: none;
 
-    @include screen-medium {
-        margin: 0 0.75rem;
 
-        &.is-selected {
-            a {
-                color: $brand-highlight;
-            }
+    &.is-selected {
+        a {
+            background: $brand-highlight;
+            border-radius: 2px;
         }
     }
+
+    @include screen-xsmall {
+        padding: 0.5rem 0.75rem;
+    }
+    @include screen-medium {
+        margin: 0 0.75rem;
+    }
+
     a {
-        color: $text-colour-reversed;
+        display: inline-block;
+        color: rgba($text-colour-reversed, 0.85);
+        padding: 0.25rem 0.5rem;
+        margin: -0.25rem -0.5rem;
     }
     a:hover, a:focus {
+        color: $text-colour-reversed;
         text-decoration: none;
-        border-bottom: solid 1px $grey-colour-lighter;
         transition: border-color 0.25s ease-out;
     }
 }
-.subNav {
-
+.sub-nav {
     position: absolute;
+    bottom: 0.5rem;
     width: 100%;
     margin: 0;
     text-align: center;
 
     @include screen-medium {
         top: 10.5rem;
+        bottom: auto;
         right: 1rem;
         width: auto;
         margin: 0;
     }
 
     .site-nav-item {
-        text-transform: none;
         padding: 0;
         margin: 0 0.25rem;
+
+        text-transform: none;
 
         @include screen-xsmall {
             margin: 0 0.75rem;
         }
-        @include screen-medium {
-            a {
-                color: $brand-contrast;
+
+        a {
+            color: rgba($text-colour-reversed, 0.4);
+            &:hover, &:focus {
+                color: $text-colour-reversed;
             }
         }
+        &.is-selected a {
+            color: $text-colour-reversed;
+            background: none;
+        }
 
-
-        &.is-selected {
-            background: transparent;
+        @include screen-medium {
             a {
+                color: $brand-highlight;
+                &:hover, &:focus {
+                    color: $brand-contrast;
+                }
+            }
+            &.is-selected a {
                 color: $text-colour;
             }
         }
+
+
     }
 }

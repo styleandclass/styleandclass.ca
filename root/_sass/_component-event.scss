@@ -103,7 +103,7 @@
     .event {
         padding: 1rem 0 1rem 0;
         margin: 1rem 0 1rem 0;
-        border-bottom: dotted 1px $grey-colour-lighter;
+        border-bottom: dotted 1px $grey-colour-light;
         list-style: none;
 
         &:last-child {
@@ -196,7 +196,7 @@
 .event-overview {
     padding-bottom: 2rem;
     margin-bottom: 2rem;
-    border-bottom: solid 1px $grey-colour-lighter;
+    border-bottom: dotted 1px $grey-colour-light;
     font-size: $base-font-size * 1.25;
 
     .button {

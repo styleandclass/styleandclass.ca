@@ -1,4 +1,4 @@
-<div class="person">
+<{{ include.container }} class="person" id="{{ include.person.twitter }}">
 
     {% include partial-person-avatar.html person=include.person %}
 
@@ -57,4 +57,4 @@
         {% endif %}
     </ul>
 
-</div>
+</{{ include.container }}>

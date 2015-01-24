@@ -8,9 +8,7 @@ title: Organizers
 <ul class="people-container">
     {% for person in site.data.people.people %}
         {% if person.organizer == "true" %}
-            <li id="{{ person.twitter }}">
-                {% include partial-person.html person=person %}
-            </li>
+            {% include partial-person.html person=person container="li" %}
         {% endif %}
     {% endfor %}
 </ul>
@@ -21,9 +19,7 @@ title: Organizers
 <ul class="people-container">
     {% for person in site.data.people.people %}
         {% if person.organizer == "former" %}
-            <li id="{{ person.twitter }}">
-                {% include partial-person.html person=person %}
-            </li>
+            {% include partial-person.html person=person container="li" %}
         {% endif %}
     {% endfor %}
 </ul>

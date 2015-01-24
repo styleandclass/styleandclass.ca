@@ -11,8 +11,15 @@
 }
 
 .person {
-    margin-bottom: 3rem;
+
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: dotted 1px $grey-colour-light;
     text-align: center;
+
+    &:last-child {
+        border-bottom: none;
+    }
 
     @include screen-small {
         display: flex;

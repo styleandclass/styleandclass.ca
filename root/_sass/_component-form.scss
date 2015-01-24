@@ -25,6 +25,8 @@ button, .button, .button:link, .button:visited {
     color: $text-colour-reversed;
     background: $brand-highlight;
 
+    @include type-base;
+
     font-size: 1.2rem;
     text-align: center;
     text-transform: uppercase;

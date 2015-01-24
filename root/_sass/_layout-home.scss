@@ -3,15 +3,10 @@
 //
 
 
-// opacity of the gradient that overlays the home page images
-$overlay-opacity-start: 0.4;
-$overlay-opacity-end: 0.6;
-
 .home-decoration {
 
     background-color: $brand-colour;
     background-image: linear-gradient(to bottom, rgba(#5b2c3f, $overlay-opacity-start) 0%, rgba(#5b2c3f, $overlay-opacity-end) 100%), url(/images/site/site-bg.gif);
-    background-position: 0 0, 50% top;
     background-repeat: repeat-x, no-repeat;
     background-position: 0 0, 50% 50%;
 
