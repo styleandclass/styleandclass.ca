@@ -14,3 +14,29 @@
 }
 
 
+.post-header {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: dotted 1px $grey-colour-light;
+}
+.post-date {
+	text-transform: uppercase;
+}
+.post-author {
+	color: $brand-contrast;
+}
+
+// only break up the display on larger screens
+@include screen-xsmall {
+	.post-contents {
+		display: flex;
+	}
+	.post-meta {
+		flex: 0 0 196px;
+		padding-right: 20px;
+	}
+	.post-content {
+		flex: 1 1 auto;
+	}
+}
+

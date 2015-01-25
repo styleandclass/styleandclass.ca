@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "Style & Class finally has a website?!"
+date:   2015-01-25 17:00:00
+categories: styleclass
+author: "Dave Shea"
+---
+
+The irony isn't lost on us. After a year of great meetups about building the web as well as a full conference, that Style &amp; Class existed as mostly a Meetup group without its own permanent home on the web.
+
+Well, we're finally fixing that today. We've been hard at work over the past month building this site. It's about 90% of the way there, 
+
+We see this new site as a necessary first step toward a much expanded Style &amp; Class. The [organizing committee][organizers] has only started discussing what comes next, so while we can't be more than vague right now, you should expect more announcements over the coming months.
+
+
+
+In the meantime, head on over to [our Meetup page][meetup] for future event details.
+
+
+[meetup]:      http://www.meetup.com/styleandclass/
+[github]:      https://github.com/styleandclass/styleandclass.ca
+[organizers]:  /about/organizers/

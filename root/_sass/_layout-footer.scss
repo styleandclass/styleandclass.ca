@@ -3,11 +3,14 @@
 //
 
 .site-footer {
-    font-size: $base-font-size * 0.875;
     color: rgba($text-colour-reversed, 0.6);
 
     a {
         color: $text-colour-reversed;
+    }
+
+    .event-date {
+        color: rgba($text-colour-reversed, 0.6);
     }
 }
 
@@ -32,11 +35,17 @@
     padding-bottom: 1rem;
     border-bottom: dotted 1px rgba($text-colour-reversed, 0.2);
 
+    @include type-base-small;
+
     @include screen-small {
         padding-bottom: 0;
         padding-right: 3rem;
         border-right: dotted 1px rgba($text-colour-reversed, 0.2);
         border-bottom: 0;
+    }
+
+    .event-date {
+        text-transform: none;
     }
 }
 .site-footer-blog {
@@ -57,29 +66,6 @@
 }
 
 
-//
-//  home page footer variation
-//
-
-.site-footer.home-footer {
-    color: rgba($text-colour, 0.6);
-
-    a {
-        color: $text-colour;
-    }
-
-    .site-footer-events, .site-footer-blog {
-        border-bottom: dotted 1px rgba($text-colour, 0.2);
-
-        @include screen-small {
-            border-bottom: none;
-            border-right: dotted 1px rgba($text-colour, 0.2);
-        }
-    }
-
-}
-
-
 // event list
 .site-footer-events {
 
@@ -88,7 +74,7 @@
 
         .event {
             padding: 0;
-            margin: 0 0 0.5rem 0;
+            margin: 0 0 1rem 0;
             border: none;
             list-style: none;
         }
@@ -113,8 +99,11 @@
         margin: 0;
     }
     .post {
-        margin: 0 0 0.5rem 0;
+        margin: 0 0 1rem 0;
         list-style: none;
+    }
+    .post-name {
+        font-size: 1rem;
     }
 }
 
@@ -127,7 +116,7 @@
     padding: 1rem 0;
 
     @include screen-small {
-        flex: 1 0 7rem;
+        flex: 1 0 176px;
 
         text-align: left;
         padding: 0 0 0 1rem;

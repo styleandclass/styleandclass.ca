@@ -56,10 +56,13 @@
     }
     .site-header {
         padding-bottom: 0;
-        background-color: transparent;
+        background: transparent;
     }
     .site-title {
         display: none;
+    }
+    .site-nav {
+        background: none;
     }
     .site-nav-item a {
         color: rgba($text-colour-reversed, 0.7);
@@ -139,8 +142,9 @@
         align-content: center;
         justify-content: center;
 
-        width: 10rem;
-        height: 10rem;
+        width: 12rem;
+        height: 12rem;
+        padding: 1.5rem;
         margin: 0 auto;
         border-radius: 50%;
 
@@ -165,4 +169,31 @@
     .separator, .Y {
         display: none;
     }
+}
+
+//
+//  home page footer variation
+//
+
+.site-footer.home-footer {
+    color: rgba($text-colour, 0.6);
+
+    a {
+        color: $text-colour;
+    }
+
+    .event-date {
+        color: rgba($text-colour, 0.6);
+    }
+
+
+    .site-footer-events, .site-footer-blog {
+        border-bottom: dotted 1px rgba($text-colour, 0.2);
+
+        @include screen-small {
+            border-bottom: none;
+            border-right: dotted 1px rgba($text-colour, 0.2);
+        }
+    }
+
 }

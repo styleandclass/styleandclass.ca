@@ -20,8 +20,8 @@ $grey-colour-dark:      darken($grey-colour, 25%);
 
 
 // opacity of the gradient that overlays the header, home page
-$overlay-opacity-start: 0.4;
-$overlay-opacity-end: 0.6;
+$overlay-opacity-start: 0.5;
+$overlay-opacity-end: 0.7;
 
 
 /*
@@ -73,4 +73,11 @@ $xxlarge: 1280px;
   @media (min-width: #{$xxsmall + 1px}) {
     @content;
   }
+}
+
+
+@mixin bordered {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: dotted 1px $grey-colour-light;  
 }

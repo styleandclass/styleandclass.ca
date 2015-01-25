@@ -20,6 +20,11 @@
     -webkit-text-size-adjust: 100%;
 }
 
+@mixin type-base-small {
+    font-size: $base-font-size * 0.875;
+    font-weight: normal;
+}
+
 @mixin type-alternate {
     font-family: "freight-display-pro", serif;
     font-weight: 300;

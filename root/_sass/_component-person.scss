@@ -12,9 +12,8 @@
 
 .person {
 
+    @include bordered;
     padding-bottom: 1rem;
-    margin-bottom: 2rem;
-    border-bottom: dotted 1px $grey-colour-light;
     text-align: center;
 
     &:last-child {
@@ -28,7 +27,11 @@
 
 }
 .person-name {
-    margin-bottom: 0;
+    margin-bottom: 1rem;
+
+    @include screen-medium {
+        margin-bottom: 0;
+    }
 }
 .person-avatar {
     border-radius: 50%;

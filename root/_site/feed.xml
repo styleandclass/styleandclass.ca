@@ -6,22 +6,37 @@
 </description>
     <link>http://styleandclass.com/</link>
     <atom:link href="http://styleandclass.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Jan 2015 14:22:46 -0800</pubDate>
-    <lastBuildDate>Sat, 24 Jan 2015 14:22:46 -0800</lastBuildDate>
+    <pubDate>Sat, 24 Jan 2015 18:04:55 -0800</pubDate>
+    <lastBuildDate>Sat, 24 Jan 2015 18:04:55 -0800</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
+        <title>Our February Event</title>
+        <description>&lt;p&gt;placeholder for the announcement post&lt;/p&gt;
+</description>
+        <pubDate>Mon, 26 Jan 2015 01:00:00 -0800</pubDate>
+        <link>http://styleandclass.com/styleclass/2015/01/26/february-event.html</link>
+        <guid isPermaLink="true">http://styleandclass.com/styleclass/2015/01/26/february-event.html</guid>
+        
+        
+        <category>styleclass</category>
+        
+      </item>
+    
+      <item>
         <title>Style &amp; Class finally has a website?!</title>
-        <description>&lt;p&gt;The irony isn’t lost on us that, after a year of great meetups as well as a full conference, an organization that runs events about building the web still didn’t have its own website.&lt;/p&gt;
+        <description>&lt;p&gt;The irony isn’t lost on us. After a year of great meetups about building the web as well as a full conference, that Style &amp;amp; Class existed as mostly a Meetup group without its own permanent home on the web.&lt;/p&gt;
 
-&lt;p&gt;Well, we’re finally fixing that today. [more needed]&lt;/p&gt;
+&lt;p&gt;Well, we’re finally fixing that today. We’ve been hard at work over the past month building this site. It’s about 90% of the way there, &lt;/p&gt;
+
+&lt;p&gt;We see this new site as a necessary first step toward a much expanded Style &amp;amp; Class. The &lt;a href=&quot;/about/organizers/&quot;&gt;organizing committee&lt;/a&gt; has only started discussing what comes next, so while we can’t be more than vague right now, you should expect more announcements over the coming months.&lt;/p&gt;
 
 &lt;p&gt;In the meantime, head on over to &lt;a href=&quot;http://www.meetup.com/styleandclass/&quot;&gt;our Meetup page&lt;/a&gt; for future event details.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 15 Jan 2015 14:08:27 -0800</pubDate>
-        <link>http://styleandclass.com/styleclass/2015/01/15/website.html</link>
-        <guid isPermaLink="true">http://styleandclass.com/styleclass/2015/01/15/website.html</guid>
+        <pubDate>Sun, 25 Jan 2015 09:00:00 -0800</pubDate>
+        <link>http://styleandclass.com/styleclass/2015/01/25/website.html</link>
+        <guid isPermaLink="true">http://styleandclass.com/styleclass/2015/01/25/website.html</guid>
         
         
         <category>styleclass</category>

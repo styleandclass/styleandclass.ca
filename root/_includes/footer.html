@@ -6,7 +6,7 @@
         <div class="site-footer-events">
             <h3 class="site-footer-header">Recent Events</h3>
             <ul class="event-list">
-            {% for event in site.data.events.events reversed limit:3 %}
+            {% for event in site.data.events.events limit:3 %}
                 {% if event.type != "afterparty" %}
                     <li class="event" id="event-{{ event.date }}">
                         {% include partial-event-small.html event=event %}
@@ -20,10 +20,10 @@
         <div class="site-footer-blog">
             <h3 class="site-footer-header">Latest News</h3>
             <ul class="post-list">
-                {% for post in site.posts reversed limit:3 %}
+                {% for post in site.posts limit:3 %}
                 <li class="post">
+                    <span class="event-date">{{ post.date | date: "%b %-d, %Y" }}</span>
                     <a class="post-name" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
                 </li>
                 {% endfor %}
             </ul>
@@ -32,14 +32,6 @@
 
         <div class="site-footer-links">
             <ul class="social-media-list">
-                {% if site.github_username %}
-                <li class="link">
-                    <a href="https://github.com/{{ site.github_username }}">
-                    <span class="username">{{ site.github_username }}</span>
-                    </a>
-                </li>
-                {% endif %}
-
                 {% if site.twitter_username %}
                 <li class="link">
                     <a href="https://twitter.com/{{ site.twitter_username }}">
@@ -48,11 +40,20 @@
                 </li>
                 {% endif %}
 
-                <li class="link rss-subscribe">
-                    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
-                </li>
                 <li class="link">
                     <a href="http://www.meetup.com/styleandclass/">Meetup</a>
+                </li>
+
+                {% if site.github_username %}
+                <li class="link">
+                    <a href="https://github.com/{{ site.github_username }}">
+                    <span class="username">Github</span>
+                    </a>
+                </li>
+                {% endif %}
+
+                <li class="link rss-subscribe">
+                    <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
                 </li>
             </ul>
         </div>

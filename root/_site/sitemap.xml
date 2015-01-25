@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://styleandclass.com/styleclass/2015/01/15/website.html</loc>
-        <lastmod>2015-01-20T00:36:50-08:00</lastmod>
+        <loc>http://styleandclass.com/styleclass/2015/01/25/website.html</loc>
+        <lastmod>2015-01-24T17:30:48-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://styleandclass.com/styleclass/2015/01/26/february-event.html</loc>
+        <lastmod>2015-01-24T17:31:04-08:00</lastmod>
     </url>
     <url>
         <loc>http://styleandclass.com/about/</loc>
-        <lastmod>2015-01-23T00:09:23-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://styleandclass.com/about/sponsors/</loc>
-        <lastmod>2015-01-20T00:36:50-08:00</lastmod>
+        <lastmod>2015-01-24T14:47:38-08:00</lastmod>
     </url>
     <url>
         <loc>http://styleandclass.com/contact/</loc>
@@ -21,11 +21,11 @@
         <lastmod>2015-01-20T00:36:50-08:00</lastmod>
     </url>
     <url>
-        <loc>http://styleandclass.com/events/2014/contentious-content/</loc>
+        <loc>http://styleandclass.com/events/2014/conference/</loc>
         <lastmod>2015-01-20T00:36:50-08:00</lastmod>
     </url>
     <url>
-        <loc>http://styleandclass.com/events/2014/developing-design/</loc>
+        <loc>http://styleandclass.com/events/2014/design-process/</loc>
         <lastmod>2015-01-20T00:36:50-08:00</lastmod>
     </url>
     <url>
@@ -37,7 +37,11 @@
         <lastmod>2015-01-20T00:36:50-08:00</lastmod>
     </url>
     <url>
-        <loc>http://styleandclass.com/events/2014/design-process/</loc>
+        <loc>http://styleandclass.com/events/2014/contentious-content/</loc>
+        <lastmod>2015-01-20T00:36:50-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://styleandclass.com/about/sponsors/</loc>
         <lastmod>2015-01-20T00:36:50-08:00</lastmod>
     </url>
     <url>
@@ -49,20 +53,24 @@
         <lastmod>2015-01-20T00:36:50-08:00</lastmod>
     </url>
     <url>
+        <loc>http://styleandclass.com/events/2015/design-storytelling/</loc>
+        <lastmod>2015-01-24T17:54:16-08:00</lastmod>
+    </url>
+    <url>
         <loc>http://styleandclass.com/events/photos/</loc>
         <lastmod>2015-01-20T00:36:50-08:00</lastmod>
     </url>
     <url>
         <loc>http://styleandclass.com/events/</loc>
-        <lastmod>2015-01-20T00:36:50-08:00</lastmod>
+        <lastmod>2015-01-24T17:46:06-08:00</lastmod>
     </url>
     <url>
-        <loc>http://styleandclass.com/events/2014/conference/</loc>
+        <loc>http://styleandclass.com/events/2014/developing-design/</loc>
         <lastmod>2015-01-20T00:36:50-08:00</lastmod>
     </url>
     <url>
         <loc>http://styleandclass.com/about/organizers/</loc>
-        <lastmod>2015-01-24T14:10:42-08:00</lastmod>
+        <lastmod>2015-01-24T15:08:54-08:00</lastmod>
     </url>
     <url>
         <loc>http://styleandclass.com/events/2014/web-for-everyone/</loc>
@@ -70,11 +78,7 @@
     </url>
     <url>
         <loc>http://styleandclass.com/</loc>
-        <lastmod>2015-01-21T08:53:19-08:00</lastmod>
-    </url>
-    <url>
-        <loc>http://styleandclass.com/about/vision/</loc>
-        <lastmod>2015-01-20T00:36:50-08:00</lastmod>
+        <lastmod>2015-01-24T17:31:04-08:00</lastmod>
     </url>
     <url>
         <loc>http://styleandclass.com/about/code-of-conduct/</loc>

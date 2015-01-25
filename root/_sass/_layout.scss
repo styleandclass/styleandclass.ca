@@ -18,7 +18,12 @@
 
 }
 .page-heading {
-    margin-bottom: 1rem;
+    @include bordered;
+    text-align: center;
+
+    @include screen-medium {
+        text-align: left;
+    }
 }
 .page-content, .site-footer {
     width: 100%;

@@ -3,7 +3,11 @@
 //
 .site-header {
     @extend %clearfix;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+
+    @include screen-xsmall {
+        margin-bottom: 2rem;
+    }
 
     background-color: $brand-colour;
     background-image: linear-gradient(to bottom, rgba(#5b2c3f, $overlay-opacity-start) 0%, rgba(#5b2c3f, $overlay-opacity-end) 100%), url(/images/site/site-bg.gif);
@@ -37,11 +41,20 @@
         color: $text-colour-reversed;
     }
 
+    svg {
+        position: relative;
+        top: -0.5rem;
+    }
+
     @include screen-medium {
         text-align: left;
         flex: 0 0 200px;
         width: 200px;
         padding-top: 1rem;
+
+        svg {
+            top: 0;
+        }
     }
 
 }
@@ -53,10 +66,10 @@
     flex: 1 1 auto;
     position: relative;
     text-align: center;
-    padding: 1rem 0;
+    padding: 0 0 1rem 0;
 
     @include screen-xsmall {
-        padding: 2rem 0 1rem 0;
+        padding: 0.5rem 0;
     }
     @include screen-medium {
         padding: 3rem 0 0 0;
@@ -65,9 +78,6 @@
 }
 .site-nav-wrapper {
     margin: 0;
-    &.with-sub-nav {
-        padding-bottom: 1.5rem;
-    }
 }
 .site-nav-item {
     display: inline-block;
@@ -106,10 +116,14 @@
 }
 .sub-nav {
     position: absolute;
-    bottom: 0.5rem;
+    bottom: -3.5rem;
     width: 100%;
     margin: 0;
     text-align: center;
+
+    @include screen-xsmall {
+        bottom: -2.5rem;
+    }
 
     @include screen-medium {
         top: 10.5rem;
@@ -130,28 +144,15 @@
         }
 
         a {
-            color: rgba($text-colour-reversed, 0.4);
+            color: $brand-highlight;
             &:hover, &:focus {
-                color: $text-colour-reversed;
+                color: $brand-contrast;
             }
         }
         &.is-selected a {
-            color: $text-colour-reversed;
+            color: $text-colour;
             background: none;
         }
-
-        @include screen-medium {
-            a {
-                color: $brand-highlight;
-                &:hover, &:focus {
-                    color: $brand-contrast;
-                }
-            }
-            &.is-selected a {
-                color: $text-colour;
-            }
-        }
-
 
     }
 }

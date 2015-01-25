@@ -194,9 +194,7 @@
 //  Main Event Overview
 //
 .event-overview {
-    padding-bottom: 2rem;
-    margin-bottom: 2rem;
-    border-bottom: dotted 1px $grey-colour-light;
+    @include bordered;
     font-size: $base-font-size * 1.25;
 
     .button {
@@ -276,9 +274,9 @@
         }
         .sponsor-info {
             clear: right;
-            padding-left: 2rem;
+            padding-left: 4rem;
             text-align: right;
-            @include type-header-small;
+            @include type-base-small;
         }
     }
 
@@ -287,6 +285,7 @@
 // Main Event content items
 .event-venue, .event-talks, .event-after {
 
+    @include type-base-small;
     margin-bottom: 2rem;
 
     @include screen-large {
@@ -306,6 +305,15 @@
     h2 {
         @include type-header-secondary;
     }
+}
+
+.venue-name {
+    display: inline;
+    margin: 0;
+}
+.venue-address {
+    display: inline;
+    margin: 0;
 }
 
 .event-map {

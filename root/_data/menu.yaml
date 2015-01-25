@@ -7,8 +7,6 @@
 - text: About
   url: /about/
   subitems:
-    - text: Vision
-      url: /about/vision/
     - text: Organizers
       url: /about/organizers/
     - text: Code of Conduct
