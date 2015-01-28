@@ -148,6 +148,12 @@ hr {
   padding-bottom: 1rem;
   border-bottom: solid 1px #e0dbd8; }
 
+.pull-quote {
+  font-family: "freight-display-pro", serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #753c51; }
+
 /*
     Media object
 */
@@ -228,6 +234,16 @@ hr {
     .page-decoration {
       min-height: 60vh; } }
 
+@media (min-width: 481px) {
+  .grid {
+    display: flex; }
+
+  .grid-meta {
+    flex: 0 0 196px;
+    padding-right: 20px; }
+
+  .grid-content {
+    flex: 1 1 auto; } }
 .site-header {
   margin-bottom: 4rem;
   background-color: #753c51;
@@ -924,16 +940,6 @@ button:hover, button:focus, .button:hover, .button:focus {
 .post-author {
   color: #dba58c; }
 
-@media (min-width: 481px) {
-  .post-contents {
-    display: flex; }
-
-  .post-meta {
-    flex: 0 0 196px;
-    padding-right: 20px; }
-
-  .post-content {
-    flex: 1 1 auto; } }
 .sponsor-list {
   display: flex;
   flex-wrap: wrap;

@@ -49,3 +49,18 @@
     }
 }
 
+
+// The grid object
+@include screen-xsmall {
+    .grid {
+        display: flex;
+    }
+    .grid-meta {
+        flex: 0 0 $grid-unit + $gutter-unit;
+        padding-right: 20px;
+    }
+    .grid-content {
+        flex: 1 1 auto;
+    }
+}
+

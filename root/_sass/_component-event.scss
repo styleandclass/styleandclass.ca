@@ -22,7 +22,7 @@
 
     @include screen-large {
         .event-description {
-            margin-left: 196px;
+            margin-left: $grid-unit + $gutter-unit;
             margin-bottom: 3rem;
         }
     }
@@ -81,7 +81,7 @@
             display: flex;
         }
         .date {
-            flex: 0 0 196px;
+            flex: 0 0 $grid-unit + $gutter-unit;
         }
         .summary {
             flex: 1 1 auto;
@@ -294,7 +294,7 @@
         margin-bottom: 3rem;
 
         .summary {
-            flex: 0 0 196px;
+            flex: 0 0 $grid-unit + $gutter-unit;
             padding-right: 20px;
         }
         .detail {

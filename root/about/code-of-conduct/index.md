@@ -15,3 +15,7 @@ Our events are dedicated to providing a harassment-free conference experience fo
 We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media.
 
 Conference participants violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organizers.
+
+## The Long Version
+
+Well, we're still working on that. If you'd like to make some suggestions, please <a href="https://github.com/styleandclass/styleandclass.ca/issues/8">chime in</a>.
