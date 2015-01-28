@@ -211,8 +211,49 @@
             "slides" : "http://www.webdirections.org/speakeasy/presentations/respond/index.html?presenter",
             "description-short" : "Many of us were not working on the Web when the ideas that underpin Responsive Web Design were born. In 2000, John Allsopp wrote “A Dao of Web Design,” which well over a decade later continues to be widely cited as the theoretical foundation for Responsive Web Design. In this presentation, John looks back at the Web of the late 1990s, and asks what they teach us.",
             "type" : "standard"
-        }
-
-
+        },
+        {
+            "title" : "Clients from Hell, or Learning Opportunities?",
+            "speaker" : "Christine Rondeau",
+            "description-long" : [
+                {
+                    "p" : "Websites like Clients From Hell love to poke fun at people. Mocking clients has been a favourite past time of both designers and developers for a long time. If clients aren't available, then we blame the tools. All CMS are terrible right?"
+                },
+                {
+                    "p" : "Great designers and developers will see feedback and questions from clients as great opportunities to learn. During my career, I’ve been challenged on many occasions and have come to realize that clients only ever become clients from hell if you let them."
+                }
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "Without Agency",
+            "speaker" : "Todd Smith",
+            "description-long" : [
+                {
+                    "p" : "Syd Mead says, &#8220;To be creative, you need to be three people: an artist, a technician, and an observer.&#8221; The first two are a given, in any successful designer career, but the latter is the most difficult to achieve. Finding one's perspective is a fraction of the effort and true grit lies in the ability to say, &#8220;no&#8221;. Todd will speak about the value of observation, developing a personal code of ethics, and championing safe and nurturing work environments."
+                }
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "Prototyping Your Way to Happiness: An Adventure with Pattern Lab",
+            "speaker" : "Mandi Wise",
+            "description-long" : [
+                {
+                    "p" : "Markup-based mock-ups and front-end style guides are valuable, but can be time-consuming to build. Pattern Lab lets you rapidly create both in your own responsive web design playground, and Mandi will share an experience where using this system on a project helped fill in some crucial design gaps while expediting front-end development."
+                }
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "Out in the Open",
+            "speaker" : "Tylor Sherman",
+            "description-long" : [
+                {
+                    "p" : "Tylor will share his thoughts on how tone and polish affects the community that springs up around your work "
+                }
+            ],
+            "type" : "standard"
+        }      
     ]
 }

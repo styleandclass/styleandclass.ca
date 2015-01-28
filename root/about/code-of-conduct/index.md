@@ -4,7 +4,7 @@ title: Code of Conduct
 permalink: /about/code-of-conduct/
 ---
 
-# Code of Conduct
+<h1 class="page-heading">Code of Conduct</h1>
 
 All attendees, speakers, sponsors and volunteers at our events are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensure a safe environment for everybody.
 

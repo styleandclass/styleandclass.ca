@@ -4,7 +4,7 @@
 
 
         <div class="site-footer-events">
-            <h3 class="site-footer-header">Recent Events</h3>
+            <h3 class="site-footer-header">Latest Events</h3>
             <ul class="event-list">
             {% for event in site.data.events.events limit:3 %}
                 {% if event.type != "afterparty" %}
@@ -18,7 +18,7 @@
 
 
         <div class="site-footer-blog">
-            <h3 class="site-footer-header">Latest News</h3>
+            <h3 class="site-footer-header">Recent News</h3>
             <ul class="post-list">
                 {% for post in site.posts limit:3 %}
                 <li class="post">

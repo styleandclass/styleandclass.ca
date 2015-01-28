@@ -13,19 +13,34 @@
             "short-desc" : "Join us for an evening of 5 short talks of design storytelling. During your career you’ll experience defining moments that stand out in your memory. Sometimes these moments are funny, sometimes they make you think, and every now and then you learn a valuable lesson that informs the rest of your career. Our speakers will share their own personal moments, and what impact they had.",
             "description" : [
                 {
-                    "p" : "Doors open at 6:30pm, talks start at 7:00pm. No admittance after 7:15pm. An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
+                    "p" : "Join us for an evening of 4 short talks of design storytelling. During your career you’ll experience defining moments that stand out in your memory. Sometimes these moments are funny, sometimes they make you think, and every now and then you learn a valuable lesson that informs the rest of your career. Our speakers will share some of their own defining moments and the lessons those moments can teach us."
+                },
+                {
+                    "p" : "Doors open at 6:30pm, talks start at 7:00pm. No admittance after 7:15pm."
+                },
+                {
+                    "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
                 }
             ],
-            "registration" : "closed",
+            "registration" : "open",
             "date" : "2015-02-10",
             "time-doors" : "2015-02-10T18:30+08:00",
             "time-start" : "2015-02-10T19:00+08:00",
             "url-site" : "/events/2015/design-storytelling/",
-            "url-meetup" : "",
+            "url-meetup" : "http://www.meetup.com/styleandclass/events/220093403/",
             "venue" : "Mobify",
             "talks" : [
                 {
-                    "title" : "placeholder"
+                    "title" : "Clients from Hell, or Learning Opportunities?"
+                },
+                {
+                    "title" : "Without Agency"
+                },
+                {
+                    "title" : "Prototyping Your Way to Happiness: An Adventure with Pattern Lab"
+                },
+                {
+                    "title" : "Out in the Open"
                 }
             ],
             "sponsors" : [
@@ -33,7 +48,7 @@
                     "sponsor": "Mobify"
                 }
             ],
-            "afterwards" : "We'll head to The New Oxford after the event to have some more drinks and some more nuanced conversation. If you can make it, we'd love to see you there!"
+            "afterwards" : "As this is our first S&C in Yaletown, we’ll be trying out the nearby The New Oxford Tavern after the event to have some more drinks and some more nuanced conversation. If you can make it, we'd love to see you there!"
         },
 
         {
