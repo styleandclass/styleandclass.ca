@@ -82,7 +82,7 @@ must be identical between files. Here's how these keys map out between files:
 * Update the event details to the new event.
 * Ensure that venue, sponsor and talk names precisely match existing values in
   their respective data files. You'll likely need to create one or more of
-  these.
+  these, see that section below for details.
 
 Our content objects cause a bit of redundancy when creating events. Here's the
 part that's annoying and should be automated, but isn't:
@@ -112,10 +112,10 @@ We have listing pages for speakers and sponsors that you can visit to
 confirm that your new addition is showing up properly. Visit /speakers/ or
 /about/sponsors/ in your browser.
 
-Special note for speakers: since Jekyll doesn't provide the ability to sort data
+Special note on speakers: since Jekyll doesn't provide the ability to sort data
 collections by a child key, we're hacking alphabetical order of speaker names by
 just doing it manually in the JSON file. If you add a new speaker, make sure to
-add them in the right alphabetical order.
+add them in the right alphabetical place in the file, by last name.
 
 
 ## TROUBLESHOOTING
