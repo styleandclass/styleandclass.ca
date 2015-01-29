@@ -306,7 +306,7 @@ hr {
 .site-nav-item {
   display: inline-block;
   padding: 0.5rem 0.25rem;
-  margin: 0;
+  margin: 0 0.15rem;
   text-transform: uppercase;
   list-style: none; }
   .site-nav-item.is-selected a {
