@@ -20,13 +20,11 @@
     flex-direction: column;
     align-content: stretch;
 
-    padding: 1rem 0;
+    padding: 2rem 0 0 0;
 
     @include screen-small {
         flex-direction: row;
         flex-wrap: nowrap;
-
-        padding: 2rem 0;
     }
 }
 .site-footer-events, .site-footer-blog {
@@ -112,8 +110,10 @@
 .site-footer-links {
     flex: 0 1 auto;
 
-    text-align: center;
     padding: 1rem 0;
+
+    font-size: $base-font-size * 0.875;
+    text-align: center;
 
     @include screen-small {
         flex: 1 0 176px;

@@ -234,7 +234,7 @@ hr {
     .page-decoration {
       min-height: 60vh; } }
 
-@media (min-width: 481px) {
+@media (min-width: 641px) {
   .grid {
     display: flex; }
 
@@ -250,7 +250,7 @@ hr {
   background-image: linear-gradient(to bottom, rgba(91, 44, 63, 0.5) 0%, rgba(91, 44, 63, 0.7) 100%), url(/images/site/site-bg.gif);
   background-position: 0 0, 50% bottom;
   background-repeat: repeat-x, no-repeat; }
-  @media (min-width: 481px) {
+  @media (min-width: 801px) {
     .site-header {
       margin-bottom: 2rem; } }
   @media (min-width: 801px) {
@@ -330,7 +330,7 @@ hr {
 
 .sub-nav {
   position: absolute;
-  bottom: -3.5rem;
+  bottom: -2.5rem;
   width: 100%;
   margin: 0;
   text-align: center; }
@@ -371,12 +371,11 @@ hr {
   flex-wrap: wrap;
   flex-direction: column;
   align-content: stretch;
-  padding: 1rem 0; }
+  padding: 2rem 0 0 0; }
   @media (min-width: 641px) {
     .site-footer .wrapper {
       flex-direction: row;
-      flex-wrap: nowrap;
-      padding: 2rem 0; } }
+      flex-wrap: nowrap; } }
 
 .site-footer-events, .site-footer-blog {
   flex: 1 1 auto;
@@ -433,8 +432,9 @@ hr {
 
 .site-footer-links {
   flex: 0 1 auto;
-  text-align: center;
-  padding: 1rem 0; }
+  padding: 1rem 0;
+  font-size: 0.875rem;
+  text-align: center; }
   @media (min-width: 641px) {
     .site-footer-links {
       flex: 1 0 176px;
