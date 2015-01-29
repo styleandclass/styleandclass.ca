@@ -9,7 +9,7 @@
             {% for event in site.data.events.events limit:3 %}
                 {% if event.type != "afterparty" %}
                     <li class="event" id="event-{{ event.date }}">
-                        {% include partial-event-small.html event=event %}
+                        {% include partial-event-small.html event=event date="true" %}
                     </li>
                 {% endif %}
             {% endfor %}
@@ -41,7 +41,7 @@
                 {% endif %}
 
                 <li class="link">
-                    <a href="http://www.meetup.com/styleandclass/">Meetup</a>
+                    <a href="http://www.meetup.com/styleandclass/">S&amp;C on Meetup</a>
                 </li>
 
                 {% if site.github_username %}
@@ -61,7 +61,7 @@
     </div>
 
     <div class="site-copyright">
-      <p>&copy; Copyright 2012 &#8211; 2015, Style &amp; Class</p>
+      <p>&copy; Copyright 2013 &#8211; 2015, Style &amp; Class</p>
     </div>
 
     <script src="//use.typekit.net/yve3zwb.js"></script>
