@@ -371,11 +371,13 @@ hr {
   flex-wrap: wrap;
   flex-direction: column;
   align-content: stretch;
-  padding: 2rem 0 0 0; }
+  padding: 2rem 0 0 0;
+  text-align: center; }
   @media (min-width: 641px) {
     .site-footer .wrapper {
       flex-direction: row;
-      flex-wrap: nowrap; } }
+      flex-wrap: nowrap;
+      text-align: left; } }
 
 .site-footer-events, .site-footer-blog {
   flex: 1 1 auto;
@@ -710,18 +712,21 @@ hr {
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   border-bottom: dotted 1px #d5ceca;
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  text-align: center; }
   .event-overview .button {
     display: inline-block; }
   @media (min-width: 641px) {
-    .event-overview.register {
-      display: flex; }
-      .event-overview.register .summary {
-        flex: 0 1 75%; }
-      .event-overview.register .registration {
-        flex: 0 1 25%;
-        padding-top: 0.5rem;
-        text-align: right; } }
+    .event-overview {
+      text-align: left; }
+      .event-overview.register {
+        display: flex; }
+        .event-overview.register .summary {
+          flex: 0 1 75%; }
+        .event-overview.register .registration {
+          flex: 0 1 25%;
+          padding-top: 0.5rem;
+          text-align: right; } }
 
 .event-respond {
   display: block;

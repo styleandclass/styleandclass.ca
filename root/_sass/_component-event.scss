@@ -195,7 +195,9 @@
 //
 .event-overview {
     @include bordered;
+
     font-size: $base-font-size * 1.25;
+    text-align: center;
 
     .button {
         display: inline-block;
@@ -203,6 +205,9 @@
 
     // turn on flexbox if registration is open
     @include screen-small {
+
+        text-align: left;
+
         &.register {
             display: flex;
             .summary {

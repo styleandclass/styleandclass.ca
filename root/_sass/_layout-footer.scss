@@ -21,10 +21,12 @@
     align-content: stretch;
 
     padding: 2rem 0 0 0;
+    text-align: center;
 
     @include screen-small {
         flex-direction: row;
         flex-wrap: nowrap;
+        text-align: left;
     }
 }
 .site-footer-events, .site-footer-blog {
