@@ -987,13 +987,19 @@ button:hover, button:focus, .button:hover, .button:focus {
         flex: 0 0 33%;
         box-sizing: border-box;
         padding: 0 2rem 1rem 2rem; }
-        .talk-list .talk:nth-child(3n+1) {
-          padding-left: 0; }
         .talk-list .talk:nth-child(3n) {
-          padding-right: 0; } }
+          padding-right: 0; }
+        .talk-list .talk:nth-child(3n+1) {
+          padding-left: 0; } }
   @media (min-width: 801px) {
-    .talk-list.count-2 .talk {
-      flex: 0 0 50%; } }
+    .talk-list.count-2 .talk, .talk-list.count-4 .talk {
+      flex: 0 0 50%; }
+      .talk-list.count-2 .talk:nth-child(2n), .talk-list.count-4 .talk:nth-child(2n) {
+        padding-left: 2rem;
+        padding-right: 0; }
+      .talk-list.count-2 .talk:nth-child(2n+1), .talk-list.count-4 .talk:nth-child(2n+1) {
+        padding-left: 0;
+        padding-right: 2rem; } }
   .talk-list .title {
     margin: 0;
     font-size: 1rem; }

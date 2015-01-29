@@ -42,27 +42,41 @@
     .talk {
         list-style: none;
 
+        // talks are 3-up
         @include screen-medium {
             flex: 0 0 33%;
             box-sizing: border-box;
             padding: 0 2rem 1rem 2rem;
 
-            &:nth-child(3n+1) {
-                padding-left: 0;
-            }
             &:nth-child(3n) {
                 padding-right: 0;
+            }
+            &:nth-child(3n+1) {
+                padding-left: 0;
             }
         }
     }
 
-    &.count-2 {
+
+    // for even numbers of talks, we only want 2-up
+    // (there has to be a better way to do this)
+    &.count-2, &.count-4 {
         .talk {
             @include screen-medium {
                 flex: 0 0 50%;
+
+                &:nth-child(2n) {
+                    padding-left: 2rem;
+                    padding-right: 0;
+                }
+                &:nth-child(2n+1) {
+                    padding-left: 0;
+                    padding-right: 2rem;
+                }
             }
         }
     }
+
 
     .title {
         margin: 0;
