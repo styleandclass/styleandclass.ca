@@ -313,8 +313,9 @@
 }
 
 .venue-name {
-    display: inline;
-    margin: 0;
+    // I actually have no idea why this is necessary.
+    display: block;
+    margin: 0 0 -1rem 0;
 }
 .venue-address {
     display: inline;

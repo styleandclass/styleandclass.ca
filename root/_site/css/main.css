@@ -791,8 +791,8 @@ hr {
     text-transform: uppercase; }
 
 .venue-name {
-  display: inline;
-  margin: 0; }
+  display: block;
+  margin: 0 0 -1rem 0; }
 
 .venue-address {
   display: inline;
