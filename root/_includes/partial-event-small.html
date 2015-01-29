@@ -1,12 +1,14 @@
-<div class="date">
-    {% if include.calendar == "true" %}
-        {% assign calendarClass = " calendar" %}
-    {% endif %}
+{% if include.date %}
+    <div class="date">
+        {% if include.calendar == "true" %}
+            {% assign calendarClass = " calendar" %}
+        {% endif %}
 
-    <a href="{{ event.url-site }}">
-        {% include partial-date.html event=event calendarClass=calendarClass %}
-    </a>
-</div>
+        <a href="{{ event.url-site }}">
+            {% include partial-date.html event=event calendarClass=calendarClass %}
+        </a>
+    </div>
+{% endif %}
 
 <div class="summary">
     {% if include.headings != null %}

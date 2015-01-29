@@ -11,7 +11,7 @@ permalink: /events/
 {% for event in site.data.events.events %}
 	{% if event.type != "afterparty" %}
 		<li class="event" id="event-{{ event.date }}">
-			{% include partial-event-small.html event=event talks="true" calendar="true" shortDesc="true" headings="h2" %}
+			{% include partial-event-small.html event=event date="true" talks="true" calendar="true" shortDesc="true" headings="h2" %}
 		</li>
 	{% endif %}
 {% endfor %}
