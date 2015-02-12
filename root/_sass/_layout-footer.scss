@@ -45,6 +45,7 @@
     }
 
     .event-date {
+        @include type-base-small;
         text-transform: none;
     }
 }
@@ -57,8 +58,8 @@
     }
 }
 .site-footer-header {
-    font-size: $base-font-size * 0.875;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    @include type-base-small;
 }
 .site-copyright {
     padding-top: 2rem;
@@ -79,8 +80,8 @@
             list-style: none;
         }
         .event-name {
-            font-size: 1rem;
             margin-bottom: 0;
+            @include type-base-small;        
         }
         .event-date {
             padding-bottom: 0;
@@ -103,7 +104,7 @@
         list-style: none;
     }
     .post-name {
-        font-size: 1rem;
+        @include type-base-small;        
     }
 }
 
