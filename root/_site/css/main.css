@@ -360,7 +360,9 @@ hr {
       background: none; }
 
 .site-footer {
-  color: rgba(255, 255, 255, 0.6); }
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.875rem;
+  font-weight: normal; }
   .site-footer a {
     color: #fff; }
   .site-footer .event-date {
@@ -382,9 +384,7 @@ hr {
 .site-footer-events, .site-footer-blog {
   flex: 1 1 auto;
   padding-bottom: 1rem;
-  border-bottom: dotted 1px rgba(255, 255, 255, 0.2);
-  font-size: 0.875rem;
-  font-weight: normal; }
+  border-bottom: dotted 1px rgba(255, 255, 255, 0.2); }
   @media (min-width: 641px) {
     .site-footer-events, .site-footer-blog {
       padding-bottom: 0;

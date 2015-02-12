@@ -4,6 +4,7 @@
 
 .site-footer {
     color: rgba($text-colour-reversed, 0.6);
+    @include type-base-small;
 
     a {
         color: $text-colour-reversed;
@@ -34,8 +35,6 @@
 
     padding-bottom: 1rem;
     border-bottom: dotted 1px rgba($text-colour-reversed, 0.2);
-
-    @include type-base-small;
 
     @include screen-small {
         padding-bottom: 0;
