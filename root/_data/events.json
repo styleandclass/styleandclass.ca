@@ -2,7 +2,7 @@
     "next-event" : [
         {
             "name" : "Design Storytelling",
-            "visible" : "true"
+            "visible" : "false"
         }
     ],
     "events": [
@@ -22,7 +22,7 @@
                     "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
                 }
             ],
-            "registration" : "open",
+            "registration" : "closed",
             "date" : "2015-02-10",
             "time-doors" : "2015-02-10T18:30+08:00",
             "time-start" : "2015-02-10T19:00+08:00",
