@@ -10,7 +10,11 @@
 
     .talk {
         list-style: none;
+        text-align: center;
 
+        @include screen-xsmall {
+            text-align: left;
+        }
         @include screen-medium {
             padding: 0 0 2rem 0;            
         }
@@ -21,6 +25,9 @@
     .speaker {
         display: block;
         margin-bottom: 1rem;
+    }
+    .talk-description {
+        text-align: left;
     }
 }
 

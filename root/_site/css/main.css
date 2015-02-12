@@ -971,7 +971,11 @@ button:hover, button:focus, .button:hover, .button:focus {
 .talk-container {
   margin: 0; }
   .talk-container .talk {
-    list-style: none; }
+    list-style: none;
+    text-align: center; }
+    @media (min-width: 481px) {
+      .talk-container .talk {
+        text-align: left; } }
     @media (min-width: 801px) {
       .talk-container .talk {
         padding: 0 0 2rem 0; } }
@@ -980,6 +984,8 @@ button:hover, button:focus, .button:hover, .button:focus {
   .talk-container .speaker {
     display: block;
     margin-bottom: 1rem; }
+  .talk-container .talk-description {
+    text-align: left; }
 
 .talk-list {
   margin: 0; }

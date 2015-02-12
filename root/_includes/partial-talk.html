@@ -13,6 +13,7 @@
                 <h3 class="title">{{ include.talk.title }}</h3>
                 <a class="speaker" href="/speakers/#{{ person.twitter }}">{{ person.name }}</a>
                 {% if include.showDescription == "true" %}
+                <div class="talk-description">
                     {% if talk.description-long %}
                     	{% for p in talk.description-long %}
                     		<p>{{ p.p }}</p>
@@ -20,6 +21,7 @@
                     {% else %}
                     	<p>{{ talk.description-short }}</p>
                     {% endif %}
+                </div>
                 {% endif %}
             </div>
         </li>
