@@ -16,15 +16,19 @@
             text-align: left;
         }
         @include screen-medium {
-            padding: 0 0 2rem 0;            
+            padding: 0 0 2rem 0;
         }
     }
     .title {
         margin-bottom: 0;
     }
     .speaker {
-        display: block;
+        display: inline-block;
         margin-bottom: 1rem;
+    }
+    .sep {
+        color: $grey-colour-light;
+        margin: 0 0.5rem;
     }
     .talk-description {
         text-align: left;

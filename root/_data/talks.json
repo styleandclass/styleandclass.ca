@@ -223,6 +223,7 @@
                     "p" : "Great designers and developers will see feedback and questions from clients as great opportunities to learn. During my career, I’ve been challenged on many occasions and have come to realize that clients only ever become clients from hell if you let them."
                 }
             ],
+            "slides" : "/events/slides/2015/Christine Rondeau - Clients from Hell or Learning Opportunities.pdf",
             "type" : "standard"
         },
         {
@@ -233,6 +234,7 @@
                     "p" : "Syd Mead says, &#8220;To be creative, you need to be three people: an artist, a technician, and an observer.&#8221; The first two are a given, in any successful designer career, but the latter is the most difficult to achieve. Finding one's perspective is a fraction of the effort and true grit lies in the ability to say, &#8220;no&#8221;. Todd will speak about the value of observation, developing a personal code of ethics, and championing safe and nurturing work environments."
                 }
             ],
+            "slides" : "https://vimeo.com/119577205",
             "type" : "standard"
         },
         {
@@ -243,6 +245,7 @@
                     "p" : "Markup-based mock-ups and front-end style guides are valuable, but can be time-consuming to build. Pattern Lab lets you rapidly create both in your own responsive web design playground, and Mandi will share an experience where using this system on a project helped fill in some crucial design gaps while expediting front-end development."
                 }
             ],
+            "slides" : "/events/slides/2015/Mandi Wise - Prototyping Your Way to Happiness.pdf",
             "type" : "standard"
         },
         {
@@ -253,7 +256,8 @@
                     "p" : "Tylor will share his thoughts on how tone and polish affects the community that springs up around your work "
                 }
             ],
+            "slides" : "http://denimandsteel.com/style-and-class/",
             "type" : "standard"
-        }      
+        }
     ]
 }
