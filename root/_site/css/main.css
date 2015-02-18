@@ -1009,6 +1009,8 @@ button:hover, button:focus, .button:hover, .button:focus {
           padding-right: 0; }
         .talk-list .talk:nth-child(3n+1) {
           padding-left: 0; } }
+  .talk-list .sep, .talk-list .slides {
+    display: none; }
   @media (min-width: 801px) {
     .talk-list.count-2 .talk, .talk-list.count-4 .talk {
       flex: 0 0 50%; }

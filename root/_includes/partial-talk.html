@@ -13,7 +13,7 @@
                 <h3 class="title">{{ include.talk.title }}</h3>
                 <a class="speaker" href="/speakers/#{{ person.twitter }}">{{ person.name }}</a>
                 {% if talk.slides %}
-                    <span class="sep">|</span> <a href="{{ talk.slides }}">Slides</a>
+                    <span class="sep">|</span> <a href="{{ talk.slides }}" class="slides">Slides</a>
                 {% endif %}
                 {% if include.showDescription == "true" %}
                 <div class="talk-description">

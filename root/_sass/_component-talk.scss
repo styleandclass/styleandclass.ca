@@ -68,6 +68,11 @@
         }
     }
 
+    // hide this on events page listing
+    .sep, .slides {
+        display: none;
+    }
+
 
     // for even numbers of talks, we only want 2-up
     // (there has to be a better way to do this)
