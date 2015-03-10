@@ -12,7 +12,7 @@ the command line:
 * Navigate to the repo and install dependicies with ``npm install``
 * Run Jekyll server with ``jekyll serve``
 * Make your changes and test them locally
-* Before sending up your changes, run all grunt tasks (CSS prefixing, 
+* Before sending up your changes, run all grunt tasks (CSS prefixing,
   minification) with ``grunt``
 * Push your changes to Github and issue a pull request
 
@@ -21,9 +21,18 @@ the command line:
 Once you've committed your changes and pushed them to Github, please issue a
 Pull Request. We'll merge and deploy once we've had a chance to review.
 
-(S&C Organizers can deploy themselves. Contact @mezzoblue for the deploy
-script.)
+### DEPLOYING
 
+S&C Organizers can deploy themselves using `grunt deploy`.
+
+Organizers may add additional organisers by running the following command:
+
+```sh
+npm install -g surge
+surge ./_site styleandclass.ca --add example@mobify.com
+```
+
+…where `example@mobify.com` is replaced with the new organizer’s email address. This will re-deploy the site and send an an email giving the new organizer permission to deploy the project too.
 
 ## ADDING A PAGE
 
