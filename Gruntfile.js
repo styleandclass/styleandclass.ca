@@ -36,10 +36,10 @@ module.exports = function(grunt) {
       }
     },
     surge: {
-      'styleandclass.ca': {
+      'Style & Class': {
         options: {
           project: '_site/',
-          domain: 'styleandclass-example.surge.sh'
+          domain: 'styleandclass.surge.sh'
         }
       }
     }
@@ -51,5 +51,5 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-jekyll');
 
   grunt.registerTask('default', ['cssmin', 'autoprefixer']);
-  grunt.registerTask('deploy', ['jekyll', 'surge']);
+  grunt.registerTask('deploy', ['jekyll', 'default', 'surge']);
 };

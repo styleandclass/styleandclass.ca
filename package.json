@@ -12,6 +12,6 @@
     "grunt-autoprefixer": "~2.1.0",
     "grunt-contrib-cssmin": "~0.11.0",
     "grunt-jekyll": "~0.4.2",
-    "grunt-surge": "~0.4.0"
+    "grunt-surge": "~0.4.3"
   }
 }
