@@ -17,31 +17,27 @@
             "speaker" : "Ryan Frederick",
             "description-short" : "In this talk we’ll look at what’s wrong with many CMS’, why these are real Hard Problems, and open up a conversation around what we can do (some of which might surprise you).",
             "description-long" : [
-                {
-                    "p" : "It’s time for a revolution in content management for the web. Designers and developers have finally embraced its fluid nature and are pushing the boundaries of the web as a software platform. At the same time, writers, content strategists and publishers are re-asserting *content* as the foundation of web projects, helping it bust out of the confines of the page to go where people need it to be. Yet at the interface of these two areas of innovation we have the creakiest of things: the Content Management System."
-                },
-                {
-                    "p" : "In this talk we’ll look at what’s wrong with many CMS’, why these are real Hard Problems, and open up a conversation around what we can do (some of which might surprise you)."
-                }
+                "It’s time for a revolution in content management for the web. Designers and developers have finally embraced its fluid nature and are pushing the boundaries of the web as a software platform. At the same time, writers, content strategists and publishers are re-asserting *content* as the foundation of web projects, helping it bust out of the confines of the page to go where people need it to be. Yet at the interface of these two areas of innovation we have the creakiest of things: the Content Management System.",
+                "In this talk we’ll look at what’s wrong with many CMS’, why these are real Hard Problems, and open up a conversation around what we can do (some of which might surprise you)."
             ],
             "type" : "standard"
         },
         {
             "title" : "A Beginner's Guide to Perceived Performance",
             "speaker" : "Kyle Peatt",
-            "description" : "There’s no question that performance is an important problem — but do your users really care how many requests your site makes or how fast the screen repaints? No. But they do care about the impact of those things — their perception of performance. Kyle talks about why enhancing perceived performance could net you bigger wins than struggling to strip a couple of kilobytes of page weight and gives some tips on how to get started on your own sites.",
+            "description-short" : "There’s no question that performance is an important problem — but do your users really care how many requests your site makes or how fast the screen repaints? No. But they do care about the impact of those things — their perception of performance. Kyle talks about why enhancing perceived performance could net you bigger wins than struggling to strip a couple of kilobytes of page weight and gives some tips on how to get started on your own sites.",
             "type" : "standard"
         },
         {
             "title" : "Contentious Images: Handling Images for the Mobile Web",
             "speaker" : "Jacky Gilbertson",
-            "description" : "When did 'image' become such a dirty word? In these days of forging a multi-device web, most of the advice regarding handling images has revolved around cutting them down to size, by both pixels and bytes. This advice ignores that images aren't always just supplemental, existing only to accompany articles and add flare to content. There are many situations – such as webcomics, portfolios, and infographics — where images are the content. So let me show you what to do with them.",
+            "description-short" : "When did 'image' become such a dirty word? In these days of forging a multi-device web, most of the advice regarding handling images has revolved around cutting them down to size, by both pixels and bytes. This advice ignores that images aren't always just supplemental, existing only to accompany articles and add flare to content. There are many situations – such as webcomics, portfolios, and infographics — where images are the content. So let me show you what to do with them.",
             "type" : "standard"
         },
         {
             "title" : "Content Strategy for Designers",
             "speaker" : "Alaine Mackenzie",
-            "description" : "Every web project needs content strategy. You need to plan for content and the people that make it. But hey, here’s the secret: it’s not some highfalutin mysterious mystery that only certified content strategists can do. It’s planning that every good designer can work into their practice. I’ll share some tips and tricks for incorporating content strategy into the design work you’re already doing. You’ll avoid risky content problems later on in your project, and create more sustainable solutions for your clients. All without tonnes of additional project budget or training. And somehow this will all happen in 30 minutes.",
+            "description-short" : "Every web project needs content strategy. You need to plan for content and the people that make it. But hey, here’s the secret: it’s not some highfalutin mysterious mystery that only certified content strategists can do. It’s planning that every good designer can work into their practice. I’ll share some tips and tricks for incorporating content strategy into the design work you’re already doing. You’ll avoid risky content problems later on in your project, and create more sustainable solutions for your clients. All without tonnes of additional project budget or training. And somehow this will all happen in 30 minutes.",
             "type" : "standard"
         },
         {
@@ -49,12 +45,8 @@
             "speaker" : "Tyler Wilman",
             "description-short" : "In this talk, Tyler will highlight how designers and developers can establish a good foundation to tell better stories through their craft and work together as an interdisciplinary team.",
             "description-long" : [
-                {
-                    "p" : "Design needs to tell a story. Because of this, it’s important for designers to collaborate with developers to better understand how our design can tell rich and engaging stories. Gathering insights into technical problems is key to pushing boundaries and changing the way that we interact with technology."
-                },
-                {
-                    "p" : "In this talk, Tyler will highlight how designers and developers can establish a good foundation to tell better stories through their craft and work together as an interdisciplinary team."
-                }
+                "Design needs to tell a story. Because of this, it’s important for designers to collaborate with developers to better understand how our design can tell rich and engaging stories. Gathering insights into technical problems is key to pushing boundaries and changing the way that we interact with technology.",
+                "In this talk, Tyler will highlight how designers and developers can establish a good foundation to tell better stories through their craft and work together as an interdisciplinary team."
             ],
             "type" : "feature"
         },
@@ -88,12 +80,8 @@
             "speaker" : "Stephanie Hobson",
             "description-short" : "In this talk, Stephanie will show us how making our sites easier for users who face vision or mobility challenges will make them easier for everyone. From larger hit areas to clear indications of state, we'll cover a few simple things we can start and stop doing with CSS. We'll learn how to make websites faster to navigate with a keyboard, easier to use with a coarse pointer, and usable even without visual formatting.",
             "description-long" : [
-                {
-                    "p" : "There was a time when accessibility was the web development problem. Lately, it has fallen by the wayside while other topics have stolen our interest. Our inattention doesn't make it any less of a pressing issue. In fact, it matters more now than ever."
-                },
-                {
-                    "p" : "In this talk, Stephanie will show us how making our sites easier for users who face vision or mobility challenges will make them easier for everyone. From larger hit areas to clear indications of state, we'll cover a few simple things we can start and stop doing with CSS. We'll learn how to make websites faster to navigate with a keyboard, easier to use with a coarse pointer, and usable even without visual formatting."
-                }
+                "There was a time when accessibility was the web development problem. Lately, it has fallen by the wayside while other topics have stolen our interest. Our inattention doesn't make it any less of a pressing issue. In fact, it matters more now than ever.",
+                "In this talk, Stephanie will show us how making our sites easier for users who face vision or mobility challenges will make them easier for everyone. From larger hit areas to clear indications of state, we'll cover a few simple things we can start and stop doing with CSS. We'll learn how to make websites faster to navigate with a keyboard, easier to use with a coarse pointer, and usable even without visual formatting."
             ],
             "type" : "standard"
         },
@@ -102,12 +90,8 @@
             "speaker" : "Steve Mynett",
             "description-short" : "In his talk, Steve will teach us how to create and deal with enterprise-level interfaces at any scale. He'll cover his experiences from HootSuite's 70+ person development team including the changing role of a UI Developer, how to define and maintain code quality across the team, benefits of scalable CSS architecture, and the emerging practice of Front End Operations.",
             "description-long" : [
-                {
-                    "p" : "The nuts and bolts of writing CSS are relatively easy — so why is working on large projects so difficult? Writing interfaces for enterprise-sized web applications is about more than making sure tags are closed and semi-colons are in the right place. We need to do monitoring, debugging, tooling, documentation while still anticipating and reacting to issues at scale."
-                },
-                {
-                    "p" : "In his talk, Steve will teach us how to create and deal with enterprise-level interfaces at any scale. He'll cover his experiences from HootSuite's 70+ person development team including the changing role of a UI Developer, how to define and maintain code quality across the team, benefits of scalable CSS architecture, and the emerging practice of Front End Operations."
-                }
+                "The nuts and bolts of writing CSS are relatively easy — so why is working on large projects so difficult? Writing interfaces for enterprise-sized web applications is about more than making sure tags are closed and semi-colons are in the right place. We need to do monitoring, debugging, tooling, documentation while still anticipating and reacting to issues at scale.",
+                "In his talk, Steve will teach us how to create and deal with enterprise-level interfaces at any scale. He'll cover his experiences from HootSuite's 70+ person development team including the changing role of a UI Developer, how to define and maintain code quality across the team, benefits of scalable CSS architecture, and the emerging practice of Front End Operations."
             ],
             "type" : "standard"
         },
@@ -116,12 +100,8 @@
             "speaker" : "Todd Sieling",
             "description-short" : "Techniques come and go, but how we think about UX can lift a practice above the churn and guide us day to day throughout a career. This talk will discuss the importance of finding a framework for thinking through UX problems, and how doing so prepares us for a future of rapidly expanding possibility.",
             "description-long" : [
-                {
-                    "p" : "Spend just a few years as a UX practitioner and it's easy to wonder if you'll ever have a handle on things. Tools, practices, and of course, technologies, keep changing. After a while you'll wonder if anyone can ever keep up."
-                },
-                {
-                    "p" : "Techniques come and go, but how we think about UX can lift a practice above the churn and guide us day to day throughout a career. This talk will discuss the importance of finding a framework for thinking through UX problems, and how doing so prepares us for a future of rapidly expanding possibility."
-                }
+                "Spend just a few years as a UX practitioner and it's easy to wonder if you'll ever have a handle on things. Tools, practices, and of course, technologies, keep changing. After a while you'll wonder if anyone can ever keep up.",
+                "Techniques come and go, but how we think about UX can lift a practice above the churn and guide us day to day throughout a career. This talk will discuss the importance of finding a framework for thinking through UX problems, and how doing so prepares us for a future of rapidly expanding possibility."
             ],
             "type" : "standard"
         },
@@ -130,12 +110,8 @@
             "speaker" : "James Bryant",
             "description-short" : "In his talk, Steve will teach us how to create and deal with enterprise-level interfaces at any scale. He'll cover his experiences from HootSuite's 70+ person development team including the changing role of a UI Developer, how to define and maintain code quality across the team, benefits of scalable CSS architecture, and the emerging practice of Front End Operations.",
             "description-long" : [
-                {
-                    "p" : "It's challenging to work iteratively while still mapping out the bigger picture. As a designer on an Agile development team, it's common to feel conflicted between 'shipping it' and understanding the larger problem you're trying to solve."
-                },
-                {
-                    "p" : "In this talk, we'll look at the current state of Mobify's design processes and how we balance designing for the long term vision of our products while continuing to ship iterations as quickly as possible. We'll also look at some of the little things we do to ensure we are making meaningful design decisions without compromising the fast pace of our production cycles. "
-                }
+                "It's challenging to work iteratively while still mapping out the bigger picture. As a designer on an Agile development team, it's common to feel conflicted between 'shipping it' and understanding the larger problem you're trying to solve.",
+                "In this talk, we'll look at the current state of Mobify's design processes and how we balance designing for the long term vision of our products while continuing to ship iterations as quickly as possible. We'll also look at some of the little things we do to ensure we are making meaningful design decisions without compromising the fast pace of our production cycles. "
             ],
             "type" : "standard"
         },
@@ -144,12 +120,8 @@
             "speaker" : "Aveline Thelen",
             "description-short" : "Using a real world example, we will walk through a sample workflow from design mockup to CSS implementation. As we go I'll cover some of the tools and methodologies used in this approach and emphasize the benefits of using CSS components to create CSS that can be used again and again.",
             "description-long" : [
-                {
-                    "p" : "Are you intrigued by the idea of reusable and maintainable CSS? Maybe you've wondered what OOCSS, SMACSS, or BEM really looks like in the real world? This talk will give you a brief overview of the advantages of modular CSS and outline one approach to building with CSS components."
-                },
-                {
-                    "p" : "Using a real world example, we will walk through a sample workflow from design mockup to CSS implementation. As we go I'll cover some of the tools and methodologies used in this approach and emphasize the benefits of using CSS components to create CSS that can be used again and again."
-                }
+                "Are you intrigued by the idea of reusable and maintainable CSS? Maybe you've wondered what OOCSS, SMACSS, or BEM really looks like in the real world? This talk will give you a brief overview of the advantages of modular CSS and outline one approach to building with CSS components.",
+                "Using a real world example, we will walk through a sample workflow from design mockup to CSS implementation. As we go I'll cover some of the tools and methodologies used in this approach and emphasize the benefits of using CSS components to create CSS that can be used again and again."
             ],
             "type" : "standard"
         },
@@ -158,15 +130,8 @@
             "speaker" : "Morten Rand-Hendriksen",
             "description-short" : "Join Morten on a journey to the future of today and learn how to implement responsive images in your projects and go beyond merely scaling your images for different screens to making them part of your art direction. All screens are not created equal, and so neither should your images. ",
             "description-long" : [
-                {
-                    "p" : "There was a time when all screens were created equal. Those days are long gone and now Responsive Web Design can finally become truly responsive thanks to the introduction of responsive images."
-                },
-                {
-                    "p" : "With srcset, sizes, and the <picture> element, truly responsive images are finally within our reach, and you can deploy them in production today. And with this shift from static to responsive comes a new way of thinking and new opportunities."
-                },
-                {
-                    "p" : "Join Morten on a journey to the future of today and learn how to implement responsive images in your projects and go beyond merely scaling your images for different screens to making them part of your art direction. All screens are not created equal, and so neither should your images."
-                }
+                "There was a time when all screens were created equal. Those days are long gone and now Responsive Web Design can finally become truly responsive thanks to the introduction of responsive images.",
+                "With srcset, sizes, and the <picture> element, truly responsive images are finally within our reach, and you can deploy them in production today. And with this shift from static to responsive comes a new way of thinking and new opportunities."
             ],
             "type" : "standard"
         },
@@ -216,12 +181,8 @@
             "title" : "Clients from Hell, or Learning Opportunities?",
             "speaker" : "Christine Rondeau",
             "description-long" : [
-                {
-                    "p" : "Websites like Clients From Hell love to poke fun at people. Mocking clients has been a favourite past time of both designers and developers for a long time. If clients aren't available, then we blame the tools. All CMS are terrible right?"
-                },
-                {
-                    "p" : "Great designers and developers will see feedback and questions from clients as great opportunities to learn. During my career, I’ve been challenged on many occasions and have come to realize that clients only ever become clients from hell if you let them."
-                }
+                "Websites like Clients From Hell love to poke fun at people. Mocking clients has been a favourite past time of both designers and developers for a long time. If clients aren't available, then we blame the tools. All CMS are terrible right?",
+                "Great designers and developers will see feedback and questions from clients as great opportunities to learn. During my career, I’ve been challenged on many occasions and have come to realize that clients only ever become clients from hell if you let them."
             ],
             "slides" : "/events/slides/2015/Christine Rondeau - Clients from Hell or Learning Opportunities.pdf",
             "type" : "standard"
@@ -230,9 +191,7 @@
             "title" : "Without Agency",
             "speaker" : "Todd Smith",
             "description-long" : [
-                {
-                    "p" : "Syd Mead says, &#8220;To be creative, you need to be three people: an artist, a technician, and an observer.&#8221; The first two are a given, in any successful designer career, but the latter is the most difficult to achieve. Finding one's perspective is a fraction of the effort and true grit lies in the ability to say, &#8220;no&#8221;. Todd will speak about the value of observation, developing a personal code of ethics, and championing safe and nurturing work environments."
-                }
+                "Syd Mead says, &#8220;To be creative, you need to be three people: an artist, a technician, and an observer.&#8221; The first two are a given, in any successful designer career, but the latter is the most difficult to achieve. Finding one's perspective is a fraction of the effort and true grit lies in the ability to say, &#8220;no&#8221;. Todd will speak about the value of observation, developing a personal code of ethics, and championing safe and nurturing work environments."
             ],
             "slides" : "https://vimeo.com/119577205",
             "type" : "standard"
@@ -241,9 +200,7 @@
             "title" : "Prototyping Your Way to Happiness: An Adventure with Pattern Lab",
             "speaker" : "Mandi Wise",
             "description-long" : [
-                {
-                    "p" : "Markup-based mock-ups and front-end style guides are valuable, but can be time-consuming to build. Pattern Lab lets you rapidly create both in your own responsive web design playground, and Mandi will share an experience where using this system on a project helped fill in some crucial design gaps while expediting front-end development."
-                }
+                "Markup-based mock-ups and front-end style guides are valuable, but can be time-consuming to build. Pattern Lab lets you rapidly create both in your own responsive web design playground, and Mandi will share an experience where using this system on a project helped fill in some crucial design gaps while expediting front-end development."
             ],
             "slides" : "/events/slides/2015/Mandi Wise - Prototyping Your Way to Happiness.pdf",
             "type" : "standard"
@@ -252,11 +209,27 @@
             "title" : "Out in the Open",
             "speaker" : "Tylor Sherman",
             "description-long" : [
-                {
-                    "p" : "Tylor will share his thoughts on how tone and polish affects the community that springs up around your work "
-                }
+                "Tylor will share his thoughts on how tone and polish affects the community that springs up around your work "
             ],
             "slides" : "http://denimandsteel.com/style-and-class/",
+            "type" : "standard"
+        },
+        {
+            "title" : "Efficient Web Type, c. 1556",
+            "speaker" : "Kenneth Ormandy",
+            "description-long" : [
+                "It’s 1556, and Pierre Haultin is looking for the boundaries type can perform within — in metal. We’re still facing dilemmas of typographic efficiency centuries later.",
+                "This talk introduces practical web font loading patterns and the WOFF 2.0 format from a typographic perspective, established by Haultin in the mid-16th century. His experience reveals an overlap between type setting and web performance, relevant to designers’ increasing use of JavaScript, and developers’ of type."
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "Confessions of a Luddite",
+            "speaker" : "Ryan Betts",
+            "description-long" : [
+                "“The Jetsons is the best science fiction ever because it got the most important thing right: amazing technology won't make us happy.” - Adam Wilson.",
+                "Our industry is marching boldly towards a future of self-driving cars, drone-based delivery systems, quantified everything, blockchain everything and a virtual reality metaverse. But you know what? It's not going to make us any happier. Because we – yes even &ldquo;we&rdquo; the designers – keep forgetting about the human scale of things."
+            ],
             "type" : "standard"
         }
     ]

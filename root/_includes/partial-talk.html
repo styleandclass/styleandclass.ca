@@ -19,7 +19,7 @@
                 <div class="talk-description">
                     {% if talk.description-long %}
                     	{% for p in talk.description-long %}
-                    		<p>{{ p.p }}</p>
+                    		<p>{{ p }}</p>
                     	{% endfor %}
                     {% else %}
                     	<p>{{ talk.description-short }}</p>

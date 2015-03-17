@@ -1,11 +1,52 @@
 {
     "next-event" : [
         {
-            "name" : "Design Storytelling",
-            "visible" : "false"
+            "name" : "Designing with Passion",
+            "visible" : "true"
         }
     ],
     "events": [
+
+        {
+            "name" : "Designing with Passion",
+            "type" : "meetup",
+            "short-desc" : "Many of us spend our days designing for things we aren't necessarily passionate about. Design is our job. And that doesn't mean we don't love doing it and that we aren't excited. But it's also not really what we care about. Instead, we turn to passion projects on our off time to really show off what we care about. Please join us as we spend an evening taking a look at what it means to be passionate about your design work and the amazing things that can come out of it.",
+            "description" : [
+                {
+                    "p" : "Many of us spend our days designing for things we aren't necessarily passionate about. Design is our job. And that doesn't mean we don't love doing it and that we aren't excited. But it's also not really what we care about. Instead, we turn to passion projects on our off time to really show off what we care about. Please join us as we spend an evening taking a look at what it means to be passionate about your design work and the amazing things that can come out of it."
+                },
+                {
+                    "p" : "Doors open at 6:30pm, talks start at 7:00pm. No admittance after 7:15pm. You must be registered with Meetup to attend."
+                },
+                {
+                    "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
+                }
+            ],
+            "registration" : "open",
+            "date" : "2015-04-07",
+            "time-doors" : "2015-04-07T18:30+08:00",
+            "time-start" : "2015-04-07T19:00+08:00",
+            "url-site" : "/events/2015/design-passion/",
+            "url-meetup" : "http://www.meetup.com/styleandclass/events/221218117/",
+            "venue" : "Hootsuite",
+            "talks" : [
+                {
+                    "title" : "Efficient Web Type, c. 1556"
+                },
+                {
+                    "title" : "Confessions of a Luddite"
+                }
+            ],
+            "sponsors" : [
+                {
+                    "sponsor": "Mobify"
+                },
+                {
+                    "sponsor": "Hootsuite"
+                }
+            ],
+            "afterwards" : "We tend to head to Tap & Barrel after the event to have some drinks and more nuanced conversation. If you can make it, we'd love to see you there!"
+        },
 
         {
             "name" : "Design Storytelling",
