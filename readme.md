@@ -9,7 +9,8 @@ the command line:
 
 * Install Jekyll if necessary (instructions at http://jekyllrb.com/)
 * Install Grunt if necessary (instructions at http://gruntjs.com/)
-* Navigate to the repo and install dependicies with ``npm install``
+* Navigate to the repo and install dependencies with ``npm install``
+* Go to the `root` directory
 * Run Jekyll server with ``jekyll serve``
 * Make your changes and test them locally
 * Before sending up your changes, run all grunt tasks (CSS prefixing, 
