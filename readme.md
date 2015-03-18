@@ -33,9 +33,9 @@ venue, skip this part and read the extra info below about those content types.
 
 * Choose where you want the page to live in the URL structure
 * Create a folder, and add an index.html or index.md file -- you can use
-  either HTML or Markdown to build your page, see /about/organizers/index.html
-  and /about/vision/index.md for examples of each, including required metadata.
-* Within the metadata, choose a layout (all layouts exist in /_layouts/) and
+  either HTML or Markdown to build your page, see ``/about/organizers/index.html``
+  and ``/about/vision/index.md`` for examples of each, including required metadata.
+* Within the metadata, choose a layout (all layouts exist in ``/_layouts/``) and
   title your page. Use this syntax at the top:
 
         ---
@@ -44,7 +44,7 @@ venue, skip this part and read the extra info below about those content types.
         ---
 
 * If your page needs to exist within the main navigation, add it to
-  /_data/menu.yaml
+  ``/_data/menu.yaml``
 
 Alternatively, just clone an existing page and update the metadata.
 
@@ -52,21 +52,21 @@ Alternatively, just clone an existing page and update the metadata.
 ## HOW CONTENT OBJECTS WORK
 
 Our Event, Speaker, Talk, Sponsor and Venue data lives in JSON files within the
-/_data folder.
+``/_data`` folder.
 
 We've set up our content structures to be as modular as possible. Since Jekyll
 offers neither full blown CMS nor relational database, we're jumping through a
 few hoops to piece everything together. (It's entirely possible Jekyll was the
-wrong choice for this site, but here we are.)
+wrong choice for this site, but, here we are.)
 
 Each JSON data file contains an array of objects of a particular type. In order
 to link an object to a different data type -- ie. linking a talk to an event --
 we need a linking key that's identical between both objects.
 
-In most cases, this will be a key called 'name' or 'title'. So for example, in
-our events.json file we have attached talks to each event via the 'talks'
-object. Each item in this object references a specific talk by the 'title' key,
-which we would then lookup against talks.json.
+In most cases, this will be a key called ``name`` or ``title``. So for example, in
+our ``events.json`` file we have attached talks to each event via the ``talks``
+object. Each item in this object references a specific talk by the ``title`` key,
+which we would then lookup against ``talks.json``.
 
 Each of these keys must be unique, and in order to properly link objects they
 must be identical between files. Here's how these keys map out between files:
@@ -79,7 +79,7 @@ must be identical between files. Here's how these keys map out between files:
 
 ## ADDING AN EVENT
 
-* Open /_data/events.json and append a clone of an existing event at the end.
+* Open ``/_data/events.json`` and append a clone of an existing event at the end.
 * Update the event details to the new event.
 * Ensure that venue, sponsor and talk names precisely match existing values in
   their respective data files. You'll likely need to create one or more of
@@ -89,29 +89,29 @@ Our content objects cause a bit of redundancy when creating events. Here's the
 part that's annoying and should be automated, but isn't:
 
 * You'll also have to create a new folder for the event. It should live under
-  /events/YEAR/ and should precisely match the url-site value you chose in
-  events.json
-* Clone an existing event's index.html into that folder
-* Update title and permalink in the new index.html file. Ensure they precisely
-  match the values you chose in events.json
+  ``/events/YEAR/`` and should precisely match the ``url-site`` value you chose in
+  ``events.json``
+* Clone an existing event's ``index.html`` into that folder
+* Update title and permalink in the new ``index.html`` file. Ensure they precisely
+  match the values you chose in ``events.json``
 
 
 ## ADDING A SPEAKER, TALK, VENUE OR SPONSOR
 
 None of these content types have their own individual pages, so you simply need
-to add a new entry to the respective /_data file.
+to add a new entry to the respective ``/_data`` file.
 
 For example, to add a new speaker:
 
-* Open /_data/people.json and append a clone of an existing person object at the
+* Open ``/_data/people.json`` and append a clone of an existing person object at the
   end.
 * Update details of the new person.
-* If necessary, update talks.json speaker names to precisely match the name of
+* If necessary, update ``talks.json`` speaker names to precisely match the name of
   this new person.
 
 We have listing pages for speakers and sponsors that you can visit to
-confirm that your new addition is showing up properly. Visit /speakers/ or
-/about/sponsors/ in your browser.
+confirm that your new addition is showing up properly. Visit ``/speakers/`` or
+``/about/sponsors/`` in your browser.
 
 Special note on speakers: since Jekyll doesn't provide the ability to sort data
 collections by a child key, we're hacking alphabetical order of speaker names by
@@ -129,7 +129,7 @@ make sure to read that section above.
 
 The most common cause of missing content is non-identical linking keys. This can
 spill out to unexpected places; for example, misspelling a person's name in
-talks.json will prevent that talk from even showing up on an event page's talk
+``talks.json`` will prevent that talk from even showing up on an event page's talk
 listing.
 
 When you encounter missing content, check all linking keys between any of the
@@ -141,8 +141,8 @@ possible content types. Copy and paste values to ensure they're identical.
 If you're adding a second occurance of a content object (e.g. a talk) you may
 find the site duplicates the talk listing if the title is identical. This is a
 side effect of the way we're looping through each data file, and can easily be
-side- stepped by either ensuring there's only a single instance of a talk in
-talks.json.
+side-stepped by either ensuring there's only a single instance of a talk in
+``talks.json``.
 
 You may want a second listing anyway to update certain details about the talk;
 in that case, just make sure the titles are somehow different from each other --
