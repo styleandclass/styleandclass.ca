@@ -153,3 +153,12 @@ changing the case of a single character is a quick hack to accomplish that.
 
 We're doing this manually; see the special note under the Adding Speakers
 section above.
+
+
+### JEKYLL IS THROWING LIQUID ERRORS
+
+If you see something like the following:
+
+    Liquid Exception: Included file '_includes/partial-event-large.html' not found
+
+The most likely culprit is that you ran ``jekyll serve`` in `./`, when you need to run it in `./root/`
