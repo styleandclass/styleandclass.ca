@@ -14,6 +14,20 @@
             ]
         },
         {
+            "name" : "Ryan Betts",
+            "twitter" : "hitsmachines",
+            "dribbble" : "hitsmachines",
+            "github" : "ryanbetts",
+            "site" : "http://www.ishuman.co/",
+            "speaker" : "true",
+            "photo" : "/images/people/ryan-betts.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Ryan is an interaction designer who codes. He is the co-founder of a new product & experience design firm called HUMAN."
+                }
+            ]
+        },
+        {
             "name" : "James Bryant",
             "twitter" : "jam_sbryant",
             "dribbble" : "jamesbryant",
@@ -172,6 +186,19 @@
             "bio" : [
                 {
                     "p" : "Steve has been a UI Software Engineer at HootSuite for two years. With a background in design he spends his time bridging the gap between PSD’s and code, bringing designers' creations to life."
+                }
+            ]
+        },
+        {
+            "name" : "Kenneth Ormandy",
+            "github" : "kennethormandy",
+            "site" : "http://kennethormandy.com/",
+            "twitter" : "kennethormandy",
+            "speaker" : "true",
+            "photo" : "/images/people/kenneth-ormandy.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Kenneth Ormandy is a designer at Surge.sh, organises Vancouver’s typography meetup, and studies type design at Emily Carr University."
                 }
             ]
         },
