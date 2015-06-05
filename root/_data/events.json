@@ -2,7 +2,7 @@
     "next-event" : [
         {
             "name" : "Designing with Passion",
-            "visible" : "true"
+            "visible" : "false"
         }
     ],
     "events": [
