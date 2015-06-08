@@ -22,12 +22,12 @@
                     "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
                 }
             ],
-            "registration" : "closed",
+            "registration" : "open",
             "date" : "2015-06-16",
             "time-doors" : "2015-06-16T18:30+08:00",
             "time-start" : "2015-06-16T19:00+08:00",
             "url-site" : "/events/2015/coding-beauty/",
-            "url-meetup" : "",
+            "url-meetup" : "http://www.meetup.com/styleandclass/events/223105852/",
             "venue" : "Mobify",
             "talks" : [
                 {
