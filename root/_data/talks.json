@@ -231,6 +231,25 @@
                 "Our industry is marching boldly towards a future of self-driving cars, drone-based delivery systems, quantified everything, blockchain everything and a virtual reality metaverse. But you know what? It's not going to make us any happier. Because we – yes even &ldquo;we&rdquo; the designers – keep forgetting about the human scale of things."
             ],
             "type" : "standard"
+        },
+        {
+            "title" : "Designing it Better in the Browser",
+            "speaker" : "Sam Jiang",
+            "description-long" : [
+                "There are plenty of ways to design a website. A lot of us like to make mockups in Photoshop, a few of us prefer using Fireworks (and still swear by it).",
+                "Over the past few years, designing directly in the browser has been a growing trend, especially with the rise of designers who also code. It’s something we’ve embraced at Yellow Pencil and as with any new approach, there are always benefits and limitations. I’ll share some thoughts on when and why we should be designing in-browser, and offer some tips on how you can tune your process to get better results."
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "Email Development... Yes, It's a Thing",
+            "speaker" : "Annett Forcier",
+            "description-long" : [
+                "Not only is it a thing, it is our last hope to end the proliferation of ugly emails in our inboxes for all eternity! Developers need to reclaim email and help to push email clients to step up their game in offering good looking cross-platform experiences.",
+                "A pioneer in email development, Annett will share her wealth of knowledge and experience in pushing the inbox envelope, and what’s new and cool on the frontiers of email."
+            ],
+            "type" : "standard"
         }
+
     ]
 }

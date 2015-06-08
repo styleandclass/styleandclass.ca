@@ -1,11 +1,56 @@
 {
     "next-event" : [
         {
-            "name" : "Designing with Passion",
-            "visible" : "false"
+            "name" : "Coding for Beauty",
+            "visible" : "true"
         }
     ],
     "events": [
+
+        {
+            "name" : "Coding for Beauty",
+            "type" : "meetup",
+            "short-desc" : "As core languages of the web, we're well familiar with HTML and CSS. Are they necessarily just production languages, or can they deliver creative freedom?",
+            "description" : [
+                {
+                    "p" : "As core languages of the web, we're well familiar with HTML and CSS. Are they necessarily just production languages, or can they deliver creative freedom?"
+                },
+                {
+                    "p" : "Doors open at 6:30pm, talks start at 7:00pm. No admittance after 7:15pm. You must be registered with Meetup to attend."
+                },
+                {
+                    "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
+                }
+            ],
+            "registration" : "closed",
+            "date" : "2015-06-16",
+            "time-doors" : "2015-06-16T18:30+08:00",
+            "time-start" : "2015-06-16T19:00+08:00",
+            "url-site" : "/events/2015/coding-beauty/",
+            "url-meetup" : "",
+            "venue" : "Mobify",
+            "talks" : [
+                {
+                    "title" : "Email Development... Yes, It's a Thing"
+                },
+                {
+                    "title" : "Designing it Better in the Browser"
+                }
+            ],
+            "sponsors" : [
+                {
+                    "sponsor": "Mobify"
+                },
+                {
+                    "sponsor": "Hootsuite"
+                },
+                {
+                    "sponsor": "Republic of Quality"
+                }
+            ],
+            "afterwards" : "We’ll head out to the nearby The New Oxford Tavern after the event to have some more drinks and some more nuanced conversation. If you can make it, we'd love to see you there!"
+        },
+
 
         {
             "name" : "Designing with Passion",

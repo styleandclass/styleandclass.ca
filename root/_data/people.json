@@ -71,6 +71,18 @@
             ]
         },
         {
+            "name" : "Annett Forcier",
+            "site" : "http://annettforcier.com/",
+            "twitter" : "the_annett",
+            "speaker" : "true",
+            "photo" : "/images/people/annett-forcier.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Annett Forcier is a multitalented Front-End Developer. She codes marketing and transactional emails for Indochino Apparel."
+                }
+            ]
+        },
+        {
             "name" : "Ryan Frederick",
             "github" : "ry5n",
             "twitter" : "ry5n",
@@ -135,6 +147,18 @@
             "bio" : [
                 {
                     "p" : "Stephanie starting making websites by hand when none of the available tools lived up to her arbitrarily high standards. Don't blame Netscape Composer it really was trying its best. Introduced to actual web standards a few years later she only became harder to please. Stephanie has since been doing a mix of freelance and full-time front-end web development on websites as large as bcit.ca and as popular as careers.mozilla.org. Stephanie also organizes the Vancouver Pub Standards meetups for people who make websites and like standards and/or pubs."
+                }
+            ]
+        },
+        {
+            "name" : "Sam Jiang",
+            "twitter" : "samjianga",
+            "site" : "http://paperengine.ca/",
+            "speaker" : "true",
+            "photo" : "/images/people/sam-jiang.min.png",
+            "bio" : [
+                {
+                    "p" : "Sam Jiang is a designer at Yellow Pencil. Having spent many years studying interaction design, he’s now living the dream: designing & coding front-end builds, and getting this wonderful opportunity to talk about it."
                 }
             ]
         },
