@@ -1,11 +1,55 @@
 {
     "next-event" : [
         {
-            "name" : "Coding for Beauty",
+            "name" : "The Design &amp; Content Panel",
             "visible" : "true"
         }
     ],
     "events": [
+
+        {
+            "name" : "The Design &amp; Content Panel",
+            "type" : "panel",
+            "short-desc" : "We’re partnering with The Design &amp; Content Conference to bring the Style &amp; Class community an exciting panel on the intersection of web design and content strategy. To make a bit more room (okay, a lot more room) we’re hosting the panel at The Rio Theatre in East Vancouver.",
+            "description" : [
+                {
+                    "p" : "We’re partnering with The Design &amp; Content Conference to bring the Style &amp; Class community an exciting panel on the intersection of web design and content strategy. To make a bit more room (okay, a lot more room) we’re hosting the panel at The Rio Theatre in East Vancouver."
+                },
+                {
+                    "p" : "Join us for a round table discussion featuring some of the web's top thinkers. Moderated by Steve Fisher, this panel is sure to provoke conversation and debate."
+                },
+                {
+                    "p" : "Doors open at 6:30pm, panel starts at 7:00pm. No admittance after 7:15pm."
+                },
+            ],
+            "registration" : "open",
+            "date" : "2015-08-04",
+            "time-doors" : "2015-08-04T18:30+08:00",
+            "time-start" : "2015-08-04T19:00+08:00",
+            "url-site" : "/events/2015/design-and-content/",
+            "url-meetup" : "http://www.meetup.com/styleandclass/events/224029456/",
+            "venue" : "Rio Theatre",
+            "panel" : [
+                {
+                    "title" : "A Panel of Design &amp; Content"
+                }
+            ],
+            "sponsor-description" : "Without the support of sponsors and partners, this event would be nearly impossible to organize and run. A huge thanks for their generous support of a community event!",
+            "sponsors" : [
+                {
+                    "sponsor": "Shopify",
+                    "level": "title"
+                },
+                {
+                    "sponsor": "Mobify",
+                    "level": "community"
+                },
+                {
+                    "sponsor": "Republic of Quality",
+                    "level": "community"
+                },
+            ],
+        },
 
         {
             "name" : "Coding for Beauty",
@@ -22,7 +66,7 @@
                     "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
                 }
             ],
-            "registration" : "open",
+            "registration" : "closed",
             "date" : "2015-06-16",
             "time-doors" : "2015-06-16T18:30+08:00",
             "time-start" : "2015-06-16T19:00+08:00",
@@ -483,7 +527,7 @@
                     "sponsor": "Mobify"
                 }
             ]
-        }
+        },
 
 
 

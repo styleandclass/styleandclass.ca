@@ -79,11 +79,13 @@ must be identical between files. Here's how these keys map out between files:
 
 ## ADDING AN EVENT
 
-* Open ``/_data/events.json`` and append a clone of an existing event at the end.
+* Open ``/_data/events.json`` and append a clone of an existing event at the 
+  beginning.
 * Update the event details to the new event.
 * Ensure that venue, sponsor and talk names precisely match existing values in
   their respective data files. You'll likely need to create one or more of
   these, see that section below for details.
+* Ensure that your JSON is valid.
 
 Our content objects cause a bit of redundancy when creating events. Here's the
 part that's annoying and should be automated, but isn't:
@@ -108,6 +110,7 @@ For example, to add a new speaker:
 * Update details of the new person.
 * If necessary, update ``talks.json`` speaker names to precisely match the name of
   this new person.
+* Ensure that your JSON is valid.
 
 We have listing pages for speakers and sponsors that you can visit to
 confirm that your new addition is showing up properly. Visit ``/speakers/`` or

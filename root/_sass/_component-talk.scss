@@ -35,6 +35,22 @@
     }
 }
 
+.panel-container {
+    margin: 0;
+
+    .panel {
+        display: inline-block;
+        width: 32%;
+        padding-bottom: 2rem;
+        list-style: none;
+        text-align: center;
+    }
+    .speaker {
+        display: block;
+        padding-top: 1rem;
+    }
+}
+
 
 //  Talk list component
 //  (used for brief, condensed listings)

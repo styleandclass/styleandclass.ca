@@ -48,6 +48,16 @@
             "city" : "Vancouver",
             "province" : "BC",
             "country" : "Canada"
-        }
+        },
+        {
+            "name" : "Rio Theatre",
+            "url" : "http://riotheatre.ca/",
+            "map" : "https://www.google.com/maps/place/Rio+on+Broadway/@49.2622281,-123.0705699,17z/data=!3m1!4b1!4m2!3m1!1s0x5486714ede44f589:0x1be191c1854ec051",
+            "address" : "1660 E Broadway",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+
    ]
 }

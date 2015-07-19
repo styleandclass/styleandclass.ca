@@ -67,6 +67,16 @@
 			    </div>
 			{% endif %}
 
+			{% if event.panel %}
+		        <div class="event-talks">
+		        	<div class="summary">
+						<h2 id="event-talks">Panelists</h2>
+			        </div>
+			        <div class="detail">
+			            {% include partial-panel-listing.html event=event parent="panel-container" descriptions="false" avatars="true" %}
+			        </div>
+			    </div>
+			{% endif %}
 
 
 			{% if event.afterparty %}

@@ -29,4 +29,9 @@
     {% if include.talks == "true" %}
         {% include partial-talk-listing.html event=event parent="talk-list" descriptions="false" %}
     {% endif %}
+
+    {% if include.panel == "true" %}
+        {% include partial-panel-listing.html event=event parent="panel-list" descriptions="false" %}
+    {% endif %}
+
 </div>

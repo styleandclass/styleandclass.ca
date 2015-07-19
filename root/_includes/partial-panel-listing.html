@@ -1,0 +1,11 @@
+<ul class="{{ include.parent }} count-{{ include.event.talks.size }}">
+{% for eventID in include.event.panel %}
+    {% for talk in site.data.talks.talks %}
+        {% if talk.title == eventID.title %}
+
+            {% include partial-panel.html talk=talk showDescription=include.descriptions showAvatar=include.avatars %}
+
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</ul>

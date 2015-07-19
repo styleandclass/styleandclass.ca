@@ -58,6 +58,19 @@
             ]
         },
         {
+            "name" : "Clair Byrd",
+            "twitter" : "theclairbyrd",
+            "site" : "http://blog.invisionapp.com/",
+            "organizer": "false",
+            "speaker" : "true",
+            "photo" : "/images/people/clair-byrd.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Clair has always ended up writing for any job she’s held—menus for the ubiquitous part-time greasy spoon job during college, ecommerce and ad copy for large retailers, personal development and self-learning content for communities, UX/UI copy for SaaS products, and most recently, design-focused learning material and product copy at InVision, where she leads content."
+                }
+            ]
+        },
+        {
             "name" : "Steve Fisher",
             "site" : "http://www.republicofquality.com/",
             "twitter" : "hellofisher",
@@ -200,6 +213,36 @@
             ]
         },
         {
+            "name" : "Ethan Marcotte",
+            "twitter" : "beep",
+            "site" : "http://ethanmarcotte.com/",
+            "organizer": "false",
+            "speaker" : "true",
+            "photo" : "/images/people/ethan-marcotte.min.jpg",
+            "bio" : [
+                {
+                    "p" : "<a href='http://ethanmarcotte.com/'>Ethan Marcotte</a> is an independent designer and author, based in Cambridge, Massachusetts. He coined the term “<a href='http://www.alistapart.com/articles/responsive-web-design'>responsive web design</a>” to describe a new way of designing for the ever-changing Web. His popular <a href='http://www.abookapart.com/products/responsive-web-design'>book on the topic</a> has been widely praised, as it demonstrates how designers and organizations can leverage the Web’s flexibility to design across mobile, tablet, and desktop—and whatever might come next."
+                }
+            ]
+        },
+        {
+            "name" : "Karen McGrane",
+            "twitter" : "karenmcgrane",
+            "site" : "http://karenmcgrane.com/",
+            "organizer": "false",
+            "speaker" : "true",
+            "photo" : "/images/people/karen-mcgrane.min.jpg",
+            "bio" : [
+                {
+                    "p" : "If the internet is more awesome than it was in 1995, Karen would like to claim a very tiny piece of the credit. For more than fifteen years Karen has helped create more usable digital products through the power of user experience design and content strategy."
+                },
+                {
+                    "p" : "Today, she manages <a href='http://bondartscience.com/''>Bond Art + Science</a>, a user experience consultancy she founded in 2006, where she has led content strategy and information architecture engagements for The Atlantic, Fast Company, Franklin Templeton, and Fidelity."
+                }
+            ]
+        },
+
+        {
             "name" : "Steve Mynett",
             "twitter" : "stevemynett",
             "github" : "stevemynett",
@@ -328,6 +371,40 @@
                 }
             ]
         },
+        {
+            "name" : "Sara Wachter-Boettcher",
+            "twitter" : "sara_ann_marie",
+            "site" : "http://www.sarawb.com/",
+            "organizer": "false",
+            "speaker" : "true",
+            "photo" : "/images/people/sara-wachter-boettcher.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Sara runs a <a href='http://www.sarawb.com/'>content strategy consultancy</a> based in Philadelphia. She is the author of <a href='http://rosenfeldmedia.com/books/content-everywhere'>Content Everywhere</a> from Rosenfeld Media, a book that helps content professionals, designers, and others plan for flexible, adaptable content systems that can be accessed across channels and devices."
+                },
+                {
+                    "p" : "She is also the editor in chief of A List Apart, a magazine about web content, culture, and code, and a speaker at conferences like SXSW, Confab, HOW Design, Smashing Conference, Mobilism, Web Directions, and UX Week."
+                }
+            ]
+        },
+
+        {
+            "name" : "Samantha Warren",
+            "twitter" : "samanthatoy",
+            "site" : "http://samanthatoy.com/",
+            "organizer": "false",
+            "speaker" : "true",
+            "photo" : "/images/people/samantha-warren.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Samantha is a designer and art director who has a knack for solving big problems and leading teams. She enthusiastically comes to the table with 10+ years of crafting digital experiences that educate, delight, and rally people to action."
+                },
+                {
+                    "p" : "Most recently she designed experiences at Twitter. Before that, Samantha was the Design Director at Phase2, and a web designer at Viget Labs and Ogilvy. She’s a past Art Directors Club of DC board member and Instructor at CDIA Boston University"
+                }
+            ]
+        },
+
         {
             "name" : "Tyler Wilman",
             "twitter" : "tylerwilman",

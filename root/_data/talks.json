@@ -249,7 +249,37 @@
                 "A pioneer in email development, Annett will share her wealth of knowledge and experience in pushing the inbox envelope, and what’s new and cool on the frontiers of email."
             ],
             "type" : "standard"
-        }
+        },
+        {
+            "title" : "A Panel of Design &amp; Content",
+            "speaker" : "Clair Byrd",
+            "type" : "panel"
+        },
+        {
+            "title" : "A Panel of Design &amp; Content",
+            "speaker" : "Ethan Marcotte",
+            "type" : "panel"
+        },
+        {
+            "title" : "A Panel of Design &amp; Content",
+            "speaker" : "Karen McGrane",
+            "type" : "panel"
+        },
+        {
+            "title" : "A Panel of Design &amp; Content",
+            "speaker" : "Samantha Warren",
+            "type" : "panel"
+        },
+        {
+            "title" : "A Panel of Design &amp; Content",
+            "speaker" : "Sara Wachter-Boettcher",
+            "type" : "panel"
+        },
+        {
+            "title" : "A Panel of Design &amp; Content",
+            "speaker" : "Steve Fisher",
+            "type" : "panel"
+        },
 
     ]
 }
