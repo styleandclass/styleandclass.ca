@@ -2,7 +2,7 @@
     "next-event" : [
         {
             "name" : "The Design &amp; Content Panel",
-            "visible" : "true"
+            "visible" : "false"
         }
     ],
     "events": [
