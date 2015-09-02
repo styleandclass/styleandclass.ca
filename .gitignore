@@ -1,5 +1,6 @@
 .DS_Store
-root/.sass-cache/
+.sass-cache/
 deploy_prod.sh
 
 node_modules/
+_site

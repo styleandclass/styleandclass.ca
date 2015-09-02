@@ -9,7 +9,9 @@
   },
   "devDependencies": {
     "grunt": "~0.4.2",
+    "grunt-autoprefixer": "~2.1.0",
     "grunt-contrib-cssmin": "~0.11.0",
-    "grunt-autoprefixer": "~2.1.0"
+    "grunt-jekyll": "~0.4.2",
+    "grunt-surge": "~0.4.3"
   }
 }
