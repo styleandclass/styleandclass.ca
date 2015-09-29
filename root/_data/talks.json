@@ -280,6 +280,21 @@
             "speaker" : "Steve Fisher",
             "type" : "panel"
         },
-
+        {
+            "title" : "The minimalist guide to building great Product Managers and Products.",
+            "speaker" : "Scott Baldwin",
+            "description-long" : [
+                "You can make cookies with only three ingredients, yet bakers frequently use more. And you can also plan and create products with less too —so why is it so hard? Learn the key traits that make a great product managers and great products."
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "Tips and Tricks from the Unbounce Trenches",
+            "speaker" : "Carter Gilchrist",
+            "description-long" : [
+                "Carter will share tips and tricks from his six years experience running the Product and User Experience team at Unbounce."
+            ],
+            "type" : "standard"
+        }
     ]
 }

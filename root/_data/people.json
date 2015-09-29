@@ -14,6 +14,18 @@
             ]
         },
         {
+            "name" : "Scott Baldwin",
+            "twitter" : "benry",
+            "site" : "http://yellowpencil.com/who-we-are/team/scott-baldwin/",
+            "speaker" : "true",
+            "photo" : "/images/people/scott-baldwin.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Scott is a dad, husband, Director #ux #design @yellowpencilweb, avid runner, drummer, and the guy that played shaker on Michael Jackson's Billie Jean. His career has included a number of product management, design, and user experience roles in banking, agencies, and consulting."
+                }
+            ]
+        },
+        {
             "name" : "Ryan Betts",
             "twitter" : "hitsmachines",
             "dribbble" : "hitsmachines",
@@ -130,6 +142,19 @@
             "bio" : [
                 {
                     "p" : "Jacky Gilbertson is a freelance illustrator and senior mobile designer at Mobify. She started building things for the web when she was just a young whippersnapper, and never stopped. Jacky mentors with Ladies Learning Code, and loves the challenge of a new medium, web or otherwise. When not conquering a new platform, Jacky tinkers on her own projects, writes novels, and draws comics."
+                }
+            ]
+        },
+        {
+            "name" : "Carter Gilchrist",
+            "github" : "cgilchrist",
+            "site" : "http://unbounce.com",
+            "twitter" : "cgilchrist",
+            "speaker" : "true",
+            "photo" : "/images/people/carter-gilchrist.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Carter has been building for the web since 1998, and has worked on a diverse portfolio of projects in that time. In 2009 he co-founded Unbounce and is currently the Chief Product Officer. As a full-stack developer and designer, he is responsible for everything from the UX design strategy, through to UI design and development, as well as back-end implementation. He is also responsible for aligning the Unbounce product direction with the business goals and new market opportunities that arise"
                 }
             ]
         },
@@ -252,7 +277,7 @@
             "photo" : "/images/people/steve-mynett.min.jpg",
             "bio" : [
                 {
-                    "p" : "Steve has been a UI Software Engineer at HootSuite for two years. With a background in design he spends his time bridging the gap between PSD’s and code, bringing designers' creations to life."
+                    "p" : "Steve is a UI Developer at Unbounce in Vancouver, Canada with a background and continued interest in design, focused on building and shipping products that measurably impact users. Along the way he has played music with some of the best jazz musicians in the world, found a niche as a jazz concert photographer and discovered that he is a mediocre ultimate player and aspiring cook."
                 }
             ]
         },
