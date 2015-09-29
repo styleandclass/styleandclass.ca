@@ -56,6 +56,13 @@
             "logo" : "/images/logos/shopify.jpg",
             "description" : "A user experience & content strategy duo that make the web a little more human. We discover & design wholehearted experiences."
         },
+        {
+            "name" : "Invision",
+            "url" : "http://www.invisionapp.com/",
+            "twitter" : "InVisionApp",
+            "logo" : "/images/logos/invision.png",
+            "description" : "A prototyping, collaboration, and workflow platform for designers."
+        },
 
     ]
 }

@@ -9,7 +9,7 @@
        {
             "name" : "Managing Your Product",
             "type" : "meetup",
-            "short-desc" : "Come hear Scott Baldwin (Yellow Pencil) and Carter Gilchrist (Unbounce) talk about their approach to building products that delight users..",
+            "short-desc" : "Come hear Scott Baldwin (Yellow Pencil) and Carter Gilchrist (Unbounce) talk about their approach to building products that delight users.",
             "description" : [
                 {
                     "p" : "Developers code, designers design, but who ensures that we are building the right things at the right times for our users? Join Scott Baldwin (Director, Services at Yellowpencil) and Carter Gilchrist (Chief Product Officer at Unbounce) as they share insight from their careers in Product Management."
@@ -39,8 +39,10 @@
             "sponsor-description" : "Without the support of sponsors and partners, this event would be nearly impossible to organize and run. A huge thanks for their generous support of a community event!",
             "sponsors" : [
                 {
-                    "sponsor": "Unbounce",
-                    "level": "title"
+                    "sponsor": "Unbounce"
+                },
+                {
+                    "sponsor": "Invision"
                 }
             ],
             "afterwards" : "We will head out afterwards to continue the conversation over some drink and food. Location announced at the event."
