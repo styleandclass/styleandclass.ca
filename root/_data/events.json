@@ -1,11 +1,52 @@
 {
     "next-event" : [
         {
-            "name" : "Managing Your Product",
+            "name" : "Trusting Your Team",
             "visible" : "true"
         }
     ],
     "events": [
+       {
+            "name" : "Trusting Your Team",
+            "type" : "meetup",
+            "short-desc" : "Whether it's working with your own team or your clients, our jobs require strong collaboration skills. Join Ashley Pitre (Forge &amp; Smith) and Rowan Weismiller (Mobify alumni) as they share insight from their experiences collaborating with others.",
+            "description" : [
+                {
+                    "p" : "Whether it's working with your own team or your clients, our jobs require strong collaboration skills. Join Ashley Pitre (Forge &amp; Smith) and Rowan Weismiller (Mobify alumni) as they share insight from their experiences collaborating with others."
+                },
+                {
+                    "p" : "Doors open at 6:30pm, talks start at 7:00pm. No admittance after 7:10pm."
+                },
+                {
+                    "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
+                }
+            ],
+            "registration" : "open",
+            "date" : "2015-11-17",
+            "time-doors" : "2015-11-17T18:30+08:00",
+            "time-start" : "2015-11-17T19:00+08:00",
+            "url-site" : "/events/2015/trusting-your-team/",
+            "url-meetup" : "http://www.meetup.com/styleandclass/",
+            "venue" : "Hootsuite",
+            "talks" : [
+                {
+                    "title" : "Building Trust Through Transparency and Client Education"
+                },
+                {
+                    "title" : "Interdisciplinary Teams: Where My Job Meets Yours"
+                }
+            ],
+            "sponsor-description" : "Without the support of sponsors and partners, this event would be nearly impossible to organize and run. A huge thanks for their generous support of a community event!",
+            "sponsors" : [
+                {
+                    "sponsor": "Mobify"
+                },
+                {
+                    "sponsor": "Hootsuite"
+                }
+            ],
+            "afterwards" : "We will head out afterwards to continue the conversation over some drink and food. Location announced at the event."
+        },
        {
             "name" : "Managing Your Product",
             "type" : "meetup",
@@ -15,7 +56,7 @@
                     "p" : "Developers code, designers design, but who ensures that we are building the right things at the right times for our users? Join Scott Baldwin (Director, Services at Yellowpencil) and Carter Gilchrist (Chief Product Officer at Unbounce) as they share insight from their careers in Product Management."
                 },
                 {
-                    "p" : "Doors open at 6:30pm, panel starts at 7:00pm. No admittance after 7:10pm."
+                    "p" : "Doors open at 6:30pm, talks start at 7:00pm. No admittance after 7:10pm."
                 },
                 {
                     "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
@@ -23,8 +64,8 @@
             ],
             "registration" : "open",
             "date" : "2015-10-06",
-            "time-doors" : "2015-08-04T18:30+08:00",
-            "time-start" : "2015-08-04T19:00+08:00",
+            "time-doors" : "2015-10-06T18:30+08:00",
+            "time-start" : "2015-10-06T19:00+08:00",
             "url-site" : "/events/2015/managing-your-product/",
             "url-meetup" : "http://www.meetup.com/styleandclass/",
             "venue" : "Unbounce",
@@ -33,7 +74,7 @@
                     "title" : "Making the leap from UX to Product Management"
                 },
                 {
-                    "title" : "The minimalist guide to building great Product Managers and Products."
+                    "title" : "The minimalist guide to building great Product Managers and Products"
                 }
             ],
             "sponsor-description" : "Without the support of sponsors and partners, this event would be nearly impossible to organize and run. A huge thanks for their generous support of a community event!",

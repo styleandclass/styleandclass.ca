@@ -310,6 +310,19 @@
             ]
         },
         {
+            "name" : "Ashley Pitre",
+            "twitter" : "ashleypitre",
+            "organizer": "false",
+            "speaker" : "true",
+            "photo" : "/images/people/ashley-pitre.min.jpeg",
+            "bio" : [
+                {
+                    "p" : "Ashley is a UX Designer with a background in development and teaching computer literacy. Ever since falling for her first video game, she has sought out how best to tell stories through various mediums of technology, and now leads User Experience at Forge &amp; Smith. Latest excursions have her making indie-RPGs, singing in a post-rock band, and mentoring with Ladies Learning Code."
+                }
+            ]
+        },
+
+        {
             "name" : "Morten Rand-Hendriksen",
             "twitter" : "mor10",
             "speaker" : "true",
@@ -317,7 +330,7 @@
             "photo" : "/images/people/morten-rand-hendriksen.min.jpg",
             "bio" : [
                 {
-                    "p" : "Morten Rand-Hendriksen is a web designer, developer, and educator. He's a staff author at lynda.com and instructor at Emily Carr University of Art and Design where he teaches standards based web design and development and WordPress. He's also the director of Pink & Yellow Media Inc. where he produces impossible things with WordPress and web technologies. When he's not wearing out the keys on his laptop you are likely to find Morten wearing out the soles on his shoes on a ballroom dance floor."
+                    "p" : "Morten Rand-Hendriksen is a web designer, developer, and educator. He's a staff author at lynda.com and instructor at Emily Carr University of Art and Design where he teaches standards based web design and development and WordPress. He's also the director of Pink &amp; Yellow Media Inc. where he produces impossible things with WordPress and web technologies. When he's not wearing out the keys on his laptop you are likely to find Morten wearing out the soles on his shoes on a ballroom dance floor."
                 }
             ]
         },
@@ -412,7 +425,6 @@
                 }
             ]
         },
-
         {
             "name" : "Samantha Warren",
             "twitter" : "samanthatoy",
@@ -429,7 +441,19 @@
                 }
             ]
         },
-
+        {
+            "name" : "Rowan Weismiller",
+            "twitter" : "rowbot_weisguy",
+            "site" : "http://rowanweismiller.com/",
+            "organizer": "false",
+            "speaker" : "true",
+            "photo" : "/images/people/rowan-weismiller.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Rowan is best known for his affiliation with The Nacho Club, yet he has spent the past 5 years designing and developing experiences for the web. He is currently working as an independent contractor but is formerly from Mobify, where he worked on the marketing team for over 2 years. He has a hard time wearing one hat and is adept at finding opportunities for folks from different backgrounds to collaborate."
+                }
+            ]
+        },
         {
             "name" : "Tyler Wilman",
             "twitter" : "tylerwilman",

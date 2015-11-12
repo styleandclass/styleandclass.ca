@@ -281,7 +281,7 @@
             "type" : "panel"
         },
         {
-            "title" : "The minimalist guide to building great Product Managers and Products.",
+            "title" : "The minimalist guide to building great Product Managers and Products",
             "speaker" : "Scott Baldwin",
             "description-long" : [
                 "You can make cookies with only three ingredients, yet bakers frequently use more. And you can also plan and create products with less too —so why is it so hard? Learn the key traits that make a great product managers and great products."
@@ -293,6 +293,22 @@
             "speaker" : "Carter Gilchrist",
             "description-long" : [
                 "UX and Product Management share a lot of the same traits: empathy towards the customer/user, an evidence-based approach to problem solving, and a desire to build a valuable product that is easy to use. So how are these two roles different, and what does a career path look like for moving from UX into Product Management?"
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "Building Trust Through Transparency and Client Education",
+            "speaker" : "Ashley Pitre",
+            "description-long" : [
+                "It is easy to take on our clients dreams and run with them until they become our own. Ownership encourages passion and innovation, resulting in better design - but this is best done with the trust of our clients. When we run, how do we avoid leaving our clients behind? This talk will explore common mishaps in client communication, and how we can lead projects with transparency to foster positive client relationships."
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "Interdisciplinary Teams: Where My Job Meets Yours",
+            "speaker" : "Rowan Weismiller",
+            "description-long" : [
+                "Web teams are often made up of specialized individuals. Strategists, designers, developers, project managers, account managers… the list goes on. And it goes even deeper into specialization than what that list indicates. But what about the grey area in between them? Let’s learn how to elevate every function of our teams by spending some time in the grey areas where interdisciplinary teams thrive."
             ],
             "type" : "standard"
         }
