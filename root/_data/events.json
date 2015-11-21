@@ -2,7 +2,7 @@
     "next-event" : [
         {
             "name" : "Trusting Your Team",
-            "visible" : "true"
+            "visible" : "false"
         }
     ],
     "events": [
