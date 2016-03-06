@@ -10,3 +10,6 @@ github_username: styleandclass
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap

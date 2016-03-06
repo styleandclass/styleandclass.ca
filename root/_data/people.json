@@ -214,6 +214,19 @@
             ]
         },
         {
+            "name" : "Tam Kbeili",
+            "twitter" : "tammam",
+            "github" : "tkbeili",
+            "site" : "https://codecore.ca/",
+            "speaker" : "true",
+            "photo" : "/images/people/tam-kbeili.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Tam is the Founder & Lead Instructor at CodeCore a developer bootcamp in Vancouver. He loves to code and share his 13+ years of experience in the tech industry by educating a new generation of coders and developers."
+                }
+            ]
+        },
+        {
             "name" : "Chelsea Klukas",
             "twitter" : "chelscore",
             "site" : "http://www.makefashion.org/",

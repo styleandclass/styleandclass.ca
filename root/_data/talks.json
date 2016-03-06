@@ -313,6 +313,23 @@
                 "Web teams are often made up of specialized individuals. Strategists, designers, developers, project managers, account managers… the list goes on. And it goes even deeper into specialization than what that list indicates. But what about the grey area in between them? Let’s learn how to elevate every function of our teams by spending some time in the grey areas where interdisciplinary teams thrive."
             ],
             "type" : "standard"
+        },
+        {
+            "title" : "Coding in the Classroom",
+            "speaker" : "Tam Kbeili",
+            "description-long" : [
+                "Learning to code is full of adventures, both good and difficult. Having a mentor or someone to guide you can make the experience amazing. In this talk, Tam will provide tips and methods for effectively communicating coding knowledge and cultivating a mentorship program. We’re all in this together!"
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "Flipping &lt;table&gt;s: Displaying Data on Small Screens",
+            "speaker" : "Stephanie Hobson",
+            "description-long" : [
+                "Data tables like to break our carefully crafted responsive websites. On smaller screens they mess with us when they won’t reflow nicely. They a bit claustrophobic when they don’t have enough space. Stephanie will talk about what makes a table easy to read, show the code that helps, and offer design suggestions for how to display data when there isn’t a lot of space."
+            ],
+            "type" : "standard"
         }
+
     ]
 }

@@ -68,6 +68,16 @@
             "province" : "BC",
             "country" : "Canada"
         },
+        {
+            "name" : "CodeCore",
+            "url" : "http://www.codecore.ca/",
+            "map" : "https://www.google.ca/maps/place/142+W+Hastings+St,+Vancouver,+BC+V6B/@49.2819605,-123.1108544,17z",
+            "address" : "142 W Hastings St.",
+            "address2" : "2nd Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
 
    ]
 }

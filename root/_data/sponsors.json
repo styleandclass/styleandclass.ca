@@ -63,6 +63,21 @@
             "logo" : "/images/logos/invision.png",
             "description" : "A prototyping, collaboration, and workflow platform for designers."
         },
+        {
+            "name" : "CodeCore",
+            "url" : "http://www.codecore.ca/",
+            "twitter" : "CodeCoreYVR",
+            "logo" : "/images/logos/codecore.png",
+            "description" : "CodeCore Developer Bootcamp is an intensive in-person training program in professional web development."
+        },
+        {
+            "name" : "Yellow Pencil",
+            "url" : "http://yellowpencil.com/",
+            "twitter" : "yellowpencilweb",
+            "logo" : "/images/logos/yellow-pencil.png",
+            "description" : "Yellow Pencil is an Edmonton and Vancouver based web company."
+        }
+
 
     ]
 }
