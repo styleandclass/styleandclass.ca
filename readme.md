@@ -10,6 +10,7 @@ the command line:
 * Install Jekyll if necessary (instructions at http://jekyllrb.com/)
 * Install Grunt if necessary (instructions at http://gruntjs.com/)
 * Navigate to the repo and install dependencies with ``npm install``
+* Install this gem dependency: ``gem install jekyll-sitemap`` (TODO: Gemfile)
 * Go to the `root` directory
 * Run Jekyll server with ``jekyll serve``
 * Make your changes and test them locally
