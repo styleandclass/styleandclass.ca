@@ -87,27 +87,6 @@ must be identical between files. Here's how these keys map out between files:
     talks.speaker == people.name
 
 
-## ADDING AN EVENT
-
-* Open ``/_data/events.json`` and append a clone of an existing event at the 
-  beginning.
-* Update the event details to the new event.
-* Ensure that venue, sponsor and talk names precisely match existing values in
-  their respective data files. You'll likely need to create one or more of
-  these, see that section below for details.
-* Ensure that your JSON is valid.
-
-Our content objects cause a bit of redundancy when creating events. Here's the
-part that's annoying and should be automated, but isn't:
-
-* You'll also have to create a new folder for the event. It should live under
-  ``/events/YEAR/`` and should precisely match the ``url-site`` value you chose in
-  ``events.json``
-* Clone an existing event's ``index.html`` into that folder
-* Update title and permalink in the new ``index.html`` file. Ensure they precisely
-  match the values you chose in ``events.json``
-
-
 ## ADDING A SPEAKER, TALK, VENUE OR SPONSOR
 
 None of these content types have their own individual pages, so you simply need
@@ -130,6 +109,27 @@ Special note on speakers: since Jekyll doesn't provide the ability to sort data
 collections by a child key, we're hacking alphabetical order of speaker names by
 just doing it manually in the JSON file. If you add a new speaker, make sure to
 add them in the right alphabetical place in the file, by last name.
+
+
+## ADDING AN EVENT
+
+* Open ``/_data/events.json`` and append a clone of an existing event at the
+  beginning.
+* Update the event details to the new event.
+* Ensure that venue, sponsor and talk names precisely match existing values in
+  their respective data files. You'll likely need to create one or more of
+  these, see that section below for details.
+* Ensure that your JSON is valid.
+
+Our content objects cause a bit of redundancy when creating events. Here's the
+part that's annoying and should be automated, but isn't:
+
+* You'll also have to create a new folder for the event. It should live under
+  ``/events/YEAR/`` and should precisely match the ``url-site`` value you chose in
+  ``events.json``
+* Clone an existing event's ``index.html`` into that folder
+* Update title and permalink in the new ``index.html`` file. Ensure they precisely
+  match the values you chose in ``events.json``
 
 
 ## TROUBLESHOOTING
