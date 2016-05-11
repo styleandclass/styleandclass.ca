@@ -113,6 +113,10 @@ add them in the right alphabetical place in the file, by last name.
 
 ## ADDING AN EVENT
 
+It's likely that your event has new Speakers, Talks, and possibly even Sponsors or a new Venue. If that's the case, it's a lot easier if you add those objects first with the instructions above, then add the new event last.
+
+To add an event:
+
 * Open ``/_data/events.json`` and append a clone of an existing event at the
   beginning.
 * Update the event details to the new event.
