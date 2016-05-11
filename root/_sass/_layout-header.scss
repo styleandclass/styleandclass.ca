@@ -30,11 +30,14 @@
     }
 }
 
+// override global visited link colour
+.site-title, .site-title:visited {
+    color: rgba($text-colour-reversed, 0.9);
+}
 .site-title {
 
     flex: 1 0 100%;
     height: 60px;
-    color: rgba($text-colour-reversed, 0.9);
     text-align: center;
 
     &:hover, &:focus {

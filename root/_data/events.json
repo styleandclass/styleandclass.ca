@@ -2,7 +2,7 @@
     "next-event" : [
         {
             "name" : "Coding - Mentorship and Data",
-            "visible" : "true"
+            "visible" : "false"
         }
     ],
     "events": [
