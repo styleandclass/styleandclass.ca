@@ -12,7 +12,9 @@
             "short-desc" : "Will we ever fully agree what constitutes a developer? Perhaps. We'll attempt to find out, as well as learn once and for all whose job it is to set and achieve front-end performance goals.",
             "description" : [
                 {
-                    "p" : "Web development is a rapidly shifting landscape with a multitude of responsibilities that fall somewhere in there. Is it possible for us to define a developer once and for all? And is web performance purely a developer's responsibility?",
+                    "p" : "Web development is a rapidly shifting landscape with a multitude of responsibilities that fall somewhere in there. Is it possible for us to define a developer once and for all? And is web performance purely a developer's responsibility?"
+                },
+                {
                     "p" : "Join Jeff Kamo (Mobify) and Cole Brown (Iamota) at CodeCore on May 24th as they share their experiences. The evening is looking to be as philosophical as it is practical."
                 },
                 {
@@ -51,7 +53,9 @@
             "short-desc" : "Sometimes coding is fun and sometimes it's&#8230; not. Having an experienced mentor there to show you the way as you're learning can really bring out the fun.",
             "description" : [
                 {
-                    "p" : "Sometimes coding is fun and sometimes it's&#8230; not. Having an experience mentor there to show you the way as you're learning can really bring out the fun.",
+                    "p" : "Sometimes coding is fun and sometimes it's&#8230; not. Having an experience mentor there to show you the way as you're learning can really bring out the fun."
+                },
+                {
                     "p" : "Join Tam Kbeili (CodeCore) and Stephanie Hobson (Mozilla) as they share insight from their experiences in teaching others to code and and flipping &lt;table&gt;s."
                 },
                 {
