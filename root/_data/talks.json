@@ -329,6 +329,22 @@
                 "Data tables like to break our carefully crafted responsive websites. On smaller screens they mess with us when they won’t reflow nicely. They a bit claustrophobic when they don’t have enough space. Stephanie will talk about what makes a table easy to read, show the code that helps, and offer design suggestions for how to display data when there isn’t a lot of space."
             ],
             "type" : "standard"
+        },
+        {
+            "title" : "The Developer Identity",
+            "speaker" : "Jeff Kamo",
+            "description-long" : [
+                "The tech industry is a diverse and lustrous landscape, ripe with opportunity and no shortage of job titles. Let’s take some time to explore one of them: what is a Developer? Ask ten individuals, and find yourself with ten individual answers. As the ancient Greek maxim goes: \"know thyself\", so let’s explore who we are in this industry, where we fit, why we belong, and how we can continue to grow."
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "#perfmatters: Becoming an Advocate for Web Performance",
+            "speaker" : "Cole Brown",
+            "description-long" : [
+                "We've all heard that a slow-loading website can cost you conversions, but who should be your champion for web performance? Spoiler alert: it's you! In this talk, we'll discuss how you can become an advocate for web performance, what tools you can use to help you, and how you can get the #perfmatters discussion happening at your workplace."
+            ],
+            "type" : "standard"
         }
 
     ]
