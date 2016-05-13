@@ -40,6 +40,19 @@
             ]
         },
         {
+            "name" : "Cole Brown",
+            "twitter" : "nmebrown",
+            "github" : "nmebrown",
+            "speaker" : "true",
+            "site" : "http://take-flight.net/",
+            "photo" : "/images/people/cole-brown.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Cole Brown is a front-end developer, team leader, and performance advocate. She’s originally from San Francisco, but has called Vancouver home for more than a decade. Her experience focuses on building web interfaces, optimizing front-end performance, and streamlining content delivery, and her clients range from non-profits and community projects to large-scale eCommerce sites. She is passionate about making sure all users get the best experience, no matter how they browse the web."
+                }
+            ]
+        },
+        {
             "name" : "James Bryant",
             "twitter" : "jam_sbryant",
             "dribbble" : "jamesbryant",
@@ -209,7 +222,7 @@
             "photo" : "/images/people/jeff-kamo.min.jpg",
             "bio" : [
                 {
-                    "p" : "Jeff is one of Mobify's secret weapons when it comes to front end development. As part of the Customer Success team, he helps to build mobile optimized experiences with a particular focus on CSS practices and processes."
+                    "p" : "Jeff is one of Mobify's secret weapons when it comes to front end development. As part of the Web Framework team, he helps to build mobile optimized experiences with a particular focus on CSS practices and processes."
                 }
             ]
         },
