@@ -1,13 +1,13 @@
 {
     "next-event" : [
         {
-            "name" : "2016 Style & Class + Design & Content Panel",
+            "name" : "2016 Design + Content Panel",
             "visible" : "true"
         }
     ],
     "events": [
         {
-            "name" : "2016 Style & Class + Design & Content Panel",
+            "name" : "2016 Design + Content Panel",
             "type" : "panel",
             "short-desc" : "For the second year, we’re partnering with The Design & Content Conference to bring our Style & Class community an exciting panel on the intersection of product design and content strategy. We’re bringing in experts from Adobe, Instagram, Mozilla, and Shopify. It’s going to be great!",
             "description" : [
@@ -34,6 +34,11 @@
             "url-site" : "/events/2016/design-and-content-panel/",
             "url-meetup" : "http://www.meetup.com/styleandclass/",
             "venue" : "Rio Theatre",
+            "panel" : [
+                {
+                    "title" : "2016 Design + Content Panel"
+                }
+            ],
             "sponsor-description" : "Without the support of sponsors and partners, this event would be nearly impossible to organize and run. A huge thanks for their generous support of a community event!",
             "sponsors" : [
                 {
