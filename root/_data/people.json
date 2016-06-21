@@ -201,6 +201,21 @@
                 }
             ]
         },
+
+        {
+            "name" : "Hazel Jennings",
+            "twitter" : "hazeljennings",
+            "site" : "http://www.hazeljennings.com/",
+            "speaker" : "true",
+            "photo" : "/images/people/hazel-jennings.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Hazel Jennings is the founding member of the Instagram content strategy team and spends her days articulating and evangelizing Instagram’s voice. In her spare time, she writes and directs films."
+                }
+            ]
+        },
+
+
         {
             "name" : "Sam Jiang",
             "twitter" : "samjianga",
@@ -248,6 +263,17 @@
             "bio" : [
                 {
                     "p" : "Full-time pizza expert, also @makefashionca wearable tech co-founder & workaholic UXer. Digs outdoors, bunnies, drawing, good beer, making stuff."
+                }
+            ]
+        },
+        {
+            "name" : "Joan Lafferty",
+            "twitter" : "laffertybug",
+            "speaker" : "true",
+            "photo" : "/images/people/joan-lafferty.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Joan Lafferty is a product manager for Adobe Experience Design CC. Joan cares deeply about the quality of our products and in ensuring that the voice of the customer is heard at every step of the development process. She has worked in product management and engineering on Extract, Photoshop, Flash and Flex."
                 }
             ]
         },
@@ -303,7 +329,7 @@
             "photo" : "/images/people/steve-mynett.min.jpg",
             "bio" : [
                 {
-                    "p" : "Steve is a UI Developer at Unbounce in Vancouver, Canada with a background and continued interest in design, focused on building and shipping products that measurably impact users. Along the way he has played music with some of the best jazz musicians in the world, found a niche as a jazz concert photographer and discovered that he is a mediocre ultimate player and aspiring cook."
+                    "p" : "Steve is an Engineering Manager at Unbounce in Vancouver, Canada with a background and continued interest in design, focused on building and shipping products that measurably impact users. Along the way he has played music with some of the best jazz musicians in the world, found a niche as a jazz concert photographer and discovered that he is a mediocre ultimate player and aspiring cook."
                 }
             ]
         },
@@ -412,6 +438,27 @@
                 }
             ]
         },
+
+        {
+            "name" : "Jen Simmons",
+            "twitter" : "jensimmons",
+            "speaker" : "true",
+            "site" : "http://jensimmons.com/",
+            "photo" : "/images/people/jen-simmons.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Dubbed “the Terry Gross of the tech industry,” Jen Simmons is the host and executive producer of The Web Ahead. Her in-depth interviews explain emerging technology and predict the future of the web — and won the 2015 Net Award for Podcast of the Year."
+                },
+                {
+                    "p" : "Jen is a Designer and Developer Advocate at Mozilla, where she advocates for web standards and researches the coming revolution in graphic design on the web. She’s spoken at events including SXSW, An Event Apart, Fluent, Generate, Future of Web Design, and Respond. Her talk, Modern Layouts: Getting Out of Our Ruts, was awarded Best Conference Presentation at CSS Dev Conf 2014."
+                },
+                {
+                    "p" : "Jen launched her first client website in 1998 and spent years making sites for small mom & pop shops, arts organizations, and creative individuals. Her more-known clients include CERN, the W3C, Google, Drupal, Temple University, Apress, and the Annenberg Foundation. Jen earned a MFA in Film and Media Arts from Temple University. She lives in New York City."
+                }
+            ]
+        },
+
+
         {
             "name" : "Todd Smith",
             "twitter" : "toddsmithdesign",

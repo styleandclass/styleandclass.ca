@@ -345,7 +345,31 @@
                 "We've all heard that a slow-loading website can cost you conversions, but who should be your champion for web performance? Spoiler alert: it's you! In this talk, we'll discuss how you can become an advocate for web performance, what tools you can use to help you, and how you can get the #perfmatters discussion happening at your workplace."
             ],
             "type" : "standard"
+        },
+        {
+            "title" : "2016 Design and Content Panel",
+            "speaker" : "Alaine Mackenzie",
+            "type" : "panel"
+        },
+        {
+            "title" : "2016 Design and Content Panel",
+            "speaker" : "Hazel Jennings",
+            "type" : "panel"
+        },
+        {
+            "title" : "2016 Design and Content Panel",
+            "speaker" : "Jen Simmons ",
+            "type" : "panel"
+        },
+        {
+            "title" : "2016 Design and Content Panel",
+            "speaker" : "Joan Lafferty",
+            "type" : "panel"
+        },
+        {
+            "title" : "2016 Design and Content Panel",
+            "speaker" : "Val Head",
+            "type" : "panel"
         }
-
     ]
 }

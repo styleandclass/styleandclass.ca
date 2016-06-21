@@ -1,11 +1,51 @@
 {
     "next-event" : [
         {
-            "name" : "Keeping Up in the Wild Web",
+            "name" : "2016 Style & Class + Design & Content Panel",
             "visible" : "true"
         }
     ],
     "events": [
+        {
+            "name" : "2016 Style & Class + Design & Content Panel",
+            "type" : "panel",
+            "short-desc" : "For the second year, we’re partnering with The Design & Content Conference to bring our Style & Class community an exciting panel on the intersection of product design and content strategy. We’re bringing in experts from Adobe, Instagram, Mozilla, and Shopify. It’s going to be great!",
+            "description" : [
+                {
+                    "p" : "For the second year, we’re partnering with The Design & Content Conference to bring our Style & Class community an exciting panel on the intersection of product design and content strategy. We’re bringing in experts from Adobe, Instagram, Mozilla, and Shopify. It’s going to be great!"
+                },
+                {
+                    "p" : "To make a bit more room (okay, a lot more room) we’re hosting the panel at The Rio Theatre in East Vancouver. Special thanks to Adobe as our Gold Sponsor and Shopify as our Drink Sponsor for making it possible for us to provide the event at no charge to you!"
+                },
+                {
+                    "p" : "Our panelists include Alaine Mackenzie (Shopify) moderator, Hazel Jennings (instagram), Jen Simmons (Mozilla), Joan Lafferty (Adobe), Val Head (Independent Designer & Consultant)"
+                },
+                {
+                    "p" : "Doors open at 6:30pm, panel starts at 7:00pm. No admittance after 7:15pm."
+                },
+                {
+                    "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
+                }
+            ],
+            "registration" : "open",
+            "date" : "2016-07-19",
+            "time-doors" : "2016-07-24T18:30+08:00",
+            "time-start" : "2016-07-24T19:00+08:00",
+            "url-site" : "/events/2016/design-and-content-panel/",
+            "url-meetup" : "http://www.meetup.com/styleandclass/",
+            "venue" : "Rio Theatre",
+            "sponsor-description" : "Without the support of sponsors and partners, this event would be nearly impossible to organize and run. A huge thanks for their generous support of a community event!",
+            "sponsors" : [
+                {
+                    "sponsor": "Adobe",
+
+                },
+                {
+                    "sponsor": "Shopify",
+                }
+            ],
+            "afterwards" : "We will head out afterwards to continue the conversation over some drink and food. Location announced at the event."
+        },
         {
             "name" : "Keeping Up in the Wild Web",
             "type" : "meetup",

@@ -2,6 +2,10 @@
 
 This is the website for the Style & Class event series, powered by Jekyll.
 
+## Requirements
+
+* Jekyll ~`3.1.6` _-Has given errors on older versions. If you're seeing errors related to gems not being installed, run `gem update jekyll`_
+
 ## SETUP
 
 To start contributing changes, clone this repo into a new folder and then:
