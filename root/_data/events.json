@@ -1,11 +1,52 @@
 {
     "next-event" : [
         {
-            "name" : "2016 Design + Content Panel",
+            "name" : "Inclusive Research and Design",
             "visible" : "true"
         }
     ],
     "events": [
+        {
+            "name" : "Inclusive Research and Design",
+            "type" : "meetup",
+            "short-desc" : "We all want to make our designs and projects the best they can be, but sometimes we forgot about portions of our audiences. Inclusion of those on the margins is a critical part of any web project. Join Lauren Isaacson (Curio Research) and Tommy Lewis (Microsoft) as they share insight from their experiences in inclusion in the work they do.",
+            "description" : [
+                {
+                    "p" : "We all want to make our designs and projects the best they can be, but sometimes we forgot about portions of our audiences. Inclusion of those on the margins is a critical part of any web project. Join Lauren Isaacson (Curio Research) and Tommy Lewis (Microsoft) as they share insight from their experiences in inclusion in the work they do."
+                },
+                {
+                    "p" : "Doors open at 6:30pm, talks start at 7:00pm. No admittance after 7:10pm."
+                },
+                {
+                    "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
+                }
+            ],
+            "registration" : "open",
+            "date" : "2016-07-19",
+            "time-doors" : "2016-10-24T18:30+08:00",
+            "time-start" : "2016-10-24T19:00+08:00",
+            "url-site" : "/events/2016/inclusive-research-and-design/",
+            "url-meetup" : "https://www.meetup.com/styleandclass/events/234510713/",
+            "venue" : "Microsoft Canada Excellence Centre",
+            "talks" : [
+                {
+                    "title" : "Research For All"
+                },
+                {
+                    "title" : "An Introduction to Inclusive Design"
+                }
+            ],
+            "sponsor-description" : "Without the support of sponsors and partners, this event would be nearly impossible to organize and run. A huge thanks for their generous support of a community event!",
+            "sponsors" : [
+                {
+                    "sponsor": "Microsoft"
+                },
+                {
+                    "sponsor": "Yellow Pencil"
+                }
+            ],
+            "afterwards" : "We will head out afterwards to continue the conversation over some drink and food. Location announced at the event."
+        },
         {
             "name" : "2016 Design + Content Panel",
             "type" : "panel",

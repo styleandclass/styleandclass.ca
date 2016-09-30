@@ -1,6 +1,6 @@
 .DS_Store
 .sass-cache/
 deploy_prod.sh
-
+*.lock
 node_modules/
 # _site
