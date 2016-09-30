@@ -201,7 +201,21 @@
                 }
             ]
         },
-
+        {
+            "name" : "Lauren Isaacson",
+            "twitter" : "TheAdnostic",
+            "site" : "http://www.curioresearch.net/",
+            "speaker" : "true",
+            "photo" : "/images/people/lauren-isaacson.min.jpg",
+            "bio": [
+                {
+                    "p" : "Lauren Isaacson is a market and user researcher hailing from Los Angeles, California but now lives here in Vancouver. Since earning her MBA in 2002, Lauren has worked for various interactive advertising agencies researching and developing advertising and user experience strategies for companies like Nissan Motors, Microsoft, GM, Safeway, and eHarmony."
+                },
+                {
+                    "p" : "Now she works as an independent consulting offering qualitative and quantitative research services to firms and projects both large and small."
+                }
+            ]
+        },
         {
             "name" : "Hazel Jennings",
             "twitter" : "hazeljennings",
@@ -274,6 +288,19 @@
             "bio" : [
                 {
                     "p" : "Joan Lafferty is a product manager for Adobe Experience Design CC. Joan cares deeply about the quality of our products and in ensuring that the voice of the customer is heard at every step of the development process. She has worked in product management and engineering on Extract, Photoshop, Flash and Flex."
+                }
+            ]
+        },
+        {
+            "name" : "Tommy Lewis",
+            "speaker" : "true",
+            "photo" : "/images/people/tommy-lewis.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Tommy Lewis is a Technical Evangelist Manager at Microsoft Canada who at 8 years old thought that there was a frog apocalypse happening in his backyard. It turned out that it was just the rain made all the frogs come out and hop around. Tommy is also very much an advocate of technology coexistence and thinks designers must look past dogma so that we can create a better future."
+                },
+                {
+                    "p" : "He is also bent on eradicating all versions of Internet Explorer from the planet and will never stop, never."
                 }
             ]
         },

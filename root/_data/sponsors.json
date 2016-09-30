@@ -76,8 +76,12 @@
             "twitter" : "yellowpencilweb",
             "logo" : "/images/logos/yellow-pencil.png",
             "description" : "Yellow Pencil is an Edmonton and Vancouver based web company."
+        },
+        {
+            "name" : "Microsoft Vancouver",
+            "url" : "https://mcec.microsoft.ca/",
+            "twitter" : "MicrosoftVan",
+            "logo" : "/images/logos/microsoft.png"
         }
-
-
     ]
 }

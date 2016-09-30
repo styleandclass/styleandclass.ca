@@ -370,6 +370,22 @@
             "title" : "2016 Design + Content Panel",
             "speaker" : "Val Head",
             "type" : "panel"
+        },
+        {
+            "title" : "Research for All",
+            "speaker": "Lauren Isaacson",
+            "description-long" : [
+                "You will be hard pressed to find anyone who doesn't think that making websites and software accessible is a bad thing, but when you have the opportunity to do user research and testing, how often do you involve someone who is physically impaired? During her talk, Lauren will discuss why you should make an effort to involve disabled research participants and how you would go about doing so."
+            ],
+            "type" : "standard"
+        },
+        {
+            "title" : "An Introduction to Inclusive Design",
+            "speaker" : "Tommy Lewis",
+            "description-long" : [
+                "Inclusive Design is something that goes beyond accessibility, it is about building things whether they are street fixtures, apps or websites that reframe disability around mismatched human interactions instead of a personal health condition. In this session, you will learn what inclusive design is, why it is important for designing and developing anything. Then you will learn how to use the Inclusive Design Toolkit created by the Microsoft Design team to have a practical, real-world framework for creating an inclusive workflow in your own projects."
+            ],
+            "type" : "standard"
         }
     ]
 }
