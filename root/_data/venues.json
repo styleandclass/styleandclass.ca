@@ -78,6 +78,16 @@
             "province" : "BC",
             "country" : "Canada"
         },
+        {
+            "name" : "Microsoft Canada Excellence Centre",
+            "url" : "https://mcec.microsoft.ca/",
+            "map" : "https://www.google.com/maps/place/725+Granville+St,+Vancouver,+BC+V6B,+Canada/@49.2821898,-123.1207731,17z",
+            "address" : "725 Granville Street",
+            "address2" : "7th Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
 
    ]
 }
