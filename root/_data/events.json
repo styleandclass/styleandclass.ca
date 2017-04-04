@@ -1,11 +1,52 @@
 {
     "next-event" : [
         {
-            "name" : "Inclusive Research and Design",
+            "name" : "Inclusive Something or Other",
             "visible" : "true"
         }
     ],
     "events": [
+        {
+            "name" : "Inclusive Something or Other",
+            "type" : "meetup",
+            "short-desc" : "As technologists we are shaping the future that everyone is living into. How can we be sure we're shaping an inclusive future that is better for all of us? What can we learn from recent history that might suggest an anti-vision? Join Stevie Nguyen (IBM) and Ashley Victoria (TBD) as they share their experiences with both inclusion and exclusion in the work they do.",
+            "description" : [
+                {
+                    "p" : "As technologists we are shaping the future that everyone is living into. How can we be sure we're shaping an inclusive future that is better for all of us? What can we learn from recent history that might suggest an anti-vision? Join Stevie Nguyen (IBM) and Ashley Victoria (TBD) as they share their experiences with both inclusion and exclusion in the work they do."
+                },
+                {
+                    "p" : "Doors open at 6:30pm, talks start at 7:00pm. No admittance after 7:10pm."
+                },
+                {
+                    "p" : "An assortment of beer and soft drinks will be provided, no food. 19+, minors not permitted due to alcohol service."
+                }
+            ],
+            "registration" : "open",
+            "date" : "2017-04-12",
+            "time-doors" : "2017-04-12T18:30+08:00",
+            "time-start" : "2017-04-12T19:00+08:00",
+            "url-site" : "/events/2017/inclusive-something-or-other/",
+            "url-meetup" : "https://www.meetup.com/styleandclass/events/234510713/",
+            "venue" : "Bench Accounting",
+            "talks" : [
+                {
+                    "title" : "Modelling Ideal Futures in Tech Teams"
+                },
+                {
+                    "title" : "Women in Science and Technology: A Holistic View on Gender Inequality"
+                }
+            ],
+            "sponsor-description" : "Without the support of sponsors and partners, this event would be nearly impossible to organize and run. A huge thanks for their generous support of a community event!",
+            "sponsors" : [
+                {
+                    "sponsor": "Bench Accounting"
+                },
+                {
+                    "sponsor": "Design & Content Conference"
+                }
+            ],
+            "afterwards" : "We will head out afterwards to continue the conversation over some drink and food. Location announced at the event."
+        },
         {
             "name" : "Inclusive Research and Design",
             "type" : "meetup",

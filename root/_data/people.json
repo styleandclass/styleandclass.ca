@@ -361,6 +361,18 @@
             ]
         },
         {
+            "name" : "Stevie Nguyen",
+            "twitter" : "StevieNguyenyvr",
+            "site" : "http://stevienguyendesign.com/",
+            "speaker" : "true",
+            "photo" : "/images/people/stevie-nguyen.min.jpg",
+            "bio" : [
+                {
+                    "p" : "TBD we don't want to forget this one."
+                }
+            ]
+        },
+        {
             "name" : "Kenneth Ormandy",
             "github" : "kennethormandy",
             "site" : "http://kennethormandy.com/",
@@ -389,7 +401,7 @@
             ]
         },
         {
-            "name" : "Ashley Pitre",
+            "name" : "Ashley Victoria",
             "twitter" : "ashleypitre",
             "organizer": "false",
             "speaker" : "true",
