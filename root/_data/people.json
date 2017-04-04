@@ -351,7 +351,7 @@
             "twitter" : "stevemynett",
             "github" : "stevemynett",
             "site" : "http://www.mynettworks.com/",
-            "organizer": "true",
+            "organizer": "former",
             "speaker" : "true",
             "photo" : "/images/people/steve-mynett.min.jpg",
             "bio" : [
@@ -391,7 +391,7 @@
             "github" : "kpeatt",
             "site" : "http://www.kylepeatt.com/",
             "twitter" : "kpeatt",
-            "organizer" : "true",
+            "organizer" : "former",
             "speaker" : "true",
             "photo" : "/images/people/kyle-peatt.min.jpg",
             "bio" : [
@@ -403,7 +403,7 @@
         {
             "name" : "Ashley Victoria",
             "twitter" : "ashleypitre",
-            "organizer": "false",
+            "organizer": "true",
             "speaker" : "true",
             "photo" : "/images/people/ashley-victoria.min.jpg",
             "bio" : [
@@ -444,7 +444,7 @@
             "github" : "mezzoblue",
             "site" : "http://www.mezzoblue.com/",
             "twitter" : "mezzoblue",
-            "organizer" : "true",
+            "organizer" : "former",
             "speaker" : "true",
             "photo" : "/images/people/dave-shea.min.jpg",
             "bio" : [
@@ -557,12 +557,12 @@
             "name" : "Rowan Weismiller",
             "twitter" : "rowbot_weisguy",
             "site" : "http://rowanweismiller.com/",
-            "organizer": "false",
+            "organizer": "true",
             "speaker" : "true",
             "photo" : "/images/people/rowan-weismiller.min.jpg",
             "bio" : [
                 {
-                    "p" : "Rowan is best known for his affiliation with The Nacho Club, yet he has spent the past 5 years designing and developing experiences for the web. He is currently working as an independent contractor but is formerly from Mobify, where he worked on the marketing team for over 2 years. He has a hard time wearing one hat and is adept at finding opportunities for folks from different backgrounds to collaborate."
+                    "p" : "Rowan is the kind of guy that has fun doing what he said he would do. 'Cause jeez, why the heck not! He's a front-end engineer at Bench Accounting where he works in support of small business owners and entrepreneurs getting financial peace of mind. He got his start in tech after his design education at SFU, when Dave Shea introduced him to Mobify. It was there that he fell in love with the web and all it has to offer."
                 }
             ]
         },
