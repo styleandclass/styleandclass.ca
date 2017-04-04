@@ -811,12 +811,13 @@ hr {
 
 input, textarea {
   width: 100%;
+  padding: 0.25rem 0.5rem;
   border: solid 1px #d5ceca;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  line-height: 1.5; }
 
 input {
-  min-height: 2rem;
-  padding: 0 0.25rem; }
+  min-height: 2rem; }
 
 button, .button, .button:link, .button:visited {
   padding: 0.5rem 2rem;
@@ -841,15 +842,19 @@ button:hover, button:focus, .button:hover, .button:focus {
   .form {
     display: flex; } }
 
-@media (min-width: 801px) {
-  .form-description {
-    flex: 1 1 25%; } }
-
-.form-container {
-  margin: 0; }
+.form-description {
+  margin-bottom: 2rem; }
   @media (min-width: 801px) {
-    .form-container {
-      flex: 1 1 75%; } }
+    .form-description {
+      flex: 1 1 25%;
+      margin-bottom: 0; } }
+
+@media (min-width: 801px) {
+  .form-container {
+    flex: 1 1 75%; } }
+
+.form-group {
+  margin: 0 0 2rem 0; }
 
 .form-row {
   margin: 0 0 1rem 0;
