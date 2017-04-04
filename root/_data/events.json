@@ -1,18 +1,18 @@
 {
     "next-event" : [
         {
-            "name" : "Inclusive Something or Other",
+            "name" : "Equality & Ideal Futures In Technology",
             "visible" : "true"
         }
     ],
     "events": [
         {
-            "name" : "Inclusive Something or Other",
+            "name" : "Equality & Ideal Futures In Technology",
             "type" : "meetup",
-            "short-desc" : "As technologists we are shaping the future that everyone is living into. How can we be sure we're shaping an inclusive future that is better for all of us? What can we learn from recent history that might suggest an anti-vision? Join Stevie Nguyen (IBM) and Ashley Victoria (TBD) as they share their experiences with both inclusion and exclusion in the work they do.",
+            "short-desc" : "As technologists we're shaping the future that we're all going to live in. How might we shape a future that is inclusive and better for everyone? What can we learn from the past? Join Stevie Thuy Anh Nguyen (IBM) and Ashley Victoria (POWERSHiFTER) as they share their experiences of inclusion (and exclusion) in their work.",
             "description" : [
                 {
-                    "p" : "As technologists we are shaping the future that everyone is living into. How can we be sure we're shaping an inclusive future that is better for all of us? What can we learn from recent history that might suggest an anti-vision? Join Stevie Nguyen (IBM) and Ashley Victoria (TBD) as they share their experiences with both inclusion and exclusion in the work they do."
+                    "p" : "As technologists we're shaping the future that we're all going to live in. How might we shape a future that is inclusive and better for everyone? What can we learn from the past? Join Stevie Thuy Anh Nguyen (IBM) and Ashley Victoria (POWERSHiFTER) as they share their experiences of inclusion (and exclusion) in their work."
                 },
                 {
                     "p" : "Doors open at 6:30pm, talks start at 7:00pm. No admittance after 7:10pm."
@@ -25,7 +25,7 @@
             "date" : "2017-04-12",
             "time-doors" : "2017-04-12T18:30+08:00",
             "time-start" : "2017-04-12T19:00+08:00",
-            "url-site" : "/events/2017/inclusive-something-or-other/",
+            "url-site" : "/events/2017/equality-ideal-futures-in-technology/",
             "url-meetup" : "https://www.meetup.com/styleandclass/events/234510713/",
             "venue" : "Bench Accounting",
             "talks" : [
