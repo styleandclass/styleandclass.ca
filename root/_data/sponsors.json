@@ -82,6 +82,18 @@
             "url" : "https://mcec.microsoft.ca/",
             "twitter" : "MicrosoftVan",
             "logo" : "/images/logos/microsoft.png"
+        },
+        {
+            "name" : "Bench Accounting",
+            "url" : "https://bench.co/",
+            "twitter" : "Bench",
+            "logo" : "/images/logos/bench.png"
+        },
+        {
+            "name" : "Design & Content Conference",
+            "url" : "https://designcontentconf.com/",
+            "twitter" : "dcontentconf",
+            "logo" : "/images/logos/design-content-conference.png"
         }
     ]
 }

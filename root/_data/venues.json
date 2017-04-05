@@ -88,6 +88,15 @@
             "province" : "BC",
             "country" : "Canada"
         },
-
+        {
+            "name" : "Bench Accounting",
+            "url" : "https://bench.co/",
+            "map" : "https://www.google.ca/maps/place/Bench+Accounting/@49.2805427,-123.1207458,17z/data=!3m1!4b1!4m5!3m4!1s0x5486717e504f3dd5:0xf7c8d5f2104a3897!8m2!3d49.2805427!4d-123.1185571",
+            "address" : "545 Robson St",
+            "address2" : "5th Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        }
    ]
 }

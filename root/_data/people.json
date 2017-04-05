@@ -351,12 +351,24 @@
             "twitter" : "stevemynett",
             "github" : "stevemynett",
             "site" : "http://www.mynettworks.com/",
-            "organizer": "true",
+            "organizer": "former",
             "speaker" : "true",
             "photo" : "/images/people/steve-mynett.min.jpg",
             "bio" : [
                 {
                     "p" : "Steve is an Engineering Manager at Unbounce in Vancouver, Canada with a background and continued interest in design, focused on building and shipping products that measurably impact users. Along the way he has played music with some of the best jazz musicians in the world, found a niche as a jazz concert photographer and discovered that he is a mediocre ultimate player and aspiring cook."
+                }
+            ]
+        },
+        {
+            "name" : "Stevie Thuy Anh Nguyen",
+            "twitter" : "StevieNguyenyvr",
+            "site" : "http://stevienguyendesign.com/",
+            "speaker" : "true",
+            "photo" : "/images/people/stevie-nguyen.min.jpg",
+            "bio" : [
+                {
+                    "p" : "Born in France to Vietnamese refugees, and raised on the ancestral unceded land of the Coast Salish people, Stevie Thuy Anh began their journey of finding, fostering and creating connections and making meaning between folks 8 years ago. They spent 6 years in the marketing department of a leadership development firm before pursuing their dream of being a designer full time in 2014. Empowered by an education from Simon Fraser University (SFU)’s School for Interactive Arts and Technology (SIAT) and Communications program, Stevie aims to create work that contributes to a more loving world. They are passionate about connecting with folks, keen to hear their stories and shape experiences that resonate through design. Sensitive to the power of language, Stevie is in pursuit of fluency in 5 languages and is always thrilled to practice any of them."
                 }
             ]
         },
@@ -379,7 +391,7 @@
             "github" : "kpeatt",
             "site" : "http://www.kylepeatt.com/",
             "twitter" : "kpeatt",
-            "organizer" : "true",
+            "organizer" : "former",
             "speaker" : "true",
             "photo" : "/images/people/kyle-peatt.min.jpg",
             "bio" : [
@@ -389,14 +401,14 @@
             ]
         },
         {
-            "name" : "Ashley Pitre",
+            "name" : "Ashley Victoria",
             "twitter" : "ashleypitre",
-            "organizer": "false",
+            "organizer": "true",
             "speaker" : "true",
-            "photo" : "/images/people/ashley-pitre.min.jpg",
+            "photo" : "/images/people/ashley-victoria.min.jpg",
             "bio" : [
                 {
-                    "p" : "Ashley is a UX Designer with a background in development and teaching computer literacy. Ever since falling for her first video game, she has sought out how best to tell stories through various mediums of technology, and now leads User Experience at Forge &amp; Smith. Latest excursions have her making indie-RPGs, singing in a post-rock band, and mentoring with Ladies Learning Code."
+                    "p" : "Ashley is a UX Designer with a background in development and teaching computer literacy. Taking inspiration from science, music, and games, she is constantly seeking how best to tell stories through various mediums and is currently the Senior UX Designer at POWERSHiFTER. Ashley has facilitated discussions in gender inequality and spoken on the importance of process and empathy in client engagement. Latest excursions have her making indie-RPGs, singing in a post-rock band, and mentoring with Ladies Learning Code."
                 }
             ]
         },
@@ -432,7 +444,7 @@
             "github" : "mezzoblue",
             "site" : "http://www.mezzoblue.com/",
             "twitter" : "mezzoblue",
-            "organizer" : "true",
+            "organizer" : "former",
             "speaker" : "true",
             "photo" : "/images/people/dave-shea.min.jpg",
             "bio" : [
@@ -545,12 +557,12 @@
             "name" : "Rowan Weismiller",
             "twitter" : "rowbot_weisguy",
             "site" : "http://rowanweismiller.com/",
-            "organizer": "false",
+            "organizer": "true",
             "speaker" : "true",
             "photo" : "/images/people/rowan-weismiller.min.jpg",
             "bio" : [
                 {
-                    "p" : "Rowan is best known for his affiliation with The Nacho Club, yet he has spent the past 5 years designing and developing experiences for the web. He is currently working as an independent contractor but is formerly from Mobify, where he worked on the marketing team for over 2 years. He has a hard time wearing one hat and is adept at finding opportunities for folks from different backgrounds to collaborate."
+                    "p" : "Rowan is the kind of guy that has fun doing what he said he would do. 'Cause jeez, why the heck not! He's a front-end engineer at Bench Accounting where he works in support of small business owners and entrepreneurs getting financial peace of mind. He got his start in tech after his design education at SFU, when Dave Shea introduced him to Mobify. It was there that he fell in love with the web and all it has to offer."
                 }
             ]
         },
