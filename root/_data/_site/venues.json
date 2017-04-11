@@ -1,0 +1,102 @@
+{
+    "venues": [
+        {
+            "name" : "Mobify (Pender)",
+            "url" : "http://www.mobify.com/",
+            "map" : "https://www.google.ca/maps/place/311+W+Pender+St,+Vancouver,+BC+V6B+1T3/@49.2824194,-123.1111482,17z/data=!3m1!4b1!4m2!3m1!1s0x548671790dfc1593:0x83239d4a06883c19",
+            "address" : "311 W Pender St.",
+            "address2" : "3rd Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada",
+            "postalcode" : "V6B 1T1"
+        },
+        {
+            "name" : "Hootsuite",
+            "url" : "http://www.hootsuite.com/",
+            "map" : "https://www.google.ca/maps/place/HootSuite+Media,+Inc./@49.263869,-123.104318,15z/data=!4m2!3m1!1s0x0:0x3d6d0a44ca262f2?sa=X&ei=83CXVNHvE870oATukoHgBA&ved=0CIQBEPwSMAs",
+            "address" : "5 East 8th Ave.",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+        {
+            "name" : "SFU Woodwards",
+            "room" : "Goldcorp Centre for the Arts",
+            "map" : "https://www.google.ca/maps/place/Woodward's/@49.282112,-123.10833,17z/data=!3m1!4b1!4m2!3m1!1s0x5486717985791fdb:0xc2cddf15265d4eae",
+            "address" : "149 West Hastings Street",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada",
+            "postalcode" : "V6B 1H4"
+        },
+        {
+            "name" : "The Portside Pub",
+            "url" : "http://theportsidepub.com/",
+            "map" : "https://www.google.ca/maps/place/The+Portside+Pub/@49.283688,-123.103888,15z/data=!4m2!3m1!1s0x0:0x2b4bba070a6530da?sa=X&ei=enGXVNCwCMHboAS5kYDAAg&ved=0CJQBEPwSMA4",
+            "address" : "7 Alexander St.",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+        {
+            "name" : "Mobify",
+            "url" : "http://www.mobify.com/",
+            "map" : "https://www.google.ca/maps/place/Mobify/@49.277656,-123.11914,17z/data=!3m1!4b1!4m2!3m1!1s0x5486717dffd229ef:0x62fb167588948505",
+            "address" : "948 Homer Street",
+            "address2" : "3rd Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+        {
+            "name" : "Rio Theatre",
+            "url" : "http://riotheatre.ca/",
+            "map" : "https://www.google.com/maps/place/Rio+on+Broadway/@49.2622281,-123.0705699,17z/data=!3m1!4b1!4m2!3m1!1s0x5486714ede44f589:0x1be191c1854ec051",
+            "address" : "1660 E Broadway",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+        {
+            "name" : "Unbounce",
+            "url" : "http://www.unbounce.com/",
+            "map" : "https://www.google.ca/maps/place/Unbounce/@49.2813423,-123.1146169,17z/data=!4m6!1m3!3m2!1s0x5486718276025337:0x9e0b0fbb24f756af!2sUnbounce!3m1!1s0x5486718276025337:0x9e0b0fbb24f756af",
+            "address" : "401 W. Georgia",
+            "address2" : "4th Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+        {
+            "name" : "CodeCore",
+            "url" : "http://www.codecore.ca/",
+            "map" : "https://www.google.ca/maps/place/142+W+Hastings+St,+Vancouver,+BC+V6B/@49.2819605,-123.1108544,17z",
+            "address" : "142 W Hastings St.",
+            "address2" : "2nd Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+        {
+            "name" : "Microsoft Canada Excellence Centre",
+            "url" : "https://mcec.microsoft.ca/",
+            "map" : "https://www.google.com/maps/place/725+Granville+St,+Vancouver,+BC+V6B,+Canada/@49.2821898,-123.1207731,17z",
+            "address" : "725 Granville Street",
+            "address2" : "7th Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        },
+        {
+            "name" : "Bench Accounting",
+            "url" : "https://bench.co/",
+            "map" : "https://www.google.ca/maps/place/Bench+Accounting/@49.2805427,-123.1207458,17z/data=!3m1!4b1!4m5!3m4!1s0x5486717e504f3dd5:0xf7c8d5f2104a3897!8m2!3d49.2805427!4d-123.1185571",
+            "address" : "545 Robson St",
+            "address2" : "5th Floor",
+            "city" : "Vancouver",
+            "province" : "BC",
+            "country" : "Canada"
+        }
+   ]
+}

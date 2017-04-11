@@ -1,0 +1,99 @@
+{
+    "sponsors": [
+        {
+            "name" : "Mobify",
+            "url" : "http://www.mobify.com/",
+            "twitter" : "mobify",
+            "logo" : "/images/logos/mobify.png"
+        },
+        {
+            "name" : "Hootsuite",
+            "url" : "http://www.hootsuite.com/",
+            "twitter" : "hootsuite",
+            "logo" : "/images/logos/hootsuite.jpg"
+        },
+        {
+            "name" : "Republic of Quality",
+            "url" : "http://republicofquality.com/",
+            "twitter" : "rofquality",
+            "logo" : "/images/logos/republicofquality.png",
+            "description" : "A user experience & content strategy duo that make the web a little more human. We discover & design wholehearted experiences."
+        },
+        {
+            "name" : "Adobe",
+            "url" : "http://www.adobe.com/",
+            "twitter" : "adobe",
+            "logo" : "/images/logos/adobe.jpg"
+        },
+        {
+            "name" : "Unbounce",
+            "url" : "http://www.unbounce.com/",
+            "twitter" : "unbounce",
+            "logo" : "/images/logos/unbounce.png"
+        },
+        {
+            "name" : "Mozilla",
+            "url" : "http://www.mozilla.org/",
+            "twitter" : "mozilla",
+            "logo" : "/images/logos/firefox.jpg"
+        },
+        {
+            "name" : "Type Brigade",
+            "url" : "http://typebrigade.com/",
+            "twitter" : "typebrigade",
+            "logo" : "/images/logos/typebrigade.svg"
+        },
+        {
+            "name" : "O'Reilly Media",
+            "url" : "http://www.oreilly.com/",
+            "twitter" : "oreillymedia",
+            "logo" : "/images/logos/oreilly.png"
+        },
+        {
+            "name" : "Shopify",
+            "url" : "http://shopify.com/",
+            "twitter" : "shopify",
+            "logo" : "/images/logos/shopify.jpg",
+            "description" : "A user experience & content strategy duo that make the web a little more human. We discover & design wholehearted experiences."
+        },
+        {
+            "name" : "Invision",
+            "url" : "http://www.invisionapp.com/",
+            "twitter" : "InVisionApp",
+            "logo" : "/images/logos/invision.png",
+            "description" : "A prototyping, collaboration, and workflow platform for designers."
+        },
+        {
+            "name" : "CodeCore",
+            "url" : "http://www.codecore.ca/",
+            "twitter" : "CodeCoreYVR",
+            "logo" : "/images/logos/codecore.png",
+            "description" : "CodeCore Developer Bootcamp is an intensive in-person training program in professional web development."
+        },
+        {
+            "name" : "Yellow Pencil",
+            "url" : "http://yellowpencil.com/",
+            "twitter" : "yellowpencilweb",
+            "logo" : "/images/logos/yellow-pencil.png",
+            "description" : "Yellow Pencil is an Edmonton and Vancouver based web company."
+        },
+        {
+            "name" : "Microsoft Vancouver",
+            "url" : "https://mcec.microsoft.ca/",
+            "twitter" : "MicrosoftVan",
+            "logo" : "/images/logos/microsoft.png"
+        },
+        {
+            "name" : "Bench Accounting",
+            "url" : "https://bench.co/",
+            "twitter" : "Bench",
+            "logo" : "/images/logos/bench.png"
+        },
+        {
+            "name" : "Design & Content Conference",
+            "url" : "https://designcontentconf.com/",
+            "twitter" : "dcontentconf",
+            "logo" : "/images/logos/design-content-conference.png"
+        }
+    ]
+}

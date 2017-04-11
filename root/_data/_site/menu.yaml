@@ -1,0 +1,18 @@
+- text: Events
+  url: /events/
+
+- text: Speakers
+  url: /speakers/
+
+- text: About
+  url: /about/
+  subitems:
+    - text: Organizers
+      url: /about/organizers/
+    - text: Code of Conduct
+      url: /about/code-of-conduct/
+    - text: Sponsors
+      url: /about/sponsors/
+
+- text: Contact
+  url: /contact/
